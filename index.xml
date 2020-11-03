@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/</link>
+    <description>Recent content in Home on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Search</title>
+      <link>https://elstoc.github.io/luadocs/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/search/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
