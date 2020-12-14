@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dtutils on darktable lua documentation</title>
-    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/</link>
+    <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/</link>
     <description>Recent content in dtutils on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</guid>
       <description>🔗NAME dtutils
 🔗SYNOPSIS A Darktable lua utilities library
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; 🔗DESCRIPTION dtutils provides a common library of functions used to build lua scripts.
@@ -24,10 +24,10 @@
     
     <item>
       <title>check_min_api_version</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</guid>
       <description>🔗NAME check_min_api_version
 🔗SYNOPSIS check the minimum required application programming interface (API) version against the current API version
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.check_min_api_version(min_api, script_name) min_api - string - the API version that the application was written for (example: &amp;ldquo;5.0.0&amp;rdquo;)
@@ -37,10 +37,10 @@ script_name - string - the name of the script
     
     <item>
       <title>check_os</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</guid>
       <description>🔗NAME check_os
 🔗SYNOPSIS check that the operating system is supported
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.check_os(operating_systems) operating_systems - table - a table of operating system names such as {&amp;ldquo;windows&amp;rdquo;,&amp;ldquo;linux&amp;rdquo;,&amp;ldquo;macos&amp;rdquo;,&amp;ldquo;unix&amp;rdquo;}
@@ -50,10 +50,10 @@ script_name - string - the name of the script
     
     <item>
       <title>join</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</guid>
       <description>🔗NAME join
 🔗SYNOPSIS join a table of strings with a specified separator
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.join(tabl, pat) tabl - table - a table of strings
@@ -64,10 +64,10 @@ pat - string - a separator
     
     <item>
       <title>prequire</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</guid>
       <description>🔗NAME prequire
 🔗SYNOPSIS a protected lua require
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local status, lib = du.prequire(req_name) req_name - string - the filename of the lua code to load without the &amp;ldquo;.lua&amp;rdquo; filetype
@@ -77,10 +77,10 @@ pat - string - a separator
     
     <item>
       <title>spairs</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</guid>
       <description>🔗NAME spairs
 🔗SYNOPSIS an iterator that provides sorted pairs from a table
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; for key, value in du.spairs(t, order) do -- do something end t - table - table of key, value pairs order - function - an optional function to sort the pairs, if none is supplied, table.sort() is used
@@ -89,10 +89,10 @@ pat - string - a separator
     
     <item>
       <title>split</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</guid>
       <description>🔗NAME split
 🔗SYNOPSIS split a string on a specified separator
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.split(str, pat) str - string - the string to split

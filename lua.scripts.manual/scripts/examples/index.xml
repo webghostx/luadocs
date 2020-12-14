@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>examples on darktable lua documentation</title>
-    <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/</link>
+    <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/</link>
     <description>Recent content in examples on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>api_version</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</guid>
       <description>🔗Name api_version.lua - show the Lua API version
 🔗Description darktable script to show the Lua API version in the preferences
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
@@ -20,10 +20,10 @@
     
     <item>
       <title>darkroom_demo</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</guid>
       <description>🔗Name darkroom_demo - an example script demonstrating how to control image display in darkroom mode
 🔗Description darkroom_demo is an example script showing how to control the currently displayed image in darkroom mode using lua.
 🔗Usage  require this script from your main lua file  🔗Additional Software Required None
@@ -33,10 +33,10 @@
     
     <item>
       <title>gettextExample</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</guid>
       <description>🔗Name gettextExample.lua - darktable script to show how translations works
 🔗Description To create the .po file run: xgettext -l lua gettextExample.lua
 xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough to do a proper parsing. It takes a text file (In our case a Lua file) and recognises a few (language dependant) keyword in there. It matches those keywords with internal description on how functions are called and creates the .</description>
@@ -44,10 +44,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>hello_world</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</guid>
       <description>🔗Name hello_world.lua - a simple lua script
 🔗Description prints &amp;ldquo;hello world when DT starts
 🔗Usage  require this file from your main lua config file:  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
@@ -56,10 +56,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>lighttable_demo</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</guid>
       <description>🔗Name lighttable_demo.lua - an example script demonstrating how to control lighttable display modes
 🔗Description lighttable_demo is an example script showing how to control lighttable layout, sorting, and filtering from a lua script. If the selected directory has different ratings, color labels, etc, then the sorting and filtering display is a little clearer.
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author Bill Ferguson - wpferguson@gmail.</description>
@@ -67,10 +67,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>moduleExample</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</guid>
       <description>🔗Name moduleExample.lua - create a new example lighttable module
 🔗Description More informations about building user interface elements: https://www.darktable.org/usermanual/ch09.html.php#lua_gui_example And about new_widget here: https://www.darktable.org/lua-api/index.html.php#darktable_new_widget
 🔗Usage   require this script from your luarc file To do this add this line to the file .config/darktable/luarc: require &amp;ldquo;examples/moduleExample&amp;rdquo;
@@ -81,20 +81,20 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>name</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</guid>
       <description>🔗Name multi_os.lua - an example script that runs on linux, MacOS, and Windows.
 🔗Description multi_os is an example of how to write a script that will run on different operating systems. It uses the lua-scripts libraries to lessen the amount of code that needs to be written, as well as gaining access to tested cross-platform routines. This script also performs a function that some may find useful. It creates a button in the lighttable selected images module that extracts the embedded jpeg image from a raw file, then imports it and groups it with the raw file.</description>
     </item>
     
     <item>
       <title>panels_demo</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</guid>
       <description>🔗Name panels_demo.lua - an example script demonstrating how to contol panel visibility
 🔗Description panels_demo is an example script showing how to control panel visibility. It cycles through the panels hiding them one by one, then showing them one by one, then hiding all, then showing all. Finally, the original panel visibility is restored.
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
@@ -102,10 +102,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>preferenceExample</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</guid>
       <description>🔗Name preferenceExample.lua - show the different preference types that are possible with Lua
 🔗Description darktable script to show the different preference types that are possible with Lua
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
@@ -114,10 +114,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>printExamples</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</guid>
       <description>🔗Name printExamples.lua - prints &amp;ldquo;hello world&amp;rdquo; when darktable starts
 🔗Description prints &amp;ldquo;hello world&amp;rdquo; to the screen when darktable starts
 🔗Usage  require this file from your main lua config file:  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
@@ -126,10 +126,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>running_os</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</guid>
       <description>🔗Name running_os.lua - prints the operating system
 🔗Description prints the operating system
 🔗Usage  require this script from your main lua file To do this add this line to the file .config/darktable/luarc: require &amp;ldquo;running_os&amp;rdquo;  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs

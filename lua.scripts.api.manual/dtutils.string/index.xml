@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dtutils.string on darktable lua documentation</title>
-    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/</link>
+    <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/</link>
     <description>Recent content in dtutils.string on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</guid>
       <description>🔗DTUTILS.STRING 🔗NAME dtutils.string
 🔗SYNOPSIS a library of string utilities for use in darktable lua scripts
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; 🔗DESCRIPTION This library contains string manipulation routines to aid in building darktable lua scripts.
@@ -23,10 +23,10 @@
     
     <item>
       <title>escape_xml_characters</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</guid>
       <description>🔗NAME escape_xml_characters
 🔗SYNOPSIS escape characters for xml documents
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.escape_xml_characters(str) str - string - the string that needs escaped
@@ -39,10 +39,10 @@
     
     <item>
       <title>is_not_sanitized</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</guid>
       <description>🔗NAME is_not_sanitized
 🔗SYNOPSIS Check if a string has been sanitized
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.is_not_sanitized(str) str - string - the string that needs to be made safe
@@ -52,10 +52,10 @@
     
     <item>
       <title>sanitize</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</guid>
       <description>🔗NAME sanitize
 🔗SYNOPSIS surround a string in quotes making it safe to pass as an argument
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.sanitize(str) str - string - the string that needs to be made safe
@@ -65,10 +65,10 @@
     
     <item>
       <title>sanitize_lua</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</guid>
       <description>🔗NAME sanitize_lua
 🔗SYNOPSIS escape lua &amp;lsquo;magic&amp;rsquo; characters from a pattern string
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.sanitize_lua(str) str - string - the string that needs to be made safe
@@ -78,10 +78,10 @@
     
     <item>
       <title>strip_accents</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</guid>
       <description>🔗NAME strip_accents
 🔗SYNOPSIS strip accents from characters
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.strip_accents(str) str - string - the string with characters that need accents removed
@@ -92,10 +92,10 @@
     
     <item>
       <title>urlencode</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</guid>
       <description>🔗NAME urlencode
 🔗SYNOPSIS encode a string in a websage manner
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.urlencode(str) str - string - the string that needs to be made websafe

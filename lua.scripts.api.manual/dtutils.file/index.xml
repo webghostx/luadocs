@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dtutils.file on darktable lua documentation</title>
-    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/</link>
+    <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/</link>
     <description>Recent content in dtutils.file on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</guid>
       <description>🔗NAME details
 🔗SYNOPSIS common darktable lua file functions
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; 🔗DESCRIPTION The dtutils.file library provides common file manipulation functions used in constructing darktable lua scripts
@@ -25,10 +25,10 @@
     
     <item>
       <title>check_if_bin_exists</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</guid>
       <description>🔗NAME check_if_bin_exists
 🔗SYNOPSIS check if an executable exists
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_bin_exists(bin) bin - string - the binary to check for
@@ -37,10 +37,10 @@
     
     <item>
       <title>check_if_file_exists</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</guid>
       <description>🔗NAME check_if_file_exists
 🔗SYNOPSIS check if a file or path exist
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_file_exists(filepath) filepath - string - a file or path to check
@@ -50,10 +50,10 @@
     
     <item>
       <title>chop_filetype</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</guid>
       <description>🔗NAME chop_filetype
 🔗SYNOPSIS remove a filetype from a filename
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.chop_filetype(path) path - string - a filename with or without a path
@@ -63,10 +63,10 @@
     
     <item>
       <title>create_unique_filename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</guid>
       <description>🔗NAME create_unique_filename
 🔗SYNOPSIS create a unique filename from the supplied argument
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.create_unique_filename(filepath) filepath - string - the path and filename requested
@@ -75,10 +75,10 @@
     
     <item>
       <title>executable_path_widget</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</guid>
       <description>🔗NAME executable_path_widget
 🔗SYNOPSIS create a widget to get executable path preferences
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local widget = df.executable_path_widget(executables) executables - table - a table of strings that are executable names
@@ -88,10 +88,10 @@
     
     <item>
       <title>file_copy</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</guid>
       <description>🔗NAME file_copy
 🔗SYNOPSIS copy a file to another name/location
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.file_copy(fromFile, toFile) fromFile - string - name of file to copy from
@@ -102,10 +102,10 @@ toFile - string - name of file to copy to
     
     <item>
       <title>file_move</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</guid>
       <description>🔗NAME file_move
 🔗SYNOPSIS move a file from one directory to another
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.file_move(fromFile, toFile) fromFile - string - name of the original file
@@ -116,10 +116,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>filename_increment</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</guid>
       <description>🔗NAME filename_increment
 🔗SYNOPSIS add a two digit increment to a filename
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.filename_increment(filepath) filepath - string - filename to increment
@@ -128,10 +128,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>get_basename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</guid>
       <description>🔗NAME get_basename
 🔗SYNOPSIS get the filename without the path or extension
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_basename(filepath) filepath - string - path and filename
@@ -141,10 +141,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>get_executable_path_preference</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</guid>
       <description>🔗NAME get_executable_path_preference
 🔗SYNOPSIS return the path to an executable from a preference
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_executable_path_preference(executable) executable - string - the name of the executable to get the path for
@@ -155,10 +155,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>get_filename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</guid>
       <description>🔗NAME get_filename
 🔗SYNOPSIS get the filename and extension from a file path
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_filename(filepath) filepath - string - path and filename
@@ -168,10 +168,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>get_filetype</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</guid>
       <description>🔗NAME get_filetype
 🔗SYNOPSIS get the filetype from a filename
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_filetype(filepath) filepath - string - path and filename
@@ -181,10 +181,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>get_path</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</guid>
       <description>🔗NAME get_path
 🔗SYNOPSIS get the path from a file path
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_path(filepath) filepath - string - path and filename
@@ -194,10 +194,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>mkdir</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</guid>
       <description>🔗NAME mkdir
 🔗SYNOPSIS create the directory(ies) if they do not already exist
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.mkdir(path) path - string - a directory path
@@ -207,10 +207,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>rmdir</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</guid>
       <description>🔗NAME rmdir
 🔗SYNOPSIS recursively remove a directory
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.rmdir(path) path - string - a directory path
@@ -220,10 +220,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>sanitize_filename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</guid>
       <description>🔗NAME sanitize_filename
 🔗SYNOPSIS make a filename safe to pass as an argument
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local sanitized_filename = df.sanitize_filename(filename) filename - string - a filepath and filename
@@ -233,10 +233,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>set_executable_path_preference</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</guid>
       <description>🔗NAME set_executable_path_preference
 🔗SYNOPSIS set a preference for the path to an executable
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.set_executable_path_preference(executable, path) executable - string - the name of the executable to set the path for
@@ -246,10 +246,10 @@ path - string - the path to the binary
     
     <item>
       <title>split_filepath</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</guid>
       <description>🔗NAME split_filepath
 🔗SYNOPSIS split a filepath into parts
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.split_filepath(filepath) filepath - string - path and filename

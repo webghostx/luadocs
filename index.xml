@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on darktable lua documentation</title>
-    <link>https://elstoc.github.io/luadocs/</link>
+    <link>https://darktable-org.github.io/luadocs/</link>
     <description>Recent content in Home on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>api_version</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</guid>
       <description>🔗Name api_version.lua - show the Lua API version
 🔗Description darktable script to show the Lua API version in the preferences
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
@@ -20,10 +20,10 @@
     
     <item>
       <title>AugoGrouper</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</guid>
       <description>🔗Name AugoGrouper.lua - add the module &amp;ldquo;Auto Group&amp;rdquo; to darktable&amp;rsquo;s lighttable view
 🔗Description This plugin adds the module &amp;ldquo;Auto Group&amp;rdquo; to darktable&amp;rsquo;s lighttable view
 🔗Usage Install: (see here for more detail: https://github.com/darktable-org/lua-scripts )
@@ -32,10 +32,10 @@
     
     <item>
       <title>check_for_updates</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</guid>
       <description>🔗Name check_for_updates.lua - automatically check for updates
 🔗Description a simple script that will automatically look for newer releases on github and inform when there is something. it will only check on startup and only once a week.
 🔗Usage  install luasec and cjson for Lua 5.2 on your system require this script from your main lua file restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
@@ -44,10 +44,10 @@
     
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/</guid>
       <description>🔗NAME dtutils.debug
 🔗SYNOPSIS debugging helpers used in developing darktable lua scripts
 🔗USAGE require &amp;quot;lib/dtutils.debug&amp;quot; 🔗DESCRIPTION dtutils.debug provides an interface to the darktable debugging routines.
@@ -60,10 +60,10 @@
     
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</guid>
       <description>🔗NAME details
 🔗SYNOPSIS common darktable lua file functions
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; 🔗DESCRIPTION The dtutils.file library provides common file manipulation functions used in constructing darktable lua scripts
@@ -77,10 +77,10 @@
     
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/</guid>
       <description>🔗NAME dtutils.log
 🔗SYNOPSIS darktable lua logging library
 🔗USAGE local log = require &amp;quot;lib/dtutils.log&amp;quot; 🔗DESCRIPTION log provides a multi-level logging solution for use with the darktable lua scripts. With this library you can leave log messages scattered through out your code and only turn them on as necessary.
@@ -90,10 +90,10 @@
     
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</guid>
       <description>🔗DTUTILS.STRING 🔗NAME dtutils.string
 🔗SYNOPSIS a library of string utilities for use in darktable lua scripts
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; 🔗DESCRIPTION This library contains string manipulation routines to aid in building darktable lua scripts.
@@ -105,10 +105,10 @@
     
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</guid>
       <description>🔗DTUTILS.SYSTEM 🔗NAME dtutils.system
 🔗SYNOPSIS a library of system utilities for use in darktable lua scripts
 🔗USAGE local dtsys = require &amp;quot;lib/dtutils.system&amp;quot; 🔗DESCRIPTION This library contains routines for interfacing to the operating system from darktable lua scripts.
@@ -120,10 +120,10 @@
     
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</guid>
       <description>🔗NAME dtutils
 🔗SYNOPSIS A Darktable lua utilities library
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; 🔗DESCRIPTION dtutils provides a common library of functions used to build lua scripts.
@@ -136,10 +136,10 @@
     
     <item>
       <title>executable_manager</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/executable_manager/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/executable_manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/executable_manager/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/executable_manager/</guid>
       <description>🔗Name executable_manager.lua - a tool for managing external executables used by darktable lua scripts
 🔗Description executable_manager is a tool for managing the executable preferences stored in the darktablerc file. On startup the darktablerc file is scanned and a widget is built for each executable path. The user can select the executable from a drop down list and then modify the settings as desired.
 Any changes made using executable_manager won&amp;rsquo;t be saved in the darktablerc file until darktable exits, but the preference is updated when the change is made so scripts will pick up the changes without restarting darktable.</description>
@@ -147,28 +147,28 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
     
     <item>
       <title>overview</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/overview/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/overview/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/overview/</guid>
       <description>darktable can be customized and extended using the Lua programming language. The lua-scripts repository contains the collected efforts of the darktable developers, maintainers, contributors and community.</description>
     </item>
     
     <item>
       <title>overview</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/overview/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/overview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/overview/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/overview/</guid>
       <description>darktable can be customized and extended using the Lua programming language. The lua-scripts repository contains the collected efforts of the darktable developers, maintainers, contributors and community. The following sections list the scripts contained in the repository, whether they can be run by themselves (Standalone - Yes) or depend on other scripts (Standalone - No), what operating systems they are known to work on (L - Linux, M - MacOS, W - Windows), and their purpose.</description>
     </item>
     
     <item>
       <title>autostyle</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/</guid>
       <description>🔗Name autostyle.lua - automatically apply a given style when an exif tag is present in the image file
 🔗Description Automatically apply a given style when an exif tag is present in the file. This tagged is checked with exiftool, in order to be able to match very exotic tags. I wrote this initially to be able to apply a style to compensate for Auto-DR from my Fujifilm camera
 🔗Usage  set the exif configuration string in your lua configuration mine, for instance, is AutoDynamicRange=200%=&amp;gt;DR200&amp;quot; meaning that I automatically want to apply my DR200 style on all images where exiftool returns &amp;lsquo;200%&amp;rsquo; for the AutoDynamicRange tag if you want to be able to apply it manually to already imported images, define a shortcut (lua shortcuts).</description>
@@ -176,10 +176,10 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
     
     <item>
       <title>caller</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/</guid>
       <description>🔗NAME caller
 🔗SYNOPSIS get the name and line number of the calling routine
 🔗USAGE local log = require &amp;quot;lib/dtutils.log&amp;quot; result = log.caller(level) level - number - the number of stack levels to go down to retrieve the caller routine information
@@ -189,10 +189,10 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
     
     <item>
       <title>check_if_bin_exists</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</guid>
       <description>🔗NAME check_if_bin_exists
 🔗SYNOPSIS check if an executable exists
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_bin_exists(bin) bin - string - the binary to check for
@@ -201,10 +201,10 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
     
     <item>
       <title>check_min_api_version</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</guid>
       <description>🔗NAME check_min_api_version
 🔗SYNOPSIS check the minimum required application programming interface (API) version against the current API version
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.check_min_api_version(min_api, script_name) min_api - string - the API version that the application was written for (example: &amp;ldquo;5.0.0&amp;rdquo;)
@@ -214,10 +214,10 @@ script_name - string - the name of the script
     
     <item>
       <title>copy_paste_metadata</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</guid>
       <description>🔗Name copy_paste_metadata.lua - copy and paste metadata between images
 🔗Description This script adds keyboard shortcuts and buttons to copy/paste metadata between images.
 🔗Usage  require this script from your main lua file it adds buttons to the selected images module it adds two keyboard shortcuts  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
@@ -226,10 +226,10 @@ script_name - string - the name of the script
     
     <item>
       <title>darkroom_demo</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</guid>
       <description>🔗Name darkroom_demo - an example script demonstrating how to control image display in darkroom mode
 🔗Description darkroom_demo is an example script showing how to control the currently displayed image in darkroom mode using lua.
 🔗Usage  require this script from your main lua file  🔗Additional Software Required None
@@ -239,10 +239,10 @@ script_name - string - the name of the script
     
     <item>
       <title>dprint</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/</guid>
       <description>🔗NAME dprint
 🔗SYNOPSIS pass a variable to darktable.debug.dump and print the results to stdout
 🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; dd.dprint(var) var - variable - any variable that you want to see the contents of
@@ -251,10 +251,10 @@ script_name - string - the name of the script
     
     <item>
       <title>escape_xml_characters</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</guid>
       <description>🔗NAME escape_xml_characters
 🔗SYNOPSIS escape characters for xml documents
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.escape_xml_characters(str) str - string - the string that needs escaped
@@ -267,10 +267,10 @@ script_name - string - the name of the script
     
     <item>
       <title>external_command</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</guid>
       <description>🔗NAME external_command
 🔗SYNOPSIS pass a command to the operating system for execution and return the result
 🔗USAGE local dsys = require &amp;quot;lib/dtutils.system&amp;quot; local result = dsys.external_command(command) command - string - a string containing the command and arguments to be passed to the operating system for execution.
@@ -280,10 +280,10 @@ script_name - string - the name of the script
     
     <item>
       <title>gen_i18n_mo</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/</guid>
       <description>🔗Name gen_i18n_mo - generate translation files from the source and place them in the appropriate locale directory
 🔗Description gen_i18n_mo finds all the .po files scattered throughout the script tree, compiles them into .mo files and places them in the correct locale directory for use by the gettext tools.
 🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
@@ -291,10 +291,10 @@ script_name - string - the name of the script
     
     <item>
       <title>installation</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/installation/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/installation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/installation/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/installation/</guid>
       <description>🔗Download and Install The recommended method of installation is using git to clone the repository. This ensures that all dependencies on other scripts are met as well as providing an easy update path.
 🔗snap packages The snap version of darktable comes with lua included starting with version 2.4.3snap2.
 Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package manager to install it. Then open a terminal and:</description>
@@ -302,10 +302,10 @@ Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package m
     
     <item>
       <title>check_if_file_exists</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</guid>
       <description>🔗NAME check_if_file_exists
 🔗SYNOPSIS check if a file or path exist
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_file_exists(filepath) filepath - string - a file or path to check
@@ -315,10 +315,10 @@ Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package m
     
     <item>
       <title>check_os</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</guid>
       <description>🔗NAME check_os
 🔗SYNOPSIS check that the operating system is supported
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.check_os(operating_systems) operating_systems - table - a table of operating system names such as {&amp;ldquo;windows&amp;rdquo;,&amp;ldquo;linux&amp;rdquo;,&amp;ldquo;macos&amp;rdquo;,&amp;ldquo;unix&amp;rdquo;}
@@ -328,10 +328,10 @@ Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package m
     
     <item>
       <title>clear_GPS</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/</guid>
       <description>🔗Name clear_GPS.lua - clear_GPS - clear GPS data from selected image(s)
 🔗Description This shortcut removes the GPS coordinate data from the selected images.
 🔗Usage  require this script from your main lua file select an image or images click the shortcut, clear GPS data  🔗Additional Software Required 🔗Limitations 🔗Author Bill Ferguson - wpferguson@gmail.com
@@ -340,10 +340,10 @@ Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package m
     
     <item>
       <title>delete_long_tags</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</guid>
       <description>🔗Name delete_long_tags.lua - delete all tags longer than a set length
 🔗Description A simple script that will automatically delete all tags longer than a set length
 🔗Usage  require this script from your main lua file set the the maximum length in darktable&amp;rsquo;s preference restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
@@ -352,10 +352,10 @@ Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package m
     
     <item>
       <title>engine</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</guid>
       <description>🔗NAME engine
 🔗SYNOPSIS get and set the output engine
 🔗USAGE local log = require &amp;quot;lib/dtutils.log&amp;quot; result = log.engine(level, ...) level - table - the log level to get or set the engine for, one of log.debug, log.info, log.warn, log.error log.success, log.always, log.screen, log.critical
@@ -364,20 +364,20 @@ Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package m
     
     <item>
       <title>get_lib_manpages</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_lib_manpages/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_lib_manpages/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_lib_manpages/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_lib_manpages/</guid>
       <description>🔗Name get_lib_manpages.lua - retrieve the included library documentation and output it as man pages
 🔗Description 🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
     </item>
     
     <item>
       <title>gettextExample</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</guid>
       <description>🔗Name gettextExample.lua - darktable script to show how translations works
 🔗Description To create the .po file run: xgettext -l lua gettextExample.lua
 xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough to do a proper parsing. It takes a text file (In our case a Lua file) and recognises a few (language dependant) keyword in there. It matches those keywords with internal description on how functions are called and creates the .</description>
@@ -385,10 +385,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>is_not_sanitized</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</guid>
       <description>🔗NAME is_not_sanitized
 🔗SYNOPSIS Check if a string has been sanitized
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.is_not_sanitized(str) str - string - the string that needs to be made safe
@@ -398,10 +398,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>launch_default_app</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</guid>
       <description>🔗NAME launch_default_app
 🔗SYNOPSIS open file in default application
 🔗USAGE local dsys = require &amp;quot;lib/dtutils.file&amp;quot; result = dsys.launch_default_app(path) path - string - a file path
@@ -411,10 +411,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>new_tracepoint</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</guid>
       <description>🔗NAME new_tracepoint
 🔗SYNOPSIS create a function returning a tracepoint
 🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; local result = dd.new_tracepoint(name, ...) name - string - the name of the tracepoint to print out
@@ -425,10 +425,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>troubleshooting</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/troubleshooting/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/troubleshooting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/troubleshooting/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/troubleshooting/</guid>
       <description>Running darktable with Lua debugging enabled provides more information about what is occurring within the scripts.
 🔗Snap Open a terminal and start darktable with the command snap run darktable -d lua. This provides debugging information to give you insight into what is happening.
 🔗Linux Open a terminal and start darktable with the command darktable -d lua. This provides debugging information to give you insight into what is happening.
@@ -437,10 +437,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>chop_filetype</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</guid>
       <description>🔗NAME chop_filetype
 🔗SYNOPSIS remove a filetype from a filename
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.chop_filetype(path) path - string - a filename with or without a path
@@ -450,10 +450,10 @@ xgettext is not a lua tool, it knows (almost) nothing about Lua, and not enough 
     
     <item>
       <title>CollectHelper</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/</guid>
       <description>🔗Name CollectHelper.lua - add buttons to help with collections
 🔗Description This plugin adds the button(s) to the &amp;ldquo;Selected Images&amp;rdquo; module:
  Return to Previous Collection Collect on image&amp;rsquo;s Folder Collect on image&amp;rsquo;s Color Label(s) Collect on All (AND)  It also adds 3 preferences to the lua options dialog box which allow the user to activate/deactivate the 3 &amp;ldquo;Collect on&amp;rdquo; buttons.
@@ -463,10 +463,10 @@ Button Behavior:
     
     <item>
       <title>delete_unused_tags</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</guid>
       <description>🔗Name delete_unused_tags.lua - automatically delete all tags that are not attached to any images
 🔗Description A simple script that will automatically delete all tags that are not attached to any images
 🔗Usage  require this script from your main lua file restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
@@ -475,20 +475,20 @@ Button Behavior:
     
     <item>
       <title>get_libdoc</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</guid>
       <description>🔗Name get_libdoc.lua - retrieve the included library documentation and output it
 🔗Description 🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
     </item>
     
     <item>
       <title>hello_world</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</guid>
       <description>🔗Name hello_world.lua - a simple lua script
 🔗Description prints &amp;ldquo;hello world when DT starts
 🔗Usage  require this file from your main lua config file:  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
@@ -497,10 +497,10 @@ Button Behavior:
     
     <item>
       <title>join</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</guid>
       <description>🔗NAME join
 🔗SYNOPSIS join a table of strings with a specified separator
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.join(tabl, pat) tabl - table - a table of strings
@@ -511,10 +511,10 @@ pat - string - a separator
     
     <item>
       <title>log_level</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</guid>
       <description>🔗NAME log_level
 🔗SYNOPSIS get or set the log level
 🔗USAGE local log = require &amp;quot;lib/log&amp;quot; local result = log.log_level(...) &amp;hellip; - arguments - if none is supplied, then the current log level is returned as one of: log.debug, log.info, log.warn, log.error, log.success. If one of log.debug, log.info, log.warn, log.error, or log.success is supplied as the argument then the log level is set to that value. All log levels greater than or equal in value will be enabled.</description>
@@ -522,10 +522,10 @@ pat - string - a separator
     
     <item>
       <title>sanitize</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</guid>
       <description>🔗NAME sanitize
 🔗SYNOPSIS surround a string in quotes making it safe to pass as an argument
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.sanitize(str) str - string - the string that needs to be made safe
@@ -535,10 +535,10 @@ pat - string - a separator
     
     <item>
       <title>terse_dump</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</guid>
       <description>🔗NAME terse_dump
 🔗SYNOPSIS set darktable.debug.known to shorten all image dumps to a single line
 🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; dd.terse_dump() 🔗DESCRIPTION terse_dump sets darktable.debug.known to shorten all images to a single line. If you don&amp;rsquo;t need to debug the content of images, this will avoid them flooding your logs.</description>
@@ -546,10 +546,10 @@ pat - string - a separator
     
     <item>
       <title>windows_command</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</guid>
       <description>🔗NAME windows_command
 🔗SYNOPSIS pass a command to the windows operating system for execution and return the result
 🔗USAGE local dsys = require &amp;quot;lib/dtutils.system&amp;quot; local result = dsys.windows_command(command) command - string - a string containing the command and arguments to be passed to the operating system for execution.
@@ -558,10 +558,10 @@ pat - string - a separator
     
     <item>
       <title>copy_attach_detach_tags</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/</guid>
       <description>🔗Name copy_attach_detach_tags.lua - tools to manipulate image tags
 🔗Description This script that will create four shortcuts and add a module in lighttable mode to copy, paste, replace and remove tags from images.
 🔗Usage  set the shortcuts for copy, attach and detach in the preferences dialog &amp;lt;your shortcut1&amp;gt; copy will create a list of tags from all selected images &amp;lt;your shortcut2&amp;gt; paste copied tags to selected images, whereby darktable internal tags starting with &amp;lsquo;darktable|&amp;rsquo; will not be touched &amp;lt;your shortcut3&amp;gt; removes all expect darktable internal tags from selected images &amp;lt;your shortcut4&amp;gt; replaces all tags expect darktable internals A module reset will empty the clipboard  🔗Additional Software Required 🔗Limitations 🔗Author Christian Kanzian</description>
@@ -569,10 +569,10 @@ pat - string - a separator
     
     <item>
       <title>create_unique_filename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</guid>
       <description>🔗NAME create_unique_filename
 🔗SYNOPSIS create a unique filename from the supplied argument
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.create_unique_filename(filepath) filepath - string - the path and filename requested
@@ -581,10 +581,10 @@ pat - string - a separator
     
     <item>
       <title>enfuse</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</guid>
       <description>🔗Name enfuse.lua - merge the selected images into one tonemapped image and import the result
 🔗Description This script uses enfuse to merge the selected images into one tonemapped image and imports the result. It only works on ldr images (like, JPEG).
 🔗Usage  require this script from your main lua file it creates a new lighttable module  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
@@ -593,10 +593,10 @@ pat - string - a separator
     
     <item>
       <title>lighttable_demo</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</guid>
       <description>🔗Name lighttable_demo.lua - an example script demonstrating how to control lighttable display modes
 🔗Description lighttable_demo is an example script showing how to control lighttable layout, sorting, and filtering from a lua script. If the selected directory has different ratings, color labels, etc, then the sorting and filtering display is a little clearer.
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author Bill Ferguson - wpferguson@gmail.</description>
@@ -604,10 +604,10 @@ pat - string - a separator
     
     <item>
       <title>msg</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</guid>
       <description>🔗NAME msg
 🔗SYNOPSIS print a log message
 🔗USAGE local log = require &amp;quot;lib/log&amp;quot; log.msg(level, ...) level - table - the type of message, one of:
@@ -616,10 +616,10 @@ pat - string - a separator
     
     <item>
       <title>prequire</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</guid>
       <description>🔗NAME prequire
 🔗SYNOPSIS a protected lua require
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local status, lib = du.prequire(req_name) req_name - string - the filename of the lua code to load without the &amp;ldquo;.lua&amp;rdquo; filetype
@@ -629,10 +629,10 @@ pat - string - a separator
     
     <item>
       <title>sanitize_lua</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</guid>
       <description>🔗NAME sanitize_lua
 🔗SYNOPSIS escape lua &amp;lsquo;magic&amp;rsquo; characters from a pattern string
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.sanitize_lua(str) str - string - the string that needs to be made safe
@@ -642,10 +642,10 @@ pat - string - a separator
     
     <item>
       <title>script_manager</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/</guid>
       <description>🔗Name script_manager.lua - a tool for managing the darktable lua scripts
 🔗Description script_manager is designed to run as a standalone script so that it may be used as a drop in luarc file in the user&amp;rsquo;s $HOME/.config/darktable ($HOME/AppData/Local/darktable on windows) directory. It may also be required from a luarc file.
 On startup script_manager checks to see if there is an existing scripts directory.
@@ -654,10 +654,10 @@ If there is an existing lua scripts directory then it is read to see what script
     
     <item>
       <title>tracepoint</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/</guid>
       <description>🔗NAME tracepoint
 🔗SYNOPSIS print out a tracepoint and dump the arguments
 🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; local result = dd.tracepoint(name, ...) name - string - the name of the tracepoint to print out
@@ -668,10 +668,10 @@ If there is an existing lua scripts directory then it is read to see what script
     
     <item>
       <title>cr2hdr</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/</guid>
       <description>🔗Name cr2hdr.lua - Magic Lantern Dual ISO processing
 🔗Description cr2hdr Magic Lantern Dual ISO processing.
 This script automates the steps involved to process an image created with the Magic Lantern Dual ISO module. Upon invoking the script with a shortcut &amp;ldquo;cr2hdr&amp;rdquo; provided by Magic Lantern is run on the selected images. The processed files are imported. They are also made group leaders to hide the original files.
@@ -680,10 +680,10 @@ This script automates the steps involved to process an image created with the Ma
     
     <item>
       <title>executable_path_widget</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</guid>
       <description>🔗NAME executable_path_widget
 🔗SYNOPSIS create a widget to get executable path preferences
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local widget = df.executable_path_widget(executables) executables - table - a table of strings that are executable names
@@ -693,10 +693,10 @@ This script automates the steps involved to process an image created with the Ma
     
     <item>
       <title>generate_image_txt</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/</guid>
       <description>🔗Name generate_image_txt.lua - generate text metadata
 🔗Description A script to run a command on images to generate text metadata
 The medata will be displayed as an overlay on the image in lighttable mode
@@ -705,10 +705,10 @@ The medata will be displayed as an overlay on the image in lighttable mode
     
     <item>
       <title>moduleExample</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</guid>
       <description>🔗Name moduleExample.lua - create a new example lighttable module
 🔗Description More informations about building user interface elements: https://www.darktable.org/usermanual/ch09.html.php#lua_gui_example And about new_widget here: https://www.darktable.org/lua-api/index.html.php#darktable_new_widget
 🔗Usage   require this script from your luarc file To do this add this line to the file .config/darktable/luarc: require &amp;ldquo;examples/moduleExample&amp;rdquo;
@@ -719,10 +719,10 @@ The medata will be displayed as an overlay on the image in lighttable mode
     
     <item>
       <title>spairs</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</guid>
       <description>🔗NAME spairs
 🔗SYNOPSIS an iterator that provides sorted pairs from a table
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; for key, value in du.spairs(t, order) do -- do something end t - table - table of key, value pairs order - function - an optional function to sort the pairs, if none is supplied, table.sort() is used
@@ -731,10 +731,10 @@ The medata will be displayed as an overlay on the image in lighttable mode
     
     <item>
       <title>strip_accents</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</guid>
       <description>🔗NAME strip_accents
 🔗SYNOPSIS strip accents from characters
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.strip_accents(str) str - string - the string with characters that need accents removed
@@ -745,10 +745,10 @@ The medata will be displayed as an overlay on the image in lighttable mode
     
     <item>
       <title>enfuseAdvanced</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/</guid>
       <description>🔗Name enfuseAdvanced.lua - process HDR or focus stacked images
 🔗Description This plugin will add the new export module &amp;lsquo;fusion to DRI or DFF image&amp;rsquo;.
 🔗Usage Install:
@@ -757,10 +757,10 @@ The medata will be displayed as an overlay on the image in lighttable mode
     
     <item>
       <title>file_copy</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</guid>
       <description>🔗NAME file_copy
 🔗SYNOPSIS copy a file to another name/location
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.file_copy(fromFile, toFile) fromFile - string - name of file to copy from
@@ -771,10 +771,10 @@ toFile - string - name of file to copy to
     
     <item>
       <title>image_path_in_ui</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</guid>
       <description>🔗Name image_path_in_ui.lua - Add a widget with the path of the selected images
 🔗Description Add a widget with the path of the selected images for easy copy/past Simple shortcuts to have multiple selection bufers
 This plugin will add a widget at the bottom of the left column in lighttable mode
@@ -784,20 +784,20 @@ This plugin will add a widget at the bottom of the left column in lighttable mod
     
     <item>
       <title>name</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</guid>
       <description>🔗Name multi_os.lua - an example script that runs on linux, MacOS, and Windows.
 🔗Description multi_os is an example of how to write a script that will run on different operating systems. It uses the lua-scripts libraries to lessen the amount of code that needs to be written, as well as gaining access to tested cross-platform routines. This script also performs a function that some may find useful. It creates a button in the lighttable selected images module that extracts the embedded jpeg image from a raw file, then imports it and groups it with the raw file.</description>
     </item>
     
     <item>
       <title>split</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</guid>
       <description>🔗NAME split
 🔗SYNOPSIS split a string on a specified separator
 🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local result = du.split(str, pat) str - string - the string to split
@@ -807,10 +807,10 @@ pat - string - the pattern to split on
     
     <item>
       <title>urlencode</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</guid>
       <description>🔗NAME urlencode
 🔗SYNOPSIS encode a string in a websage manner
 🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.urlencode(str) str - string - the string that needs to be made websafe
@@ -821,10 +821,10 @@ pat - string - the pattern to split on
     
     <item>
       <title>exportLUT</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/</guid>
       <description>🔗Name 🔗Description Given a haldCLUT identity file this script generates haldCLUTS from all the user&amp;rsquo;s styles and exports them to a location of their choosing.
 🔗Usage Add the following line to .config/darktable/luarc to enable this lightable module: require &amp;ldquo;contrib/exportLut&amp;rdquo;
 🔗Additional Software Required 🔗Limitations Warning: during export if a naming collision occurs the older file is automatically overwritten silently.
@@ -834,10 +834,10 @@ pat - string - the pattern to split on
     
     <item>
       <title>file_move</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</guid>
       <description>🔗NAME file_move
 🔗SYNOPSIS move a file from one directory to another
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.file_move(fromFile, toFile) fromFile - string - name of the original file
@@ -848,10 +848,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>import_filter_manager</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</guid>
       <description>🔗Name import_filter_manager.lua - add a dropdown list with import filters to the import dialog
 🔗Description This script adds a dropdown list with import filters to the import dialog. Scripts can add new filters by registering them with darktable.register_import_filter(name, callback) The callback has type function(event, images), i.e., it is the same as when directly registering the pre-import event.
 🔗Usage  require this script from your main lua file also require some files with import filters, for example import_filters.</description>
@@ -859,10 +859,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>panels_demo</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</guid>
       <description>🔗Name panels_demo.lua - an example script demonstrating how to contol panel visibility
 🔗Description panels_demo is an example script showing how to control panel visibility. It cycles through the panels hiding them one by one, then showing them one by one, then hiding all, then showing all. Finally, the original panel visibility is restored.
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
@@ -870,10 +870,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>ext_editor</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/</guid>
       <description>🔗Name ext_editor.lua - edit images with external editors
 🔗Description This script provides helpers to edit image files with programs external to darktable. It adds:
  a new target storage &amp;ldquo;collection&amp;rdquo;. Image exported will be reimported to collection for further edit with external programs a new lighttable module &amp;ldquo;external editors&amp;rdquo;, to select a program from a list of up to 9 external editors and run it on a selected image (adjust this limit by changing MAX_EDITORS) a set of lua preferences in order to configure name and path of up to 9 external editors a set of lua shortcuts in order to quick launch the external editors  🔗Usage  require this script from main lua file  &amp;ndash; setup &amp;ndash;</description>
@@ -881,10 +881,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>filename_increment</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</guid>
       <description>🔗NAME filename_increment
 🔗SYNOPSIS add a two digit increment to a filename
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.filename_increment(filepath) filepath - string - filename to increment
@@ -893,10 +893,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>import_filters</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/</guid>
       <description>🔗Name import_filters.lua - add filters for import_filter_manager
 🔗Description This script goes along with the import filter manager. It adds two filters:
  ignore jpegs: this one does the same as the existing option in the import dialog and just skips all JPEGs during import. prefer raw over jpeg: this one is a bit more elaborate, it ignores JPEGs when there is also another file with the same basename, otherwise it allows JPEGs, too.</description>
@@ -904,10 +904,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>preferenceExample</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</guid>
       <description>🔗Name preferenceExample.lua - show the different preference types that are possible with Lua
 🔗Description darktable script to show the different preference types that are possible with Lua
 🔗Usage  require this script from your main lua file  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
@@ -916,20 +916,20 @@ toFile - string - the new file location and name
     
     <item>
       <title>face_recognition</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/</guid>
       <description>🔗Name face_recognition.lua - add a new storage option and calls face_recognition after export
 🔗Description Add a new storage option to send images to face_recognition. Images are exported to darktable tmp dir first. A directory with known faces must exist, the image name are the tag names which will be used. Multiple images for one face can exist, add a number to it, the number will be removed from the tag, for example: People|IknowYou1.</description>
     </item>
     
     <item>
       <title>get_basename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</guid>
       <description>🔗NAME get_basename
 🔗SYNOPSIS get the filename without the path or extension
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_basename(filepath) filepath - string - path and filename
@@ -939,10 +939,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>printExamples</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</guid>
       <description>🔗Name printExamples.lua - prints &amp;ldquo;hello world&amp;rdquo; when darktable starts
 🔗Description prints &amp;ldquo;hello world&amp;rdquo; to the screen when darktable starts
 🔗Usage  require this file from your main lua config file:  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
@@ -951,10 +951,10 @@ toFile - string - the new file location and name
     
     <item>
       <title>save_selection</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</guid>
       <description>🔗Name save_selection.lua - simple shortcuts to have multiple selection buffers
 🔗Description Simple shortcuts to have multiple selection buffers
 🔗Usage  require this file from your main lua config file: go to configuration =&amp;gt; preferences =&amp;gt; lua set the shortcuts you want to use  This plugin will provide shortcuts to save to and restore from up to five temporary buffers
@@ -963,10 +963,10 @@ This plugin also provides a shortcut to swap the current selection with a quick-
     
     <item>
       <title>fujifilm_ratings</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/</guid>
       <description>🔗Name fujifilm_ratings.lua - support for importing Fujifilm in-camera ratings in darktable
 🔗Description Support for importing Fujifilm in-camera ratings in darktable.
 🔗Usage 🔗Additional Software Required  exiftool (https://www.sno.phy.queensu.ca/~phil/exiftool/)  🔗Limitations 🔗Author Ben Mendis - ben.mendis@gmail.com
@@ -975,10 +975,10 @@ This plugin also provides a shortcut to swap the current selection with a quick-
     
     <item>
       <title>get_executable_path_preference</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</guid>
       <description>🔗NAME get_executable_path_preference
 🔗SYNOPSIS return the path to an executable from a preference
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_executable_path_preference(executable) executable - string - the name of the executable to get the path for
@@ -989,10 +989,10 @@ This plugin also provides a shortcut to swap the current selection with a quick-
     
     <item>
       <title>running_os</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</guid>
       <description>🔗Name running_os.lua - prints the operating system
 🔗Description prints the operating system
 🔗Usage  require this script from your main lua file To do this add this line to the file .config/darktable/luarc: require &amp;ldquo;running_os&amp;rdquo;  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
@@ -1001,10 +1001,10 @@ This plugin also provides a shortcut to swap the current selection with a quick-
     
     <item>
       <title>selection_to_pdf</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/</guid>
       <description>🔗Name selection_to_pdf.lua - generate a PDF file (via Latex) containing all selected images
 🔗Description Generates a PDF file (via Latex) containing all selected images
 This plugin will add a new exporter that will allow you to generate the pdf file
@@ -1014,10 +1014,10 @@ Plugin allows you to choose how many thumbnails you need per row
     
     <item>
       <title>geoJSON_export</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/</guid>
       <description>🔗Name geoJSON_export.lua - export a geoJSON file from selected images
 🔗Description darktable geoJSON export script
 🔗Usage  require this script from your main Lua file  🔗Additional Software Required  mkdir convert (ImageMagick) xdg-open xdg-user-dir  🔗Limitations This script is only tested with Linux
@@ -1027,10 +1027,10 @@ Plugin allows you to choose how many thumbnails you need per row
     
     <item>
       <title>get_filename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</guid>
       <description>🔗NAME get_filename
 🔗SYNOPSIS get the filename and extension from a file path
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_filename(filepath) filepath - string - path and filename
@@ -1040,10 +1040,10 @@ Plugin allows you to choose how many thumbnails you need per row
     
     <item>
       <title>geoToolbox</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/</guid>
       <description>🔗Name geoToolbox.lua - a module of geo tools
 🔗Description  it creates a new geoToolbox lighttable module  🔗Usage  require this script from your main lua file To do this add this line to the file .config/darktable/luarc: require &amp;ldquo;geoToolbox&amp;rdquo;  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
 🔗Change Log </description>
@@ -1051,10 +1051,10 @@ Plugin allows you to choose how many thumbnails you need per row
     
     <item>
       <title>get_filetype</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</guid>
       <description>🔗NAME get_filetype
 🔗SYNOPSIS get the filetype from a filename
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_filetype(filepath) filepath - string - path and filename
@@ -1064,10 +1064,10 @@ Plugin allows you to choose how many thumbnails you need per row
     
     <item>
       <title>get_path</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</guid>
       <description>🔗NAME get_path
 🔗SYNOPSIS get the path from a file path
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_path(filepath) filepath - string - path and filename
@@ -1077,20 +1077,20 @@ Plugin allows you to choose how many thumbnails you need per row
     
     <item>
       <title>gimp</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/</guid>
       <description>🔗Name gimp.lua - export and edit with GIMP
 🔗Description This script provides another storage (export target) for darktable. Selected images are exported in the specified format to temporary storage. GIMP is launched and opens the files. After editing, the exported images are overwritten to save the changes. When GIMP exits, the exported files are moved into the current collection and imported into the database. The imported files then show up grouped with the originally selected images.</description>
     </item>
     
     <item>
       <title>gpx_export</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/</guid>
       <description>🔗Name gpx_export.lua - gpx exporter
 🔗Description Simple darktable GPX generator script
 This script generates a GPX track from all images having GPS latitude and longitude information. For each source folder, a separate &amp;lt;trk&amp;gt; is generated in the gpx file.
@@ -1099,10 +1099,10 @@ This script generates a GPX track from all images having GPS latitude and longit
     
     <item>
       <title>mkdir</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</guid>
       <description>🔗NAME mkdir
 🔗SYNOPSIS create the directory(ies) if they do not already exist
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.mkdir(path) path - string - a directory path
@@ -1112,10 +1112,10 @@ This script generates a GPX track from all images having GPS latitude and longit
     
     <item>
       <title>HDRMerge</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/</guid>
       <description>🔗Name HDRMerge.lua - create an HDR image using HDRMerge
 🔗Description This plugin adds the module &amp;lsquo;HDRMerge&amp;rsquo; to darktable&amp;rsquo;s lighttable view
 🔗Usage Install: (see here for more detail: https://github.com/darktable-org/lua-scripts )
@@ -1124,10 +1124,10 @@ This script generates a GPX track from all images having GPS latitude and longit
     
     <item>
       <title>rmdir</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</guid>
       <description>🔗NAME rmdir
 🔗SYNOPSIS recursively remove a directory
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.rmdir(path) path - string - a directory path
@@ -1137,10 +1137,10 @@ This script generates a GPX track from all images having GPS latitude and longit
     
     <item>
       <title>hugin</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/</guid>
       <description>🔗Name hugin.lua - stitch multiple images into a panorama
 🔗Description Add a new storage option to send images to hugin. Images are exported to darktable tmp dir first.
 🔗Usage  require this file from your main luarc config file set the hugin tool paths (on some platforms) if hugin gui mode is used, save the final result in the tmp directory with the first file name and _pano as suffix for the image to be automatically imported to DT afterwards  🔗Additional Software Required  hugin  🔗Limitations 🔗Author Wolfgang Goetz</description>
@@ -1148,10 +1148,10 @@ This script generates a GPX track from all images having GPS latitude and longit
     
     <item>
       <title>sanitize_filename</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</guid>
       <description>🔗NAME sanitize_filename
 🔗SYNOPSIS make a filename safe to pass as an argument
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local sanitized_filename = df.sanitize_filename(filename) filename - string - a filepath and filename
@@ -1161,20 +1161,20 @@ This script generates a GPX track from all images having GPS latitude and longit
     
     <item>
       <title>image_stack</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/</guid>
       <description>🔗Name image_stack.lua - process a stack of images
 🔗Description This script provides another storage (export target) for darktable. Selected images are exported in the specified format to temporary storage. The images are aligned if the user requests it. When the images are ready, imagemagick is launched and uses the selected evaluate-sequence operator to process the images. The output file is written to a filename representing the imput files in the format specified by the user.</description>
     </item>
     
     <item>
       <title>set_executable_path_preference</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</guid>
       <description>🔗NAME set_executable_path_preference
 🔗SYNOPSIS set a preference for the path to an executable
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.set_executable_path_preference(executable, path) executable - string - the name of the executable to set the path for
@@ -1184,10 +1184,10 @@ path - string - the path to the binary
     
     <item>
       <title>image_time</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/</guid>
       <description>🔗Name image_time.lua - synchronize image time for images shot with different cameras
 🔗Description image_time non destructively adjusts image times by modifying the database image exif_datetime_taken field. There are 4 modes: adjust time, set time, synchronize time, and reset time.
 ADJUST TIME
@@ -1196,10 +1196,10 @@ adjust time mode lets you chose an offset in terms of years, months, days, hours
     
     <item>
       <title>split_filepath</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</guid>
       <description>🔗NAME split_filepath
 🔗SYNOPSIS split a filepath into parts
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.split_filepath(filepath) filepath - string - path and filename
@@ -1209,10 +1209,10 @@ adjust time mode lets you chose an offset in terms of years, months, days, hours
     
     <item>
       <title>kml_export</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/</guid>
       <description>🔗Name kml_export.lua - export a kml file from selected images
 🔗Description darktable KML export script
 🔗Usage  require this script from your main Lua file when choosing file format, pick JPEG or PNG as Google Earth doesn&amp;rsquo;t support other formats  🔗Additional Software Required  zip (at the moment Linux only and only if you create KMZ files) magick (ImageMagick) xdg-user-dir (Linux)  🔗Limitations This script is only tested with Linux</description>
@@ -1220,10 +1220,10 @@ adjust time mode lets you chose an offset in terms of years, months, days, hours
     
     <item>
       <title>LabelsToTags</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</guid>
       <description>🔗Name LabelsToTags.lua - mass apply tags to images
 🔗Description Allows the mass-application of tags using color labels and ratings as a guide.
 🔗Usage In your &amp;lsquo;luarc&amp;rsquo; file or elsewhere, use the function &amp;lsquo;register_tag_mapping&amp;rsquo;, defined in this module, to specify one or more tag mappings for use by the module. Any mappings so registered will be selectable, according to their given names, in the module&amp;rsquo;s &amp;ldquo;mapping&amp;rdquo; combo box.
@@ -1232,10 +1232,10 @@ A mapping takes the form of a table mapping patterns to lists of tags.</descript
     
     <item>
       <title>OpenInExplorer</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</guid>
       <description>🔗Name OpenInExplorer.lua - open an images containing folder
 🔗Description This plugin adds the module &amp;ldquo;OpenInExplorer&amp;rdquo; to darktable&amp;rsquo;s lighttable view.
 🔗Usage Require this file in your luarc file, as with any other dt plug-in
@@ -1245,20 +1245,20 @@ Select the photo(s) you wish to find in your operating system&amp;rsquo;s file m
     
     <item>
       <title>passport_guide</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/</guid>
       <description>🔗Name 🔗Description guides for cropping passport photos based on documents from the Finnish police (https://www.poliisi.fi/instancedata/prime_product_julkaisu/intermin/embeds/poliisiwwwstructure/38462_Passikuvaohje_EN.pdf) describing passport photo dimensions of 47x36 mm and 500x653 px for digital biometric data stored in passports. They use ISO 19794-5 standard based on ICAO 9303 regulations which should also be compliant for all of Europe.
 🔗Usage  add the following line in the file $CONFIGDIR/luarc require &amp;ldquo;passport_guide&amp;rdquo; (optional) add the line: &amp;ldquo;plugins/darkroom/clipping/extra_aspect_ratios/passport 36x47mm=47:36&amp;rdquo; to $CONFIGDIR/darktablerc when using the cropping tool, select &amp;ldquo;passport&amp;rdquo; as guide and if you added the line in yout rc select &amp;ldquo;passport 36x47mm&amp;rdquo; as aspect  🔗Additional Software Required 🔗Limitations 🔗Author Kåre Hampf</description>
     </item>
     
     <item>
       <title>pdf_slideshow</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/</guid>
       <description>🔗Name pdf_slideshow.lua - generate a pdf slideshow
 🔗Description Generates a PDF slideshow (via Latex) containing all selected images one per slide.
 🔗Usage  require this file from your main lua config file:  This plugin will add a new exporter that will allow you to generate a pdf slideshow. The interface will let you add:
@@ -1267,10 +1267,10 @@ Select the photo(s) you wish to find in your operating system&amp;rsquo;s file m
     
     <item>
       <title>photils</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/</guid>
       <description>🔗Name photils.lua - auto tag images based on feature recognition
 🔗Description A darktable plugin that tries to predict keywords based on the selected image. This plugin uses photils-cli to handle this task. Photils-cli is an application that passes the image through a neural network, classifies it, and extracts the suggested tags. Everything happens offline without the need that your data are sent over the internet.
 🔗Usage  require this script from your main lua file To do this add this line to the file .</description>
@@ -1278,10 +1278,10 @@ Select the photo(s) you wish to find in your operating system&amp;rsquo;s file m
     
     <item>
       <title>quicktag</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/</guid>
       <description>🔗Name quicktag.lua - add shortcuts to speed up tagging
 🔗Description For faster attaching your favorite tags, the script adds shortcuts and the module &amp;ldquo;quicktag&amp;rdquo; in lighttable mode with a changeable number of buttons. To each button a tag can be assigned. If the tags do not exist in your database, they are added to the database once they get the first time attached to an image.
 The number of buttons/shortcuts can be changed in the lua preferences.</description>
@@ -1289,10 +1289,10 @@ The number of buttons/shortcuts can be changed in the lua preferences.</descript
     
     <item>
       <title>rate_group</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/</guid>
       <description>🔗Name rate_group.lua - rate groups of images
 🔗Description Script to provide shortcuts for rating or rejecting all images within a group; particularly useful for RAW+JPEG shooters employing a star rating workflow like the below:
 http://blog.chasejarvis.com/blog/2011/03/photo-editing-101/
@@ -1303,10 +1303,10 @@ I use the following shortcuts:
     
     <item>
       <title>rename_tags</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</guid>
       <description>🔗Name rename-tags.lua - rename tags
 🔗Description 🔗Usage  In lighttable there is a new entry: &amp;lsquo;rename tag&amp;rsquo; Enter old tag (this one gets deleted!) Enter new tag name  🔗Additional Software Required 🔗Limitations 🔗Author Sebastian Witt - se.witt@gmx.net
 Bill Ferguson - wpferguson@gmail.com</description>
@@ -1314,10 +1314,10 @@ Bill Ferguson - wpferguson@gmail.com</description>
     
     <item>
       <title>RL_out_sharp</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/</guid>
       <description>🔗Name RL_out_sharp.lua - Richardson-Lucy output sharpening using GMic
 🔗Description This script provides a new target storage &amp;ldquo;RL output sharpen&amp;rdquo;. Images exported will be sharpened using GMic (RL deblur algorithm)
 EXAMPLE set sigma = 0.7, iterations = 10, jpeg output quality = 95, to correct blur due to image resize for web usage
@@ -1326,10 +1326,10 @@ EXAMPLE set sigma = 0.7, iterations = 10, jpeg output quality = 95, to correct b
     
     <item>
       <title>slideshowMusic</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/</guid>
       <description>🔗Name slideshowMusic.lua - play music during a slideshow
 🔗Description darktable Script to play music during a Slideshow
 🔗Usage  require this script from your main lua file  🔗Additional Software Required You need rhythmbox-client installed to use this script
@@ -1338,10 +1338,10 @@ EXAMPLE set sigma = 0.7, iterations = 10, jpeg output quality = 95, to correct b
     
     <item>
       <title>transfer_hierarchy</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/</guid>
       <description>🔗Name transfer_hierarchy.lua - move or copy image hierarchies from one location to another
 🔗Description Allows the moving or copying of images from one directory tree to another, while preserving the existing hierarchy.
 🔗Usage darktable&amp;rsquo;s native operations for moving and copying images in batches allow only one directory to be specified as the destination for each batch. Those wanting to move or copy images from a hierarchy of directories within darktable while preserving the directory structure, must take the laborious step of performing the operation one individual directory at a time.</description>
@@ -1349,10 +1349,10 @@ EXAMPLE set sigma = 0.7, iterations = 10, jpeg output quality = 95, to correct b
     
     <item>
       <title>video_ffmpeg</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/</guid>
       <description>🔗Name video_ffmpeg.lua - create a timelapse video from selected images
 🔗Description This plugin will add the new export module &amp;ldquo;video ffmpeg&amp;rdquo;.
 🔗Usage  Go to Lighttable Select images you want to use as a video ffmpeg frames In image export module select &amp;ldquo;video ffmpeg&amp;rdquo; Configure you video settings Export  🔗Additional Software Required ffmpeg
@@ -1362,10 +1362,10 @@ EXAMPLE set sigma = 0.7, iterations = 10, jpeg output quality = 95, to correct b
     
     <item>
       <title>select_untagged</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</guid>
       <description>🔗Name select_untagged.lua - select all images that aren&amp;rsquo;t tagged
 🔗Description Enable selection of untagged images (darktable|* tags are ignored)
 🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author Jannis_V</description>
@@ -1373,10 +1373,10 @@ EXAMPLE set sigma = 0.7, iterations = 10, jpeg output quality = 95, to correct b
     
     <item>
       <title>Search</title>
-      <link>https://elstoc.github.io/luadocs/search/</link>
+      <link>https://darktable-org.github.io/luadocs/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/search/</guid>
+      <guid>https://darktable-org.github.io/luadocs/search/</guid>
       <description></description>
     </item>
     

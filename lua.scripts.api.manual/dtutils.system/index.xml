@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>dtutils.system on darktable lua documentation</title>
-    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/</link>
+    <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/</link>
     <description>Recent content in dtutils.system on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>details</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</guid>
       <description>🔗DTUTILS.SYSTEM 🔗NAME dtutils.system
 🔗SYNOPSIS a library of system utilities for use in darktable lua scripts
 🔗USAGE local dtsys = require &amp;quot;lib/dtutils.system&amp;quot; 🔗DESCRIPTION This library contains routines for interfacing to the operating system from darktable lua scripts.
@@ -23,10 +23,10 @@
     
     <item>
       <title>external_command</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</guid>
       <description>🔗NAME external_command
 🔗SYNOPSIS pass a command to the operating system for execution and return the result
 🔗USAGE local dsys = require &amp;quot;lib/dtutils.system&amp;quot; local result = dsys.external_command(command) command - string - a string containing the command and arguments to be passed to the operating system for execution.
@@ -36,10 +36,10 @@
     
     <item>
       <title>launch_default_app</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</guid>
       <description>🔗NAME launch_default_app
 🔗SYNOPSIS open file in default application
 🔗USAGE local dsys = require &amp;quot;lib/dtutils.file&amp;quot; result = dsys.launch_default_app(path) path - string - a file path
@@ -49,10 +49,10 @@
     
     <item>
       <title>windows_command</title>
-      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</link>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</guid>
       <description>🔗NAME windows_command
 🔗SYNOPSIS pass a command to the windows operating system for execution and return the result
 🔗USAGE local dsys = require &amp;quot;lib/dtutils.system&amp;quot; local result = dsys.windows_command(command) command - string - a string containing the command and arguments to be passed to the operating system for execution.
