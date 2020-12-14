@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dtutils.file on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/</link>
+    <description>Recent content in dtutils.file on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>details</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</guid>
+      <description>🔗NAME details
+🔗SYNOPSIS common darktable lua file functions
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; 🔗DESCRIPTION The dtutils.file library provides common file manipulation functions used in constructing darktable lua scripts
+🔗RETURN VALUE df - library - the file functions
+🔗FUNCTIONS 🔗check_if_bin_exists check if an executable exists
+🔗check_if_file_exists check if a file or path exist
+🔗chop_filetype remove a filetype from a filename
+🔗create_unique_filename create a unique filename from the supplied argment
+🔗executable_path_widget create a widget to get executable path preferences</description>
+    </item>
+    
+    <item>
+      <title>check_if_bin_exists</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</guid>
+      <description>🔗NAME check_if_bin_exists
+🔗SYNOPSIS check if an executable exists
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_bin_exists(bin) bin - string - the binary to check for
+🔗DESCRIPTION check_if_bin_exists checks to see if the specified binary exists. check_if_bin_exists first checks to see if a preference for the binary has been registered and uses that if found. The presence of the file is verified, then quoted and returned. If no preference is specified and the operating system is linux then the which command is used to check for a binary in the path.</description>
+    </item>
+    
+    <item>
+      <title>check_if_file_exists</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</guid>
+      <description>🔗NAME check_if_file_exists
+🔗SYNOPSIS check if a file or path exist
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_file_exists(filepath) filepath - string - a file or path to check
+🔗DESCRIPTION check_if_file_exists checks to see if a file or path exists.
+🔗RETURN VALUE result - boolean - true if the file or path exists, false if it doesn&amp;rsquo;t.</description>
+    </item>
+    
+    <item>
+      <title>chop_filetype</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</guid>
+      <description>🔗NAME chop_filetype
+🔗SYNOPSIS remove a filetype from a filename
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.chop_filetype(path) path - string - a filename with or without a path
+🔗DESCRIPTION chop_filetype removes the filetype from the filename.
+🔗RETURN VALUE result - string - the path and filename without the filetype</description>
+    </item>
+    
+    <item>
+      <title>create_unique_filename</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</guid>
+      <description>🔗NAME create_unique_filename
+🔗SYNOPSIS create a unique filename from the supplied argument
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.create_unique_filename(filepath) filepath - string - the path and filename requested
+🔗DESCRIPTION create_unique_filename takes a requested filepath and checks to see if it exists. If if doesn&amp;rsquo;t then it&amp;rsquo;s returned intact. If it already exists, then a two digit increment is added to the filename and it is tested again. The increment keeps increasing until either a unique filename is found or there have been 100 attempts.</description>
+    </item>
+    
+    <item>
+      <title>executable_path_widget</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</guid>
+      <description>🔗NAME executable_path_widget
+🔗SYNOPSIS create a widget to get executable path preferences
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local widget = df.executable_path_widget(executables) executables - table - a table of strings that are executable names
+🔗DESCRIPTION executable_path_widget takes a table of executable names and builds a set of file selector widgets to get the path to the executable. The resulting widgets are wrapped in a box widget and returned.
+🔗RETURN VALUE widget - widget - a widget containing a file selector widget for each executable.</description>
+    </item>
+    
+    <item>
+      <title>file_copy</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</guid>
+      <description>🔗NAME file_copy
+🔗SYNOPSIS copy a file to another name/location
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.file_copy(fromFile, toFile) fromFile - string - name of file to copy from
+toFile - string - name of file to copy to
+🔗DESCRIPTION copy a file using a succession of methods from operating system to a pure lua solution
+🔗RETURN VALUE result - boolean - nil on error, true on success</description>
+    </item>
+    
+    <item>
+      <title>file_move</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</guid>
+      <description>🔗NAME file_move
+🔗SYNOPSIS move a file from one directory to another
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.file_move(fromFile, toFile) fromFile - string - name of the original file
+toFile - string - the new file location and name
+🔗DESCRIPTION Move a file from one place to another. Try a succession of methods from builtin to operating system to a pure lua solution.
+🔗RETURN VALUE result - boolean - nil on error, some value on success</description>
+    </item>
+    
+    <item>
+      <title>filename_increment</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</guid>
+      <description>🔗NAME filename_increment
+🔗SYNOPSIS add a two digit increment to a filename
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.filename_increment(filepath) filepath - string - filename to increment
+🔗DESCRIPTION filename_increment solves the problem of filename conflict by adding an increment to the filename. If the supplied filename has no increment then &amp;ldquo;01&amp;rdquo; is added to the basename. If the filename already has an increment, then 1 is added to it and the filename returned.</description>
+    </item>
+    
+    <item>
+      <title>get_basename</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</guid>
+      <description>🔗NAME get_basename
+🔗SYNOPSIS get the filename without the path or extension
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_basename(filepath) filepath - string - path and filename
+🔗DESCRIPTION get_basename returns the name of the file without the path or filetype.
+🔗RETURN VALUE result - string - the basename of the file</description>
+    </item>
+    
+    <item>
+      <title>get_executable_path_preference</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</guid>
+      <description>🔗NAME get_executable_path_preference
+🔗SYNOPSIS return the path to an executable from a preference
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_executable_path_preference(executable) executable - string - the name of the executable to get the path for
+🔗DESCRIPTION get_executable_path_preference returns the path preference to the requested executable.
+🔗RETURN VALUE result - string - path to the executable
+🔗LIMITATIONS executable should be the basename of the executable without extensions</description>
+    </item>
+    
+    <item>
+      <title>get_filename</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</guid>
+      <description>🔗NAME get_filename
+🔗SYNOPSIS get the filename and extension from a file path
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_filename(filepath) filepath - string - path and filename
+🔗DESCRIPTION get_filename strips the path from a filepath and returns the filename
+🔗RETURN VALUE result - string - the file name and type</description>
+    </item>
+    
+    <item>
+      <title>get_filetype</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</guid>
+      <description>🔗NAME get_filetype
+🔗SYNOPSIS get the filetype from a filename
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_filetype(filepath) filepath - string - path and filename
+🔗DESCRIPTION get_filetype returns the filetype from the supplied filepath
+🔗RETURN VALUE result - string - the filetype</description>
+    </item>
+    
+    <item>
+      <title>get_path</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</guid>
+      <description>🔗NAME get_path
+🔗SYNOPSIS get the path from a file path
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.get_path(filepath) filepath - string - path and filename
+🔗DESCRIPTION get_path strips the filename and filetype from a path and returns the path
+🔗RETURN VALUE result - string - the path</description>
+    </item>
+    
+    <item>
+      <title>mkdir</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</guid>
+      <description>🔗NAME mkdir
+🔗SYNOPSIS create the directory(ies) if they do not already exist
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.mkdir(path) path - string - a directory path
+🔗DESCRIPTION mkdir creates directories if they do not already exist. It creates parent directories if needed.
+🔗RETURN VALUE path - string - a directory path</description>
+    </item>
+    
+    <item>
+      <title>rmdir</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</guid>
+      <description>🔗NAME rmdir
+🔗SYNOPSIS recursively remove a directory
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.rmdir(path) path - string - a directory path
+🔗DESCRIPTION rmdir allows directories to be removed recursively.
+🔗RETURN VALUE path - string - a directory path</description>
+    </item>
+    
+    <item>
+      <title>sanitize_filename</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</guid>
+      <description>🔗NAME sanitize_filename
+🔗SYNOPSIS make a filename safe to pass as an argument
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local sanitized_filename = df.sanitize_filename(filename) filename - string - a filepath and filename
+🔗DESCRIPTION sanitize_filename places quotes around the filename in an operating system specific manner. The result is safe to pass as an argument to the operating system.
+🔗RETURN VALUE sanitized_filename - string - quoted filename</description>
+    </item>
+    
+    <item>
+      <title>set_executable_path_preference</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</guid>
+      <description>🔗NAME set_executable_path_preference
+🔗SYNOPSIS set a preference for the path to an executable
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.set_executable_path_preference(executable, path) executable - string - the name of the executable to set the path for
+path - string - the path to the binary
+🔗DESCRIPTION set_executable_path_preference takes an executable name and path to the executable and registers the preference for later use.</description>
+    </item>
+    
+    <item>
+      <title>split_filepath</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</guid>
+      <description>🔗NAME split_filepath
+🔗SYNOPSIS split a filepath into parts
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.split_filepath(filepath) filepath - string - path and filename
+🔗DESCRIPTION split_filepath splits a filepath into the path, filename, basename and filetype and puts that in a table
+🔗RETURN VALUE result - table - a table containing the path, filename, basename, and filetype</description>
+    </item>
+    
+  </channel>
+</rss>

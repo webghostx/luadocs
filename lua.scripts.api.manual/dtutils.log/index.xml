@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dtutils.log on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/</link>
+    <description>Recent content in dtutils.log on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>details</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/</guid>
+      <description>🔗NAME dtutils.log
+🔗SYNOPSIS darktable lua logging library
+🔗USAGE local log = require &amp;quot;lib/dtutils.log&amp;quot; 🔗DESCRIPTION log provides a multi-level logging solution for use with the darktable lua scripts. With this library you can leave log messages scattered through out your code and only turn them on as necessary.
+🔗RETURN VALUE log - library - the darktable lua logging functions
+🔗FUNCTIONS 🔗caller get the name and line number of the calling routine</description>
+    </item>
+    
+    <item>
+      <title>caller</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/</guid>
+      <description>🔗NAME caller
+🔗SYNOPSIS get the name and line number of the calling routine
+🔗USAGE local log = require &amp;quot;lib/dtutils.log&amp;quot; result = log.caller(level) level - number - the number of stack levels to go down to retrieve the caller routine information
+🔗DESCRIPTION caller gets the name and line number of the calling routine and returns it
+🔗RETURN VALUE result - string - the name and line number of the calling function or &amp;lsquo;callback: &#39; if the attempt to get the caller returns nil</description>
+    </item>
+    
+    <item>
+      <title>engine</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</guid>
+      <description>🔗NAME engine
+🔗SYNOPSIS get and set the output engine
+🔗USAGE local log = require &amp;quot;lib/dtutils.log&amp;quot; result = log.engine(level, ...) level - table - the log level to get or set the engine for, one of log.debug, log.info, log.warn, log.error log.success, log.always, log.screen, log.critical
+&amp;hellip; - function - the output function, one of dt.print, dt.print_error, dt.print_log, print if not function is included, the current engine is returned for the specified log level</description>
+    </item>
+    
+    <item>
+      <title>log_level</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</guid>
+      <description>🔗NAME log_level
+🔗SYNOPSIS get or set the log level
+🔗USAGE local log = require &amp;quot;lib/log&amp;quot; local result = log.log_level(...) &amp;hellip; - arguments - if none is supplied, then the current log level is returned as one of: log.debug, log.info, log.warn, log.error, log.success. If one of log.debug, log.info, log.warn, log.error, or log.success is supplied as the argument then the log level is set to that value. All log levels greater than or equal in value will be enabled.</description>
+    </item>
+    
+    <item>
+      <title>msg</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</guid>
+      <description>🔗NAME msg
+🔗SYNOPSIS print a log message
+🔗USAGE local log = require &amp;quot;lib/log&amp;quot; log.msg(level, ...) level - table - the type of message, one of:
+ log.debug - debugging messages log.info - informational messages log.warn - warning messages log.error - error messages log.success - success messages log.always - an internal message for debugging log.screen - output 1 line of text to the screen log.critical - print a critical message to the console  &amp;hellip; - string(s) - the message to print, which could be a comma separated set of strings</description>
+    </item>
+    
+  </channel>
+</rss>

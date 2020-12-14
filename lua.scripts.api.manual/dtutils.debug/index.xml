@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dtutils.debug on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/</link>
+    <description>Recent content in dtutils.debug on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>details</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/</guid>
+      <description>🔗NAME dtutils.debug
+🔗SYNOPSIS debugging helpers used in developing darktable lua scripts
+🔗USAGE require &amp;quot;lib/dtutils.debug&amp;quot; 🔗DESCRIPTION dtutils.debug provides an interface to the darktable debugging routines.
+🔗RETURN VALUE dd - library - the darktable lua debugging helpers
+🔗FUNCTIONS 🔗dprint pass a variable to darktable.debug.dump and print the results to stdout
+🔗new_tracepoint create a function returning a tracepoint
+🔗terse_dump set darktable.debug.known to shorten all image dumps to a single line
+🔗tracepoint print out a tracepoint and dump the arguments</description>
+    </item>
+    
+    <item>
+      <title>dprint</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/</guid>
+      <description>🔗NAME dprint
+🔗SYNOPSIS pass a variable to darktable.debug.dump and print the results to stdout
+🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; dd.dprint(var) var - variable - any variable that you want to see the contents of
+🔗DESCRIPTION dprint is a wrapper around darktable.debug.dump, will directly print to stdout, same calling convention</description>
+    </item>
+    
+    <item>
+      <title>new_tracepoint</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</guid>
+      <description>🔗NAME new_tracepoint
+🔗SYNOPSIS create a function returning a tracepoint
+🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; local result = dd.new_tracepoint(name, ...) name - string - the name of the tracepoint to print out
+&amp;hellip; - arguments - variables to dump the contents of
+🔗DESCRIPTION new_tracepoint returns a tracepoint function with the given name. This is mainly used to debug callbacks.
+🔗RETURN VALUE result - function - a function that returns the result of a tracepoint</description>
+    </item>
+    
+    <item>
+      <title>terse_dump</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</guid>
+      <description>🔗NAME terse_dump
+🔗SYNOPSIS set darktable.debug.known to shorten all image dumps to a single line
+🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; dd.terse_dump() 🔗DESCRIPTION terse_dump sets darktable.debug.known to shorten all images to a single line. If you don&amp;rsquo;t need to debug the content of images, this will avoid them flooding your logs.</description>
+    </item>
+    
+    <item>
+      <title>tracepoint</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/</guid>
+      <description>🔗NAME tracepoint
+🔗SYNOPSIS print out a tracepoint and dump the arguments
+🔗USAGE local dd = require &amp;quot;lib/dtutils.debug&amp;quot; local result = dd.tracepoint(name, ...) name - string - the name of the tracepoint to print out
+&amp;hellip; - arguments - variables to dump the contents of
+🔗DESCRIPTION tracepoint prints its name and dumps its parameters using darktable.debug.
+🔗RETURN VALUE result - &amp;hellip; - the supplied argument list</description>
+    </item>
+    
+  </channel>
+</rss>

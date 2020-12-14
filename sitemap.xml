@@ -3,6 +3,506 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/details/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/executable_manager/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/overview/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/installation/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_lib_manpages/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.api/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/troubleshooting/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/join/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/split/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/</loc>
+  </url>
+  
+  <url>
+    <loc>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</loc>
+  </url>
+  
+  <url>
     <loc>https://elstoc.github.io/luadocs/categories/</loc>
   </url>
   

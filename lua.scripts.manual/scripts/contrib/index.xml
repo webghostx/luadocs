@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>contrib on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/</link>
+    <description>Recent content in contrib on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AugoGrouper</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</guid>
+      <description>🔗Name AugoGrouper.lua - add the module &amp;ldquo;Auto Group&amp;rdquo; to darktable&amp;rsquo;s lighttable view
+🔗Description This plugin adds the module &amp;ldquo;Auto Group&amp;rdquo; to darktable&amp;rsquo;s lighttable view
+🔗Usage Install: (see here for more detail: https://github.com/darktable-org/lua-scripts )
+ Copy this file in to your &amp;ldquo;lua/contrib&amp;rdquo; folder where all other scripts reside. Require this file in your luarc file, as with any other dt plug-in  Set a gap amount in second which will be used to determine when images should no longer be added to a group.</description>
+    </item>
+    
+    <item>
+      <title>autostyle</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/</guid>
+      <description>🔗Name autostyle.lua - automatically apply a given style when an exif tag is present in the image file
+🔗Description Automatically apply a given style when an exif tag is present in the file. This tagged is checked with exiftool, in order to be able to match very exotic tags. I wrote this initially to be able to apply a style to compensate for Auto-DR from my Fujifilm camera
+🔗Usage  set the exif configuration string in your lua configuration mine, for instance, is AutoDynamicRange=200%=&amp;gt;DR200&amp;quot; meaning that I automatically want to apply my DR200 style on all images where exiftool returns &amp;lsquo;200%&amp;rsquo; for the AutoDynamicRange tag if you want to be able to apply it manually to already imported images, define a shortcut (lua shortcuts).</description>
+    </item>
+    
+    <item>
+      <title>clear_GPS</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/</guid>
+      <description>🔗Name clear_GPS.lua - clear_GPS - clear GPS data from selected image(s)
+🔗Description This shortcut removes the GPS coordinate data from the selected images.
+🔗Usage  require this script from your main lua file select an image or images click the shortcut, clear GPS data  🔗Additional Software Required 🔗Limitations 🔗Author Bill Ferguson - wpferguson@gmail.com
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>CollectHelper</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/</guid>
+      <description>🔗Name CollectHelper.lua - add buttons to help with collections
+🔗Description This plugin adds the button(s) to the &amp;ldquo;Selected Images&amp;rdquo; module:
+ Return to Previous Collection Collect on image&amp;rsquo;s Folder Collect on image&amp;rsquo;s Color Label(s) Collect on All (AND)  It also adds 3 preferences to the lua options dialog box which allow the user to activate/deactivate the 3 &amp;ldquo;Collect on&amp;rdquo; buttons.
+Button Behavior:
+ Return to Previous Collection - Will reset the collect parameters to the previously active settings Collect on image&amp;rsquo;s Folder - Will change the collect parameters to be &amp;ldquo;Folder&amp;rdquo; with a value of the selected image&amp;rsquo;s folder location Collect on image&amp;rsquo;s Color Label(s) - Will change the collect parameter to be &amp;ldquo;Color&amp;rdquo; with a value of the selected images color labels, will apply multiple parameters with AND logic if multiple exist Collect on All (AND) - Will collect on all parameters activated by the preferences dialog, as such this button is redundant if you only have one of the two other options enabled  🔗Usage Install: (see here for more detail: https://github.</description>
+    </item>
+    
+    <item>
+      <title>copy_attach_detach_tags</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/</guid>
+      <description>🔗Name copy_attach_detach_tags.lua - tools to manipulate image tags
+🔗Description This script that will create four shortcuts and add a module in lighttable mode to copy, paste, replace and remove tags from images.
+🔗Usage  set the shortcuts for copy, attach and detach in the preferences dialog &amp;lt;your shortcut1&amp;gt; copy will create a list of tags from all selected images &amp;lt;your shortcut2&amp;gt; paste copied tags to selected images, whereby darktable internal tags starting with &amp;lsquo;darktable|&amp;rsquo; will not be touched &amp;lt;your shortcut3&amp;gt; removes all expect darktable internal tags from selected images &amp;lt;your shortcut4&amp;gt; replaces all tags expect darktable internals A module reset will empty the clipboard  🔗Additional Software Required 🔗Limitations 🔗Author Christian Kanzian</description>
+    </item>
+    
+    <item>
+      <title>cr2hdr</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/</guid>
+      <description>🔗Name cr2hdr.lua - Magic Lantern Dual ISO processing
+🔗Description cr2hdr Magic Lantern Dual ISO processing.
+This script automates the steps involved to process an image created with the Magic Lantern Dual ISO module. Upon invoking the script with a shortcut &amp;ldquo;cr2hdr&amp;rdquo; provided by Magic Lantern is run on the selected images. The processed files are imported. They are also made group leaders to hide the original files.
+🔗Usage  require this script from your main lua file trigger conversion on selected/hovered images by shortcut (set shortcut in settings dialog) it is also possible to have the script run after importing a collection (optin, since it is not that fast)  🔗Additional Software Required  cr2hdr (sources can be obtained through the Magic Lantern repository)  🔗Limitations 🔗Author Till Theato - theato@ttill.</description>
+    </item>
+    
+    <item>
+      <title>enfuseAdvanced</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/</guid>
+      <description>🔗Name enfuseAdvanced.lua - process HDR or focus stacked images
+🔗Description This plugin will add the new export module &amp;lsquo;fusion to DRI or DFF image&amp;rsquo;.
+🔗Usage Install:
+ Get the Lua scripts: https://github.com/darktable-org/lua-scripts#download-and-install Require this file in your luarc file, as with any other dt plug-in: require &amp;ldquo;contrib/enfuseAdvanced&amp;rdquo; Then select &amp;ldquo;DRI or DFF image&amp;rdquo; as storage option On the initial startup set your executable paths  DRI = Dynamic Range Increase (Blend multiple bracket images into a single LDR file) DFF = Depth From Focus (&amp;lsquo;Focus Stacking&amp;rsquo; - Blend multiple images with different focus into a single image) Select multiple images that are either bracketed, or focus-shifted, set your desired operating parameters, and press the export button.</description>
+    </item>
+    
+    <item>
+      <title>exportLUT</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/</guid>
+      <description>🔗Name 🔗Description Given a haldCLUT identity file this script generates haldCLUTS from all the user&amp;rsquo;s styles and exports them to a location of their choosing.
+🔗Usage Add the following line to .config/darktable/luarc to enable this lightable module: require &amp;ldquo;contrib/exportLut&amp;rdquo;
+🔗Additional Software Required 🔗Limitations Warning: during export if a naming collision occurs the older file is automatically overwritten silently.
+🔗Author Noah Clarke
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>ext_editor</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/</guid>
+      <description>🔗Name ext_editor.lua - edit images with external editors
+🔗Description This script provides helpers to edit image files with programs external to darktable. It adds:
+ a new target storage &amp;ldquo;collection&amp;rdquo;. Image exported will be reimported to collection for further edit with external programs a new lighttable module &amp;ldquo;external editors&amp;rdquo;, to select a program from a list of up to 9 external editors and run it on a selected image (adjust this limit by changing MAX_EDITORS) a set of lua preferences in order to configure name and path of up to 9 external editors a set of lua shortcuts in order to quick launch the external editors  🔗Usage  require this script from main lua file  &amp;ndash; setup &amp;ndash;</description>
+    </item>
+    
+    <item>
+      <title>face_recognition</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/</guid>
+      <description>🔗Name face_recognition.lua - add a new storage option and calls face_recognition after export
+🔗Description Add a new storage option to send images to face_recognition. Images are exported to darktable tmp dir first. A directory with known faces must exist, the image name are the tag names which will be used. Multiple images for one face can exist, add a number to it, the number will be removed from the tag, for example: People|IknowYou1.</description>
+    </item>
+    
+    <item>
+      <title>fujifilm_ratings</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/</guid>
+      <description>🔗Name fujifilm_ratings.lua - support for importing Fujifilm in-camera ratings in darktable
+🔗Description Support for importing Fujifilm in-camera ratings in darktable.
+🔗Usage 🔗Additional Software Required  exiftool (https://www.sno.phy.queensu.ca/~phil/exiftool/)  🔗Limitations 🔗Author Ben Mendis - ben.mendis@gmail.com
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>geoJSON_export</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/</guid>
+      <description>🔗Name geoJSON_export.lua - export a geoJSON file from selected images
+🔗Description darktable geoJSON export script
+🔗Usage  require this script from your main Lua file  🔗Additional Software Required  mkdir convert (ImageMagick) xdg-open xdg-user-dir  🔗Limitations This script is only tested with Linux
+🔗Author Tobias Jakobs
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>geoToolbox</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/</guid>
+      <description>🔗Name geoToolbox.lua - a module of geo tools
+🔗Description  it creates a new geoToolbox lighttable module  🔗Usage  require this script from your main lua file To do this add this line to the file .config/darktable/luarc: require &amp;ldquo;geoToolbox&amp;rdquo;  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Jakobs
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>gimp</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/</guid>
+      <description>🔗Name gimp.lua - export and edit with GIMP
+🔗Description This script provides another storage (export target) for darktable. Selected images are exported in the specified format to temporary storage. GIMP is launched and opens the files. After editing, the exported images are overwritten to save the changes. When GIMP exits, the exported files are moved into the current collection and imported into the database. The imported files then show up grouped with the originally selected images.</description>
+    </item>
+    
+    <item>
+      <title>gpx_export</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/</guid>
+      <description>🔗Name gpx_export.lua - gpx exporter
+🔗Description Simple darktable GPX generator script
+This script generates a GPX track from all images having GPS latitude and longitude information. For each source folder, a separate &amp;lt;trk&amp;gt; is generated in the gpx file.
+🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author Jannis_V</description>
+    </item>
+    
+    <item>
+      <title>HDRMerge</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/</guid>
+      <description>🔗Name HDRMerge.lua - create an HDR image using HDRMerge
+🔗Description This plugin adds the module &amp;lsquo;HDRMerge&amp;rsquo; to darktable&amp;rsquo;s lighttable view
+🔗Usage Install: (see here for more detail: https://github.com/darktable-org/lua-scripts )
+ Copy this file in to your &amp;lsquo;lua/contrib&amp;rsquo; folder where all other scripts reside. Require this file in your luarc file, as with any other dt plug-in On the initial startup go to darktable settings &amp;gt; lua options and set your executable paths and other preferences, then restart darktable  Select bracketed images and press the Run HDRMerge button.</description>
+    </item>
+    
+    <item>
+      <title>hugin</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/</guid>
+      <description>🔗Name hugin.lua - stitch multiple images into a panorama
+🔗Description Add a new storage option to send images to hugin. Images are exported to darktable tmp dir first.
+🔗Usage  require this file from your main luarc config file set the hugin tool paths (on some platforms) if hugin gui mode is used, save the final result in the tmp directory with the first file name and _pano as suffix for the image to be automatically imported to DT afterwards  🔗Additional Software Required  hugin  🔗Limitations 🔗Author Wolfgang Goetz</description>
+    </item>
+    
+    <item>
+      <title>image_stack</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/</guid>
+      <description>🔗Name image_stack.lua - process a stack of images
+🔗Description This script provides another storage (export target) for darktable. Selected images are exported in the specified format to temporary storage. The images are aligned if the user requests it. When the images are ready, imagemagick is launched and uses the selected evaluate-sequence operator to process the images. The output file is written to a filename representing the imput files in the format specified by the user.</description>
+    </item>
+    
+    <item>
+      <title>image_time</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/</guid>
+      <description>🔗Name image_time.lua - synchronize image time for images shot with different cameras
+🔗Description image_time non destructively adjusts image times by modifying the database image exif_datetime_taken field. There are 4 modes: adjust time, set time, synchronize time, and reset time.
+ADJUST TIME
+adjust time mode lets you chose an offset in terms of years, months, days, hours, minutes, and seconds. The adjustment can be added or subtracted. WARNING: When adding and subtracting months the result will usually be what is expected unless the time being adjusted is at the end of the month.</description>
+    </item>
+    
+    <item>
+      <title>kml_export</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/</guid>
+      <description>🔗Name kml_export.lua - export a kml file from selected images
+🔗Description darktable KML export script
+🔗Usage  require this script from your main Lua file when choosing file format, pick JPEG or PNG as Google Earth doesn&amp;rsquo;t support other formats  🔗Additional Software Required  zip (at the moment Linux only and only if you create KMZ files) magick (ImageMagick) xdg-user-dir (Linux)  🔗Limitations This script is only tested with Linux</description>
+    </item>
+    
+    <item>
+      <title>LabelsToTags</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</guid>
+      <description>🔗Name LabelsToTags.lua - mass apply tags to images
+🔗Description Allows the mass-application of tags using color labels and ratings as a guide.
+🔗Usage In your &amp;lsquo;luarc&amp;rsquo; file or elsewhere, use the function &amp;lsquo;register_tag_mapping&amp;rsquo;, defined in this module, to specify one or more tag mappings for use by the module. Any mappings so registered will be selectable, according to their given names, in the module&amp;rsquo;s &amp;ldquo;mapping&amp;rdquo; combo box.
+A mapping takes the form of a table mapping patterns to lists of tags.</description>
+    </item>
+    
+    <item>
+      <title>OpenInExplorer</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</guid>
+      <description>🔗Name OpenInExplorer.lua - open an images containing folder
+🔗Description This plugin adds the module &amp;ldquo;OpenInExplorer&amp;rdquo; to darktable&amp;rsquo;s lighttable view.
+🔗Usage Require this file in your luarc file, as with any other dt plug-in
+Select the photo(s) you wish to find in your operating system&amp;rsquo;s file manager and press &amp;ldquo;show in file explorer&amp;rdquo; in the &amp;ldquo;selected images&amp;rdquo; section.
+  Nautilus (Linux), Explorer (Windows), and Finder (macOS prior to Mojave) will open one window for each selected image at the file&amp;rsquo;s location.</description>
+    </item>
+    
+    <item>
+      <title>passport_guide</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/</guid>
+      <description>🔗Name 🔗Description guides for cropping passport photos based on documents from the Finnish police (https://www.poliisi.fi/instancedata/prime_product_julkaisu/intermin/embeds/poliisiwwwstructure/38462_Passikuvaohje_EN.pdf) describing passport photo dimensions of 47x36 mm and 500x653 px for digital biometric data stored in passports. They use ISO 19794-5 standard based on ICAO 9303 regulations which should also be compliant for all of Europe.
+🔗Usage  add the following line in the file $CONFIGDIR/luarc require &amp;ldquo;passport_guide&amp;rdquo; (optional) add the line: &amp;ldquo;plugins/darkroom/clipping/extra_aspect_ratios/passport 36x47mm=47:36&amp;rdquo; to $CONFIGDIR/darktablerc when using the cropping tool, select &amp;ldquo;passport&amp;rdquo; as guide and if you added the line in yout rc select &amp;ldquo;passport 36x47mm&amp;rdquo; as aspect  🔗Additional Software Required 🔗Limitations 🔗Author Kåre Hampf</description>
+    </item>
+    
+    <item>
+      <title>pdf_slideshow</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/</guid>
+      <description>🔗Name pdf_slideshow.lua - generate a pdf slideshow
+🔗Description Generates a PDF slideshow (via Latex) containing all selected images one per slide.
+🔗Usage  require this file from your main lua config file:  This plugin will add a new exporter that will allow you to generate a pdf slideshow. The interface will let you add:
+ a global title for the slideshow (prefix in all slide label) a delay for the transition between each slide  Each slide will contain a single picture with a label at the bottom with the format (all fields can be the empty string):</description>
+    </item>
+    
+    <item>
+      <title>photils</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/</guid>
+      <description>🔗Name photils.lua - auto tag images based on feature recognition
+🔗Description A darktable plugin that tries to predict keywords based on the selected image. This plugin uses photils-cli to handle this task. Photils-cli is an application that passes the image through a neural network, classifies it, and extracts the suggested tags. Everything happens offline without the need that your data are sent over the internet.
+🔗Usage  require this script from your main lua file To do this add this line to the file .</description>
+    </item>
+    
+    <item>
+      <title>quicktag</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/</guid>
+      <description>🔗Name quicktag.lua - add shortcuts to speed up tagging
+🔗Description For faster attaching your favorite tags, the script adds shortcuts and the module &amp;ldquo;quicktag&amp;rdquo; in lighttable mode with a changeable number of buttons. To each button a tag can be assigned. If the tags do not exist in your database, they are added to the database once they get the first time attached to an image.
+The number of buttons/shortcuts can be changed in the lua preferences.</description>
+    </item>
+    
+    <item>
+      <title>rate_group</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/</guid>
+      <description>🔗Name rate_group.lua - rate groups of images
+🔗Description Script to provide shortcuts for rating or rejecting all images within a group; particularly useful for RAW+JPEG shooters employing a star rating workflow like the below:
+http://blog.chasejarvis.com/blog/2011/03/photo-editing-101/
+🔗Usage Assign a keyboard shortcut to each action via settings &amp;gt; shortcuts &amp;gt; lua
+I use the following shortcuts:
+ Reject group: Ctrl+R Rate group 1: Ctrl+1 Rate group 2: Ctrl+2 Rate group 3: Ctrl+3 Rate group 4: Ctrl+4 Rate group 5: Ctrl+5 Rate group 0: Ctrl+0  🔗Additional Software Required 🔗Limitations 🔗Author Dom H - dom@hxy.</description>
+    </item>
+    
+    <item>
+      <title>rename_tags</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</guid>
+      <description>🔗Name rename-tags.lua - rename tags
+🔗Description 🔗Usage  In lighttable there is a new entry: &amp;lsquo;rename tag&amp;rsquo; Enter old tag (this one gets deleted!) Enter new tag name  🔗Additional Software Required 🔗Limitations 🔗Author Sebastian Witt - se.witt@gmx.net
+Bill Ferguson - wpferguson@gmail.com</description>
+    </item>
+    
+    <item>
+      <title>RL_out_sharp</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/</guid>
+      <description>🔗Name RL_out_sharp.lua - Richardson-Lucy output sharpening using GMic
+🔗Description This script provides a new target storage &amp;ldquo;RL output sharpen&amp;rdquo;. Images exported will be sharpened using GMic (RL deblur algorithm)
+EXAMPLE set sigma = 0.7, iterations = 10, jpeg output quality = 95, to correct blur due to image resize for web usage
+🔗Usage  require this script from main lua file in lua preferences, select the GMic cli executable from &amp;ldquo;export selected&amp;rdquo;, choose &amp;ldquo;RL output sharpen&amp;rdquo; configure output folder configure RL parameters with sliders configure temp files format and quality, jpg 8bpp (good quality) and tif 16bpp (best quality) are supported configure other export options (size, etc.</description>
+    </item>
+    
+    <item>
+      <title>slideshowMusic</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/</guid>
+      <description>🔗Name slideshowMusic.lua - play music during a slideshow
+🔗Description darktable Script to play music during a Slideshow
+🔗Usage  require this script from your main lua file  🔗Additional Software Required You need rhythmbox-client installed to use this script
+🔗Limitations 🔗Author Tobias Jakobs</description>
+    </item>
+    
+    <item>
+      <title>transfer_hierarchy</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/</guid>
+      <description>🔗Name transfer_hierarchy.lua - move or copy image hierarchies from one location to another
+🔗Description Allows the moving or copying of images from one directory tree to another, while preserving the existing hierarchy.
+🔗Usage darktable&amp;rsquo;s native operations for moving and copying images in batches allow only one directory to be specified as the destination for each batch. Those wanting to move or copy images from a hierarchy of directories within darktable while preserving the directory structure, must take the laborious step of performing the operation one individual directory at a time.</description>
+    </item>
+    
+    <item>
+      <title>video_ffmpeg</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/</guid>
+      <description>🔗Name video_ffmpeg.lua - create a timelapse video from selected images
+🔗Description This plugin will add the new export module &amp;ldquo;video ffmpeg&amp;rdquo;.
+🔗Usage  Go to Lighttable Select images you want to use as a video ffmpeg frames In image export module select &amp;ldquo;video ffmpeg&amp;rdquo; Configure you video settings Export  🔗Additional Software Required ffmpeg
+🔗Limitations This script has been tested under Linux only
+🔗Author Dominik Markiewicz</description>
+    </item>
+    
+    <item>
+      <title>select_untagged</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</guid>
+      <description>🔗Name select_untagged.lua - select all images that aren&amp;rsquo;t tagged
+🔗Description Enable selection of untagged images (darktable|* tags are ignored)
+🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author Jannis_V</description>
+    </item>
+    
+  </channel>
+</rss>

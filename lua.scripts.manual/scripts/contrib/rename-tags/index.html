@@ -1,0 +1,1455 @@
+<!doctype html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>darktable lua documentation - rename_tags</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="site.webmanifest">
+<link rel="apple-touch-icon" href="icon.png">
+
+
+
+
+
+      <link rel="stylesheet" href="https://elstoc.github.io/luadocs/css/style.min.6f8fcc9b0ebcd3ac477a507f922faefdf963732422cd88933d1d4783ebccb952.css">
+      
+
+<script src="https://elstoc.github.io/luadocs/js/jquery.js"></script>
+<script src="https://elstoc.github.io/luadocs/js/popper.js" type="module"></script>
+<script src="https://elstoc.github.io/luadocs/js/bootstrap.js"></script>
+<script src="https://elstoc.github.io/luadocs/js/lunr.js"></script>
+<script src="https://elstoc.github.io/luadocs/js/app.js"></script>
+
+
+    </head>
+    <body>
+        
+
+        <header class="navbar navbar-expand-lg sticky-top  navbar-dark bg-dark">
+    <a class="navbar-brand" href="https://elstoc.github.io/luadocs/" rel="home" title=".Site.Title">
+	darktable lua documentation
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+           <form class="form-inline my-2 my-lg-0">
+                <input id="search-input" class="form-control mr-sm-2" type="search" placeholder="Search" autocomplete="off" aria-label="Search">
+           </form>
+        </ul>
+    </div>
+</header>
+
+<div id="search-results" class="search-results">
+</div>
+
+
+
+        <div class="container-fluid">
+	    <div class="row">
+		<nav class="navigation col-sm-12 order-sm-12 col-md-3 order-md-1">
+		    <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/" class="">
+          Lua Scripts Manual
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/overview/" class="">
+          overview
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/installation/" class="">
+          installation
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/troubleshooting/" class="">
+          troubleshooting
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/" class="">
+          scripts
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/overview/" class="">
+          overview
+      </a>
+
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/" class="">
+          official
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/" class="">
+          check_for_updates
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/" class="">
+          copy_paste_metadata
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/" class="">
+          delete_long_tags
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/" class="">
+          delete_unused_tags
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/" class="">
+          enfuse
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/" class="">
+          generate_image_txt
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/" class="">
+          image_path_in_ui
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/" class="">
+          import_filter_manager
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/" class="">
+          import_filters
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/" class="">
+          save_selection
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/" class="">
+          selection_to_pdf
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/" class="">
+          contrib
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/" class="">
+          AugoGrouper
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/autostyle/" class="">
+          autostyle
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/clear_gps/" class="">
+          clear_GPS
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/collecthelper/" class="">
+          CollectHelper
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/copy_attach_detach_tags/" class="">
+          copy_attach_detach_tags
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/cr2hdr/" class="">
+          cr2hdr
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/enfuseadvanced/" class="">
+          enfuseAdvanced
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/exportlut/" class="">
+          exportLUT
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/ext_editor/" class="">
+          ext_editor
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/" class="">
+          face_recognition
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/" class="">
+          fujifilm_ratings
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geojson_export/" class="">
+          geoJSON_export
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/geotoolbox/" class="">
+          geoToolbox
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gimp/" class="">
+          gimp
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/gpx_export/" class="">
+          gpx_export
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hdrmerge/" class="">
+          HDRMerge
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/hugin/" class="">
+          hugin
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/" class="">
+          image_stack
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/" class="">
+          image_time
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/" class="">
+          kml_export
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/" class="">
+          LabelsToTags
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/" class="">
+          OpenInExplorer
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/passport_guide/" class="">
+          passport_guide
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/pdf_slideshow/" class="">
+          pdf_slideshow
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/photils/" class="">
+          photils
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/quicktag/" class="">
+          quicktag
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/" class="">
+          rate_group
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/" class=" active">
+          rename_tags
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/" class="">
+          RL_out_sharp
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/slideshowmusic/" class="">
+          slideshowMusic
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/transfer_hierarchy/" class="">
+          transfer_hierarchy
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/video_ffmpeg/" class="">
+          video_ffmpeg
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/" class="">
+          select_untagged
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/" class="">
+          examples
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/api_version/" class="">
+          api_version
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/darkroom_demo/" class="">
+          darkroom_demo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/gettextexample/" class="">
+          gettextExample
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/hello_world/" class="">
+          hello_world
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/" class="">
+          lighttable_demo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/" class="">
+          moduleExample
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/" class="">
+          name
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/panels_demo/" class="">
+          panels_demo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/preferenceexamples/" class="">
+          preferenceExample
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/printexamples/" class="">
+          printExamples
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/" class="">
+          running_os
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/" class="">
+          tools
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/executable_manager/" class="">
+          executable_manager
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/" class="">
+          gen_i18n_mo
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_lib_manpages/" class="">
+          get_lib_manpages
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/" class="">
+          get_libdoc
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/" class="">
+          script_manager
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/" class="">
+          Lua Scripts Libraries API Manual
+      </a>
+
+   <ul>
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/" class="">
+          dtutils
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/details/" class="">
+          details
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_min_api_version/" class="">
+          check_min_api_version
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/" class="">
+          check_os
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/join/" class="">
+          join
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/prequire/" class="">
+          prequire
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/spairs/" class="">
+          spairs
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils/split/" class="">
+          split
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/" class="">
+          dtutils.debug
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/details/" class="">
+          details
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/dprint/" class="">
+          dprint
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/" class="">
+          new_tracepoint
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/" class="">
+          terse_dump
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/tracepoint/" class="">
+          tracepoint
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/" class="">
+          dtutils.file
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/details/" class="">
+          details
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_bin_exists/" class="">
+          check_if_bin_exists
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/" class="">
+          check_if_file_exists
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/" class="">
+          chop_filetype
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/create_unique_filename/" class="">
+          create_unique_filename
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/executable_path_widget/" class="">
+          executable_path_widget
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_copy/" class="">
+          file_copy
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/file_move/" class="">
+          file_move
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/filename_increment/" class="">
+          filename_increment
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_basename/" class="">
+          get_basename
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_executable_path_preference/" class="">
+          get_executable_path_preference
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filename/" class="">
+          get_filename
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_filetype/" class="">
+          get_filetype
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/get_path/" class="">
+          get_path
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/" class="">
+          mkdir
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/" class="">
+          rmdir
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/sanitize_filename/" class="">
+          sanitize_filename
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/" class="">
+          set_executable_path_preference
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/" class="">
+          split_filepath
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/" class="">
+          dtutils.log
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/details/" class="">
+          details
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/caller/" class="">
+          caller
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/" class="">
+          engine
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/" class="">
+          log_level
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/" class="">
+          msg
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/" class="">
+          dtutils.string
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/" class="">
+          details
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/" class="">
+          escape_xml_characters
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/" class="">
+          is_not_sanitized
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/" class="">
+          sanitize
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/" class="">
+          sanitize_lua
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/" class="">
+          strip_accents
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/" class="">
+          urlencode
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/" class="">
+          dtutils.system
+      </a>
+
+   <ul>
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/" class="">
+          details
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/" class="">
+          external_command
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/" class="">
+          launch_default_app
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.system/windows_command/" class="">
+          windows_command
+      </a>
+
+   </li>
+   </ul>
+   </li>
+   </ul>
+   </li>
+   
+   <li class="parent">
+      <i class="fa fa-plus-square toggle"></i>
+   
+
+      <a href="https://elstoc.github.io/luadocs/lua.api/" class="">
+          Lua API Manual
+      </a>
+
+   <ul></ul>
+   </li>
+   </ul>
+
+		</nav>
+		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
+		    
+
+
+
+<div class="crumbs">
+    <span class="crumb">
+	
+
+
+
+<a href='https://elstoc.github.io/luadocs/'>Home</a> / <a href='https://elstoc.github.io/luadocs/lua.scripts.manual/'>Lua Scripts Manual</a> / <a href='https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/'>scripts</a> / <a href='https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/'>contrib</a> / rename_tags
+    </span>
+</div>
+    
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/" class="next">&lt; rate_group</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/" class="prev">RL_out_sharp &gt;</a>
+	
+    </div>
+</div>
+
+
+<article role="main">
+
+    <h1 class="title">
+        rename_tags
+    </h1>
+
+    <h2 id="name"><a href="#name">🔗</a>Name</h2>
+<p>rename-tags.lua - rename tags</p>
+<h2 id="description"><a href="#description">🔗</a>Description</h2>
+<h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
+<ul>
+<li>In lighttable there is a new entry: &lsquo;rename tag&rsquo;</li>
+<li>Enter old tag (this one gets deleted!)</li>
+<li>Enter new tag name</li>
+</ul>
+<h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
+<h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>
+<h2 id="author"><a href="#author">🔗</a>Author</h2>
+<p>Sebastian Witt - <a href="mailto:se.witt@gmx.net">se.witt@gmx.net</a><br>
+Bill Ferguson - <a href="mailto:wpferguson@gmail.com">wpferguson@gmail.com</a></p>
+
+
+    
+</article>
+
+<div class="prev-next row">
+    <div class="col-6">
+    
+	<a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rate_group/" class="next">&lt; rate_group</a>
+	
+    </div>
+    <div class="col-6">
+    
+	<a href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/contrib/rl_out_sharp/" class="prev">RL_out_sharp &gt;</a>
+	
+    </div>
+</div>
+
+
+
+      </div>
+	    </div>
+
+            
+
+        </div>
+
+
+    </body>
+</html>
+
+<script>
+(function($) {
+  
+
+  $.fn.scrollToMiddle = function(options) {
+    var settings = $.extend({
+        duration: 0
+    }, options );
+
+    return this.each(function() {
+      var $el = $(this);
+      var elOffset = $el.offset().top;
+      var elHeight = $el.height();
+      var windowHeight = $(window).height();
+      var offset;
+      if (elHeight < windowHeight) {
+        offset = elOffset - ((windowHeight / 2) - (elHeight / 2));
+      }
+      else {
+        offset = elOffset;
+      }
+      $('.navigation').scrollTop(offset);
+    });
+  };
+}(jQuery));
+
+$('.navigation').css('opacity', '0');
+ $(document).ready(function(){
+     $('.parent ul').hide();
+     $('.navigation').css('opacity', 1.0);
+     $('.active').parents('ul').show();
+     $('.active').siblings('ul').show();
+     $('.active').children('i.toggle').removeClass("fa-plus-squre").addClass("fa-minus-square-o");
+     $('.active').parents('li').children('.toggle').removeClass("fa-plus-square").addClass("fa-minus-square-o");
+     $('.active').scrollToMiddle();
+
+     $('.toggle').on('click', function (e) {
+       e.stopPropagation();
+       $(this).siblings('ul').slideToggle();
+
+       if($(this).hasClass("fa-plus-square")) {
+           $(this).addClass("fa-minus-square-o");
+           $(this).removeClass("fa-plus-square");
+       }
+       else {
+           $(this).addClass("fa-plus-square");
+           $(this).removeClass("fa-minus-square-o");
+       }
+     });
+ });
+
+</script>
+

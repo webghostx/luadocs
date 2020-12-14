@@ -1,24 +1,4 @@
-// lunr.js search code
-//vanilla js version of https://gist.github.com/sebz/efddfc8fdcb6b480f567
-
-    /*
-        We have JS! Adjust our search inputs to use Lunr...
-        Basically, change placeholder text, remove 'name' attr,
-        and remove the hidden input sites input field entirely
-    */
-    var setSearchForm = document.getElementById('searchForm');
-    var setInputPlaceholder = document.getElementById('search');
-    setInputPlaceholder.placeholder = "Enter search terms";
-    setInputPlaceholder.removeAttribute("name");
-    setSearchForm.removeChild( document.getElementById('searchsite') );
-    setSearchForm.action = "#";
-    setSearchForm.removeAttribute("action");
-
-//vanilla js version of https://gist.github.com/sebz/efddfc8fdcb6b480f567
-
-var lunrIndex,
-    $results,
-    pagesIndex;
+var lunrIndex;
 
 // Initialize lunrjs using our generated index file
 function initLunr() {
@@ -35,14 +15,14 @@ function initLunr() {
             // Also provide their boost level for the ranking
             lunrIndex = lunr(function () {
                 this.field("title", {
-                    boost: 10
+                    boost: 20
                 });
                 this.field("tags", {
                     boost: 5
                 });
 
                 this.field("content", {
-                    boost: 2
+                    boost: 1
                 });
 
                 // ref is the result item identifier (I chose the page URL)
@@ -61,42 +41,7 @@ function initLunr() {
     request.send();
 }
 
-// Nothing crazy here, just hook up a event handler on the input field
-function initUI() {
-    $results = document.getElementById("results");
-    $search = document.getElementById("search");
-    $search.onkeyup = function () {
-        while ($results.firstChild) {
-            $results.removeChild($results.firstChild);
-        }
-
-        // Only trigger a search when 2 chars. at least have been provided
-        var query = $search.value;
-        if (query.length < 2) {
-            return;
-        }
-
-        //add some fuzzyness to the string matching to help with spelling mistakes.
-        var fuzzLength = Math.round(Math.min(Math.max(query.length / 4, 1), 3));
-        var fuzzyQuery = query + '~' + fuzzLength;
-
-        var results = search(fuzzyQuery);
-        renderResults(results);
-    };
-}
-
-/**
- * Trigger a search in lunr and transform the result
- *
- * @param  {String} query
- * @return {Array}  results
- */
 function search(query) {
-    // Find the item in our index corresponding to the lunr one to have more info
-    // Lunr result:
-    //  {ref: "/section/page1", score: 0.2725657778206127}
-    // Our result:
-    //  {title:"Page1", href:"/section/page1", ...}
     return lunrIndex.search(query).map(function (result) {
         return pagesIndex.filter(function (page) {
             return page.href === result.ref;
@@ -104,31 +49,52 @@ function search(query) {
     });
 }
 
-/**
- * Display the 10 first results
- *
- * @param  {Array} results to display
- */
 function renderResults(results) {
-    if (!results.length) {
-        return;
-    }
 
-    // Only show the ten first results
-    $results = document.getElementById("results");
-    results.slice(0, 10).forEach(function (result) {
-        var li = document.createElement('li');
-        var ahref = document.createElement('a');
-        ahref.href = result.href;
-        ahref.text = "» " + result.title;
-        li.append(ahref);
-        $results.appendChild(li);
-    });
+   if (!results.length) {
+      $("#search-results").hide();
+      return;
+   }
+
+   // Only show the first twenty results
+   $results = document.getElementById("search-results");
+
+   results.slice(0, 20).forEach(function (result) {
+      var p = document.createElement('p');
+      var ahref = document.createElement('a');
+      ahref.href = result.href;
+      ahref.text = "» " + result.title;
+      p.append(ahref);
+      $results.appendChild(p);
+   });
+
+   $("#search-results").show();
 }
 
-// Let's get started
-initLunr();
+$(document).ready(function() {
+      $("#search-results").hide();
+      $("#search-input").focus(function() {
+            //load index file if it's not already been loaded
+            if (! lunrIndex) { initLunr(); }
+      });
 
-document.addEventListener("DOMContentLoaded", function () {
-    initUI();
-})
+      $("#search-input").keydown(function (e) {
+         if(e.keyCode == 27)
+         {
+            $("#search-results").hide();
+            $("#search-input").val("");
+         }
+      });
+
+      $("#search-input").keyup(function (e) {
+         //trigger a search if a search term longer than two characters has been entered
+         $("#search-results").empty().hide();
+         query = $("#search-input").val();
+         if (query.length < 2) {
+            return;
+         }
+         results = search(query + '~1');
+         renderResults(results);
+      });
+});
+

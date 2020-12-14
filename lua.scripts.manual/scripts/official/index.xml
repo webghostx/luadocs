@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>official on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/</link>
+    <description>Recent content in official on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>check_for_updates</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</guid>
+      <description>🔗Name check_for_updates.lua - automatically check for updates
+🔗Description a simple script that will automatically look for newer releases on github and inform when there is something. it will only check on startup and only once a week.
+🔗Usage  install luasec and cjson for Lua 5.2 on your system require this script from your main lua file restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>copy_paste_metadata</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</guid>
+      <description>🔗Name copy_paste_metadata.lua - copy and paste metadata between images
+🔗Description This script adds keyboard shortcuts and buttons to copy/paste metadata between images.
+🔗Usage  require this script from your main lua file it adds buttons to the selected images module it adds two keyboard shortcuts  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>delete_long_tags</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</guid>
+      <description>🔗Name delete_long_tags.lua - delete all tags longer than a set length
+🔗Description A simple script that will automatically delete all tags longer than a set length
+🔗Usage  require this script from your main lua file set the the maximum length in darktable&amp;rsquo;s preference restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>delete_unused_tags</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</guid>
+      <description>🔗Name delete_unused_tags.lua - automatically delete all tags that are not attached to any images
+🔗Description A simple script that will automatically delete all tags that are not attached to any images
+🔗Usage  require this script from your main lua file restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>enfuse</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</guid>
+      <description>🔗Name enfuse.lua - merge the selected images into one tonemapped image and import the result
+🔗Description This script uses enfuse to merge the selected images into one tonemapped image and imports the result. It only works on ldr images (like, JPEG).
+🔗Usage  require this script from your main lua file it creates a new lighttable module  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>generate_image_txt</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/generate_image_txt/</guid>
+      <description>🔗Name generate_image_txt.lua - generate text metadata
+🔗Description A script to run a command on images to generate text metadata
+The medata will be displayed as an overlay on the image in lighttable mode
+🔗Usage  require this script from your main lua file set a command to run on all image, this command should output text on stdout enable image file generation  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus</description>
+    </item>
+    
+    <item>
+      <title>image_path_in_ui</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</guid>
+      <description>🔗Name image_path_in_ui.lua - Add a widget with the path of the selected images
+🔗Description Add a widget with the path of the selected images for easy copy/past Simple shortcuts to have multiple selection bufers
+This plugin will add a widget at the bottom of the left column in lighttable mode
+🔗Usage  require this file from your main lua config file:  🔗Additional Software Required 🔗Limitations 🔗Author Jérémy Rosen
+🔗Change Log </description>
+    </item>
+    
+    <item>
+      <title>import_filter_manager</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</guid>
+      <description>🔗Name import_filter_manager.lua - add a dropdown list with import filters to the import dialog
+🔗Description This script adds a dropdown list with import filters to the import dialog. Scripts can add new filters by registering them with darktable.register_import_filter(name, callback) The callback has type function(event, images), i.e., it is the same as when directly registering the pre-import event.
+🔗Usage  require this script from your main lua file also require some files with import filters, for example import_filters.</description>
+    </item>
+    
+    <item>
+      <title>import_filters</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/import_filters/</guid>
+      <description>🔗Name import_filters.lua - add filters for import_filter_manager
+🔗Description This script goes along with the import filter manager. It adds two filters:
+ ignore jpegs: this one does the same as the existing option in the import dialog and just skips all JPEGs during import. prefer raw over jpeg: this one is a bit more elaborate, it ignores JPEGs when there is also another file with the same basename, otherwise it allows JPEGs, too.</description>
+    </item>
+    
+    <item>
+      <title>save_selection</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</guid>
+      <description>🔗Name save_selection.lua - simple shortcuts to have multiple selection buffers
+🔗Description Simple shortcuts to have multiple selection buffers
+🔗Usage  require this file from your main lua config file: go to configuration =&amp;gt; preferences =&amp;gt; lua set the shortcuts you want to use  This plugin will provide shortcuts to save to and restore from up to five temporary buffers
+This plugin also provides a shortcut to swap the current selection with a quick-swap buffer</description>
+    </item>
+    
+    <item>
+      <title>selection_to_pdf</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/scripts/official/selection_to_pdf/</guid>
+      <description>🔗Name selection_to_pdf.lua - generate a PDF file (via Latex) containing all selected images
+🔗Description Generates a PDF file (via Latex) containing all selected images
+This plugin will add a new exporter that will allow you to generate the pdf file
+Plugin allows you to choose how many thumbnails you need per row
+🔗Usage  require this file from your main lua config file:  🔗Additional Software Required  a PDF-Viewer pdflatex (Latex)  🔗Limitations 🔗Author Jérémy Rosen &amp;amp; Pascal Obry</description>
+    </item>
+    
+  </channel>
+</rss>

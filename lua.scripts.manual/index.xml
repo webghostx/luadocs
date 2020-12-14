@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lua Scripts Manual on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/lua.scripts.manual/</link>
+    <description>Recent content in Lua Scripts Manual on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.manual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>overview</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/overview/</guid>
+      <description>darktable can be customized and extended using the Lua programming language. The lua-scripts repository contains the collected efforts of the darktable developers, maintainers, contributors and community.</description>
+    </item>
+    
+    <item>
+      <title>installation</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/installation/</guid>
+      <description>🔗Download and Install The recommended method of installation is using git to clone the repository. This ensures that all dependencies on other scripts are met as well as providing an easy update path.
+🔗snap packages The snap version of darktable comes with lua included starting with version 2.4.3snap2.
+Ensure git is installed on your system. If it isn&amp;rsquo;t, use the package manager to install it. Then open a terminal and:</description>
+    </item>
+    
+    <item>
+      <title>troubleshooting</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.manual/troubleshooting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.manual/troubleshooting/</guid>
+      <description>Running darktable with Lua debugging enabled provides more information about what is occurring within the scripts.
+🔗Snap Open a terminal and start darktable with the command snap run darktable -d lua. This provides debugging information to give you insight into what is happening.
+🔗Linux Open a terminal and start darktable with the command darktable -d lua. This provides debugging information to give you insight into what is happening.
+🔗MacOS Open a terminal and start darktable with the command /Applications/darktable.</description>
+    </item>
+    
+  </channel>
+</rss>

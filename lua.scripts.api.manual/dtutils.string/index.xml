@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dtutils.string on darktable lua documentation</title>
+    <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/</link>
+    <description>Recent content in dtutils.string on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>details</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/</guid>
+      <description>🔗DTUTILS.STRING 🔗NAME dtutils.string
+🔗SYNOPSIS a library of string utilities for use in darktable lua scripts
+🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; 🔗DESCRIPTION This library contains string manipulation routines to aid in building darktable lua scripts.
+🔗RETURN VALUE ds - library - the darktable lua string library
+🔗FUNCTIONS 🔗escape_xml_characters escape characters for xml documents
+🔗is_not_sanitized check if a string has been sanitized
+🔗sanitize surround a string in quotes making it safe to pass as an argument</description>
+    </item>
+    
+    <item>
+      <title>escape_xml_characters</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/</guid>
+      <description>🔗NAME escape_xml_characters
+🔗SYNOPSIS escape characters for xml documents
+🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.escape_xml_characters(str) str - string - the string that needs escaped
+🔗DESCRIPTION escape_xml_characters provides the escape sequences for
+&amp;quot;&amp;amp;&amp;quot;, &#39;&amp;quot;&#39;, &amp;quot;&#39;&amp;quot;, &amp;quot;&amp;lt;&amp;quot;, and &amp;quot;&amp;gt;&amp;quot; with the corresponding
+&amp;quot;&amp;amp;amp;&amp;quot;,&amp;quot;&amp;amp;quot;&amp;quot;, &amp;quot;&amp;amp;apos;&amp;quot;, &amp;quot;&amp;amp;lt;&amp;quot;, and &amp;quot;&amp;amp;gt;&amp;quot; .
+🔗RETURN VALUE result - string - the string containing escapes for the xml characters
+🔗REFERENCE https://stackoverflow.com/questions/1091945/what-characters-do-i-need-to-escape-in-xml-documents</description>
+    </item>
+    
+    <item>
+      <title>is_not_sanitized</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</guid>
+      <description>🔗NAME is_not_sanitized
+🔗SYNOPSIS Check if a string has been sanitized
+🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.is_not_sanitized(str) str - string - the string that needs to be made safe
+🔗DESCRIPTION is_not_sanitized checks a string to see if it has been made safe use passing as an argument in a system command.
+🔗RETURN VALUE result - boolean - true if the string is not sanitized otherwise false</description>
+    </item>
+    
+    <item>
+      <title>sanitize</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/</guid>
+      <description>🔗NAME sanitize
+🔗SYNOPSIS surround a string in quotes making it safe to pass as an argument
+🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.sanitize(str) str - string - the string that needs to be made safe
+🔗DESCRIPTION sanitize converts a string into a version suitable for use passing as an argument in a system command.
+🔗RETURN VALUE result - string - a websafe string</description>
+    </item>
+    
+    <item>
+      <title>sanitize_lua</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/</guid>
+      <description>🔗NAME sanitize_lua
+🔗SYNOPSIS escape lua &amp;lsquo;magic&amp;rsquo; characters from a pattern string
+🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.sanitize_lua(str) str - string - the string that needs to be made safe
+🔗DESCRIPTION sanitize_lua escapes lua &amp;lsquo;magic&amp;rsquo; characters so that a string may be used in lua string/patten matching.
+🔗RETURN VALUE result - string - a lua pattern safe string</description>
+    </item>
+    
+    <item>
+      <title>strip_accents</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/</guid>
+      <description>🔗NAME strip_accents
+🔗SYNOPSIS strip accents from characters
+🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.strip_accents(str) str - string - the string with characters that need accents removed
+🔗DESCRIPTION strip_accents removes accents from accented characters returning the unaccented character.
+🔗RETURN VALUE result - string - the string containing unaccented characters
+🔗REFERENCE Copied from https://forums.coronalabs.com/topic/43048-remove-special-characters-from-string/</description>
+    </item>
+    
+    <item>
+      <title>urlencode</title>
+      <link>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://elstoc.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/</guid>
+      <description>🔗NAME urlencode
+🔗SYNOPSIS encode a string in a websage manner
+🔗USAGE local ds = require &amp;quot;lib/dtutils.string&amp;quot; local result = ds.urlencode(str) str - string - the string that needs to be made websafe
+🔗DESCRIPTION urlencode converts a string into a websafe version suitable for use in a web browser.
+🔗RETURN VALUE result - string - a websafe string
+🔗REFERENCE https://forums.coronalabs.com/topic/43048-remove-special-characters-from-string</description>
+    </item>
+    
+  </channel>
+</rss>
