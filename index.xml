@@ -19,12 +19,12 @@
     </item>
     
     <item>
-      <title>AugoGrouper</title>
+      <title>AutoGrouper</title>
       <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/autogrouper/</guid>
-      <description>🔗Name AugoGrouper.lua - add the module &amp;ldquo;Auto Group&amp;rdquo; to darktable&amp;rsquo;s lighttable view
+      <description>🔗Name AutoGrouper.lua - add the module &amp;ldquo;Auto Group&amp;rdquo; to darktable&amp;rsquo;s lighttable view
 🔗Description This plugin adds the module &amp;ldquo;Auto Group&amp;rdquo; to darktable&amp;rsquo;s lighttable view
 🔗Usage Install: (see here for more detail: https://github.com/darktable-org/lua-scripts )
  Copy this file in to your &amp;ldquo;lua/contrib&amp;rdquo; folder where all other scripts reside. Require this file in your luarc file, as with any other dt plug-in  Set a gap amount in second which will be used to determine when images should no longer be added to a group.</description>

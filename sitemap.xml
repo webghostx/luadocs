@@ -75,6 +75,10 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</loc>
   </url>
   
@@ -111,10 +115,6 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/check_if_file_exists/</loc>
   </url>
   
@@ -127,10 +127,6 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</loc>
   </url>
   
@@ -140,6 +136,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/engine/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/</loc>
   </url>
   
   <url>
@@ -187,10 +187,6 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</loc>
   </url>
   
@@ -204,6 +200,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/log_level/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/</loc>
   </url>
   
   <url>
