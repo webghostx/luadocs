@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lua API Manual on darktable lua documentation</title>
-    <link>https://darktable-org.github.io/luadocs/lua.api/</link>
+    <link>https://darktable-org.github.io/luadocs/lua.api.manual/</link>
     <description>Recent content in Lua API Manual on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api.manual/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

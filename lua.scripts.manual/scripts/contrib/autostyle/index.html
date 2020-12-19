@@ -1311,7 +1311,7 @@
       <i class="fa fa-plus-square toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/" class="">
           Lua API Manual
       </a>
 
@@ -1358,27 +1358,32 @@
     <h2 id="name"><a href="#name">🔗</a>Name</h2>
 <p>autostyle.lua - automatically apply a given style when an exif tag is present in the image file</p>
 <h2 id="description"><a href="#description">🔗</a>Description</h2>
-<p>Automatically apply a given style when an exif tag is present in the file. This tagged is checked with exiftool, in order to be able to match very exotic tags.
-I wrote this initially to be able to apply a style to compensate for Auto-DR from my Fujifilm camera</p>
+<p>Automatically apply a given style when an exif tag is present in the file. This tags are checked with exiftool, in order to be able to match very exotic tags.
+This was written to be able to apply a style to compensate for Auto-DR from Fujifilm cameras.</p>
 <h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
 <ul>
-<li>set the exif configuration string in your lua configuration
-mine, for instance, is AutoDynamicRange=200%=&gt;DR200&quot;
-meaning that I automatically want to apply my DR200 style on all
-images where exiftool returns &lsquo;200%&rsquo; for the AutoDynamicRange tag</li>
-<li>if you want to be able to apply it manually to already imported
-images, define a shortcut (lua shortcuts). As I couldn&rsquo;t find an event for
-when a development is removed, so the autostyle won&rsquo;t be applied again,
-this shortcut is also helpful then</li>
-<li>import your images, or use the shortcut on your already imported images</li>
-<li>To determine which tag you want, list all tags with exiftool:
-exiftool -j XE021351.RAF, and find the one you want to use
-you can check it with
-<blockquote>
-<p>exiftool -AutoDynamicRange XE021351.RAF
-Auto Dynamic Range              : 200%</p>
-</blockquote>
+<li>
+<p>Set the exif configuration string in your lua configuration.
+For instance,  <em>AutoDynamicRange=200%=&gt;DR200</em>
+means that I automatically want to apply my DR200 style on all
+images where exiftool returns &ldquo;200%&rdquo;&quot; for the AutoDynamicRange tag</p>
 </li>
+<li>
+<p>If you want to be able to apply it to already imported
+images, define a shortcut (lua shortcuts). If the history stack is
+removed from the image, autostyle won&rsquo;t be applied again.
+This shortcut useful when that happens.</p>
+</li>
+<li>
+<p>Import your images, or use the shortcut on already imported images</p>
+</li>
+<li>
+<p>To determine which tag you want, list all tags with exiftool:
+<code>exiftool -j XE021351.RAF</code>, and find the one you want to use.
+You can check tags with</p>
+<pre><code>&gt; exiftool -AutoDynamicRange XE021351.RAF
+Auto Dynamic Range              : 200%
+</code></pre></li>
 </ul>
 <h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
 <ul>

@@ -1311,7 +1311,7 @@
       <i class="fa fa-plus-square toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/" class="">
           Lua API Manual
       </a>
 
@@ -1359,31 +1359,25 @@
 <p>enfuseAdvanced.lua - process HDR or focus stacked images</p>
 <h2 id="description"><a href="#description">🔗</a>Description</h2>
 <p>This plugin will add the new export module &lsquo;fusion to DRI or DFF image&rsquo;.</p>
+<p>DRI = Dynamic Range Increase (Blend multiple bracket images into a single LDR file)</p>
+<p>DFF = Depth From Focus (&lsquo;Focus Stacking&rsquo; - Blend multiple images with different focus into a single image)</p>
 <h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
-<p>Install:</p>
-<ol>
-<li>Get the Lua scripts: <a href="https://github.com/darktable-org/lua-scripts#download-and-install">https://github.com/darktable-org/lua-scripts#download-and-install</a></li>
-<li>Require this file in your luarc file, as with any other dt plug-in: require &ldquo;contrib/enfuseAdvanced&rdquo;</li>
-<li>Then select &ldquo;DRI or DFF image&rdquo; as storage option</li>
-<li>On the initial startup set your executable paths</li>
-</ol>
-<p>DRI = Dynamic Range Increase (Blend multiple bracket images into a single LDR file)
-DFF = Depth From Focus (&lsquo;Focus Stacking&rsquo; - Blend multiple images with different focus into a single image)
-Select multiple images that are either bracketed, or focus-shifted, set your desired operating parameters, and press the export button. A new image will be created. The image will
+<p>Start this script using script manager.</p>
+<p>Select multiple images that are either bracketed, or focus-shifted, set your desired operating parameters, and press the export button. A new image will be created. The image will
 be auto imported into darktable if you have that option enabled. Additional tags or style can be applied on auto import as well, if you desire.</p>
-<p>image align options:
-See align_image_stack documentation for further explanation of how it specifically works and the options provided (<a href="http://hugin.sourceforge.net/docs/manual/Align_image_stack.html">http://hugin.sourceforge.net/docs/manual/Align_image_stack.html</a>)</p>
-<p>image fustion options:
-See enfuse documentation for further explanation of how it specifically works and the options provided (<a href="https://wiki.panotools.org/Enfuse">https://wiki.panotools.org/Enfuse</a>)
+<h3 id="image-align-options"><a href="#image-align-options">🔗</a>image align options</h3>
+<p>See align_image_stack documentation for further explanation of how it specifically works and the options provided (<a href="http://hugin.sourceforge.net/docs/manual/Align_image_stack.html">http://hugin.sourceforge.net/docs/manual/Align_image_stack.html</a>)</p>
+<h3 id="image-fustion-options"><a href="#image-fustion-options">🔗</a>image fustion options</h3>
+<p>See enfuse documentation for further explanation of how it specifically works and the options provided (<a href="https://wiki.panotools.org/Enfuse">https://wiki.panotools.org/Enfuse</a>)
 If you have a specific set of parameters you frequently like to use, you can save them to a preset. There are 3 presets available for DRI, and 3 for DFF.</p>
-<p>target file:
-Select your file destination path, or check the &lsquo;save to source image location&rsquo; option.
+<h3 id="target-file"><a href="#target-file">🔗</a>target file</h3>
+<p>Select your file destination path, or check the &lsquo;save to source image location&rsquo; option.
 &lsquo;Create Unique Filename&rsquo; is enabled by default at startup, the user can choose to overwrite existing
 Set any tags or style you desire to be added to the new image (only available if the auto-import option is enabled). You can also change the defaults for this under settings &gt; lua options</p>
-<p>format options:
-Same as other export modules</p>
-<p>global options:
-Same as other export modules</p>
+<h3 id="format-options"><a href="#format-options">🔗</a>format options</h3>
+<p>Same as other export modules</p>
+<h3 id="global-options"><a href="#global-options">🔗</a>global options</h3>
+<p>Same as other export modules</p>
 <h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
 <p>align_image_stack
 enfuse ver. 4.2 or greater

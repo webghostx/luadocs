@@ -1311,7 +1311,7 @@
       <i class="fa fa-plus-square toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/" class="">
           Lua API Manual
       </a>
 
@@ -1360,22 +1360,18 @@
 <h2 id="description"><a href="#description">🔗</a>Description</h2>
 <p>This plugin adds the module &lsquo;HDRMerge&rsquo; to darktable&rsquo;s lighttable view</p>
 <h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
-<p>Install: (see here for more detail: <a href="https://github.com/darktable-org/lua-scripts">https://github.com/darktable-org/lua-scripts</a> )</p>
-<ol>
-<li>Copy this file in to your &lsquo;lua/contrib&rsquo; folder where all other scripts reside.</li>
-<li>Require this file in your luarc file, as with any other dt plug-in
-On the initial startup go to darktable settings &gt; lua options and set your executable paths and other preferences, then restart darktable</li>
-</ol>
+<p>Start this script using script manager.</p>
+<p>On the initial startup go to darktable settings &gt; lua options and set your executable paths and other preferences, then restart darktable</p>
 <p>Select bracketed images and press the Run HDRMerge button. The resulting DNG will be auto-imported into darktable.
 Additional tags or style can be applied on auto import as well, if you desire.</p>
-<p>Base Options:
-Select your desired BPS (bits per sample and Embedded Preview Size.</p>
-<p>Batch Options:
-Select if you want to run in batch mode or not
+<h3 id="base-options"><a href="#base-options">🔗</a>Base Options</h3>
+<p>Select your desired BPS (bits per sample and Embedded Preview Size.</p>
+<h3 id="batch-options"><a href="#batch-options">🔗</a>Batch Options</h3>
+<p>Select if you want to run in batch mode or not
 Select the gap, in seconds, between images for auto grouping in batch mode</p>
 <p>See HDRMerge manual for further detail: <a href="http://jcelaya.github.io/hdrmerge/documentation/2014/07/11/user-manual.html">http://jcelaya.github.io/hdrmerge/documentation/2014/07/11/user-manual.html</a></p>
-<p>Auto-import Options:
-Select a style, whether you want tags to be copied from the original, and any additional tags you desire added when the new image is auto-imported</p>
+<h3 id="auto-import-options"><a href="#auto-import-options">🔗</a>Auto-import Options</h3>
+<p>Select a style, whether you want tags to be copied from the original, and any additional tags you desire added when the new image is auto-imported</p>
 <h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
 <p>HDRMerge ver. 4.5 or greater</p>
 <h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>

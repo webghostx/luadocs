@@ -14,8 +14,7 @@
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/check_for_updates/</guid>
       <description>🔗Name check_for_updates.lua - automatically check for updates
 🔗Description a simple script that will automatically look for newer releases on github and inform when there is something. it will only check on startup and only once a week.
-🔗Usage  install luasec and cjson for Lua 5.2 on your system require this script from your main lua file restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
-🔗Change Log </description>
+🔗Usage  install luasec and cjson for Lua 5.3 on your system. Luarocks is a good source for lua packages. start this script from script manager restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus</description>
     </item>
     
     <item>
@@ -26,7 +25,7 @@
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/copy_paste_metadata/</guid>
       <description>🔗Name copy_paste_metadata.lua - copy and paste metadata between images
 🔗Description This script adds keyboard shortcuts and buttons to copy/paste metadata between images.
-🔗Usage  require this script from your main lua file it adds buttons to the selected images module it adds two keyboard shortcuts  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Usage  start this script from script manager it adds buttons to the selected images module it adds two keyboard shortcuts  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
 🔗Change Log </description>
     </item>
     
@@ -38,7 +37,7 @@
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/delete_long_tags/</guid>
       <description>🔗Name delete_long_tags.lua - delete all tags longer than a set length
 🔗Description A simple script that will automatically delete all tags longer than a set length
-🔗Usage  require this script from your main lua file set the the maximum length in darktable&amp;rsquo;s preference restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Usage  start this script from script manager set the the maximum length in darktable&amp;rsquo;s preference restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
 🔗Change Log </description>
     </item>
     
@@ -50,7 +49,7 @@
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/delete_unused_tags/</guid>
       <description>🔗Name delete_unused_tags.lua - automatically delete all tags that are not attached to any images
 🔗Description A simple script that will automatically delete all tags that are not attached to any images
-🔗Usage  require this script from your main lua file restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Usage  start this script from script manager restart darktable  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
 🔗Change Log </description>
     </item>
     
@@ -62,7 +61,7 @@
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/enfuse/</guid>
       <description>🔗Name enfuse.lua - merge the selected images into one tonemapped image and import the result
 🔗Description This script uses enfuse to merge the selected images into one tonemapped image and imports the result. It only works on ldr images (like, JPEG).
-🔗Usage  require this script from your main lua file it creates a new lighttable module  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Usage  start this script from script manager it creates a new lighttable module  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
 🔗Change Log </description>
     </item>
     
@@ -75,7 +74,8 @@
       <description>🔗Name generate_image_txt.lua - generate text metadata
 🔗Description A script to run a command on images to generate text metadata
 The medata will be displayed as an overlay on the image in lighttable mode
-🔗Usage  require this script from your main lua file set a command to run on all image, this command should output text on stdout enable image file generation  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus</description>
+🔗Usage  start this script from script manager set a command to run on all image, this command should output text on stdout enable image file generation  🔗Additional Software Required 🔗Limitations 🔗Author Tobias Ellinghaus
+🔗Change Log </description>
     </item>
     
     <item>
@@ -87,7 +87,7 @@ The medata will be displayed as an overlay on the image in lighttable mode
       <description>🔗Name image_path_in_ui.lua - Add a widget with the path of the selected images
 🔗Description Add a widget with the path of the selected images for easy copy/past Simple shortcuts to have multiple selection bufers
 This plugin will add a widget at the bottom of the left column in lighttable mode
-🔗Usage  require this file from your main lua config file:  🔗Additional Software Required 🔗Limitations 🔗Author Jérémy Rosen
+🔗Usage  start this script from script manager  🔗Additional Software Required 🔗Limitations 🔗Author Jérémy Rosen
 🔗Change Log </description>
     </item>
     
@@ -99,7 +99,7 @@ This plugin will add a widget at the bottom of the left column in lighttable mod
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</guid>
       <description>🔗Name import_filter_manager.lua - add a dropdown list with import filters to the import dialog
 🔗Description This script adds a dropdown list with import filters to the import dialog. Scripts can add new filters by registering them with darktable.register_import_filter(name, callback) The callback has type function(event, images), i.e., it is the same as when directly registering the pre-import event.
-🔗Usage  require this script from your main lua file also require some files with import filters, for example import_filters.</description>
+🔗Usage  start this script from script manager also require some files with import filters, for example import_filters.</description>
     </item>
     
     <item>
@@ -121,7 +121,7 @@ This plugin will add a widget at the bottom of the left column in lighttable mod
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/save_selection/</guid>
       <description>🔗Name save_selection.lua - simple shortcuts to have multiple selection buffers
 🔗Description Simple shortcuts to have multiple selection buffers
-🔗Usage  require this file from your main lua config file: go to configuration =&amp;gt; preferences =&amp;gt; lua set the shortcuts you want to use  This plugin will provide shortcuts to save to and restore from up to five temporary buffers
+🔗Usage  start this script from script manager go to configuration =&amp;gt; preferences =&amp;gt; lua set the shortcuts you want to use  This plugin will provide shortcuts to save to and restore from up to five temporary buffers
 This plugin also provides a shortcut to swap the current selection with a quick-swap buffer</description>
     </item>
     
@@ -135,7 +135,7 @@ This plugin also provides a shortcut to swap the current selection with a quick-
 🔗Description Generates a PDF file (via Latex) containing all selected images
 This plugin will add a new exporter that will allow you to generate the pdf file
 Plugin allows you to choose how many thumbnails you need per row
-🔗Usage  require this file from your main lua config file:  🔗Additional Software Required  a PDF-Viewer pdflatex (Latex)  🔗Limitations 🔗Author Jérémy Rosen &amp;amp; Pascal Obry</description>
+🔗Usage  start this script from script manager  🔗Additional Software Required  a PDF-Viewer pdflatex (Latex)  🔗Limitations 🔗Author Jérémy Rosen &amp;amp; Pascal Obry</description>
     </item>
     
   </channel>

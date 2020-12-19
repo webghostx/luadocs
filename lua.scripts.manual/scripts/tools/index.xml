@@ -25,7 +25,7 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/</guid>
       <description>🔗Name gen_i18n_mo - generate translation files from the source and place them in the appropriate locale directory
 🔗Description gen_i18n_mo finds all the .po files scattered throughout the script tree, compiles them into .mo files and places them in the correct locale directory for use by the gettext tools.
-🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
+🔗Usage  start this script from script manager. Stop the script after it runs or it will regenerate the translation files each time darktable starts.</description>
     </item>
     
     <item>
@@ -35,7 +35,8 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
       
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_lib_manpages/</guid>
       <description>🔗Name get_lib_manpages.lua - retrieve the included library documentation and output it as man pages
-🔗Description 🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
+🔗Description This script retrieves the included documentation in the script libaries and outputs them to the system temporary directory as man pages. Stop this script after it runs otherwise it will regenerate the pages each time it runs.
+🔗Usage  start this script from script manager  🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
     </item>
     
     <item>
@@ -44,8 +45,8 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</guid>
-      <description>🔗Name get_libdoc.lua - retrieve the included library documentation and output it
-🔗Description 🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
+      <description>🔗Name get_libdoc.lua - retrieve the included library documentation and output it as text
+🔗Description 🔗Usage  start this script from script manager. Disable it after it finishes or it will generate the pages every time darktable runs.  🔗Additional Software Required 🔗Limitations 🔗Author 🔗Change Log </description>
     </item>
     
     <item>

@@ -1311,7 +1311,7 @@
       <i class="fa fa-plus-square toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/" class="">
           Lua API Manual
       </a>
 
@@ -1356,16 +1356,14 @@
     </h1>
 
     <h2 id="name"><a href="#name">🔗</a>Name</h2>
-<p>AutoGrouper.lua - add the module &ldquo;Auto Group&rdquo; to darktable&rsquo;s lighttable view</p>
+<p>AutoGrouper.lua - automatically group images based on time</p>
 <h2 id="description"><a href="#description">🔗</a>Description</h2>
-<p>This plugin adds the module &ldquo;Auto Group&rdquo; to darktable&rsquo;s lighttable view</p>
+<p>This plugin groups images based on the time they were shot.  Images shot close
+together in time are grouped together.  The interval of time to separate groups
+is configurable.</p>
 <h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
-<p>Install: (see here for more detail: <a href="https://github.com/darktable-org/lua-scripts">https://github.com/darktable-org/lua-scripts</a> )</p>
-<ol>
-<li>Copy this file in to your &ldquo;lua/contrib&rdquo; folder where all other scripts reside.</li>
-<li>Require this file in your luarc file, as with any other dt plug-in</li>
-</ol>
-<p>Set a gap amount in second which will be used to determine when images should no 
+<p>Start the module using script manager.</p>
+<p>Set a gap amount, in seconds, which will be used to determine when images should no 
 longer be added to a group. If an image is more then the specified amount of time
 from the last image in the group it will not be added. Images without timestamps 
 in exif data will be ignored.</p>

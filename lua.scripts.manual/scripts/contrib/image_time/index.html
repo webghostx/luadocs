@@ -1311,7 +1311,7 @@
       <i class="fa fa-plus-square toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/" class="">
           Lua API Manual
       </a>
 
@@ -1361,65 +1361,54 @@
 <p>image_time non destructively adjusts image times by modifying the
 database image exif_datetime_taken field.  There are 4 modes: adjust time,
 set time, synchronize time, and reset time.</p>
-<p>ADJUST TIME</p>
-<pre><code>adjust time mode lets you chose an offset in terms of years, months,
+<h3 id="adjust-time"><a href="#adjust-time">🔗</a>ADJUST TIME</h3>
+<p>adjust time mode lets you chose an offset in terms of years, months,
 days, hours, minutes, and seconds.  The adjustment can be added or
-subtracted.  
-
-WARNING:  When adding and subtracting months the result will usually
-be what is expected unless the time being adjusted is at the end of 
+subtracted.</p>
+<p>WARNING:  When adding and subtracting months the result will usually
+be what is expected unless the time being adjusted is at the end of
 the month.  This is because a month is a variable amount of time that
-can be 28, 29, 30 or 31 days depending on the month.  Example: It's 
+can be 28, 29, 30 or 31 days depending on the month.  Example: It&rsquo;s
 March 31st and I subtract a month which not sets the time to February
 31st.  When that gets set to a valid time, then the date changes to
-March 3rd.
-</code></pre>
-<p>SET TIME</p>
-<pre><code>set time mode allows you to pick a date and time and set the image
-time accordingly.  Fields may be left out.  This is useful when 
-importing scanned images that don't have an embedded date.  
-</code></pre>
-<p>SYNCHRONIZE TIME</p>
-<pre><code>I recently purchased a 7DmkII to replace my aging 7D.  My 7D was still
-serviceable, so I bought a remote control and figured I'd try shooting
-events from 2 different perspectives.  I didn't think to synchonize the 
+March 3rd.</p>
+<h3 id="set-time"><a href="#set-time">🔗</a>SET TIME</h3>
+<p>set time mode allows you to pick a date and time and set the image
+time accordingly.  Fields may be left out.  This is useful when
+importing scanned images that don&rsquo;t have an embedded date.</p>
+<h3 id="synchronize-time"><a href="#synchronize-time">🔗</a>SYNCHRONIZE TIME</h3>
+<p>I recently purchased a 7DmkII to replace my aging 7D.  My 7D was still
+serviceable, so I bought a remote control and figured I&rsquo;d try shooting
+events from 2 different perspectives.  I didn&rsquo;t think to synchonize the
 time between the 2 cameras, so when I loaded the images and sorted by
 time it was a disaster.  I hacked a script together with hard coded values
-to adjust the exif_datetime_taken value in the database for the 7D images 
-so that everything sorted properly.  I've tried shooting with 2 cameras 
-several times since that first attempt.  I've gotten better at getting the
-camera times close, but still haven't managed to get them to sync.  So I
-decided to think the problem through and write a proper script to take 
-care of the problem.
-</code></pre>
-<p>RESET TIME</p>
-<pre><code>Select the images and click reset.  
-</code></pre>
+to adjust the exif_datetime_taken value in the database for the 7D images
+so that everything sorted properly.  I&rsquo;ve tried shooting with 2 cameras
+several times since that first attempt.  I&rsquo;ve gotten better at getting the
+camera times close, but still haven&rsquo;t managed to get them to sync.  So I
+decided to think the problem through and write a proper script to take
+care of the problem.</p>
+<h3 id="reset-time"><a href="#reset-time">🔗</a>RESET TIME</h3>
+<p>Select the images and click reset.</p>
 <h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
-<p>ADJUST TIME</p>
-<pre><code>Change the year, month, day, hour, minute, second dropdowns to the amount
-of change desired.  Select add or subtract.  Select the images.  Click 
-adjust.
-</code></pre>
-<p>SET TIME</p>
-<pre><code>Set the time fields to the desired time.  Select the images to change.  Click
-set.
-</code></pre>
-<p>SYNCHRONIZE TIME</p>
-<pre><code>Select 2 images, one from each camera, of the same moment in time.  Click
+<h3 id="adjust-time-1"><a href="#adjust-time-1">🔗</a>ADJUST TIME</h3>
+<p>Change the year, month, day, hour, minute, second dropdowns to the amount
+of change desired.  Select add or subtract.  Select the images.  Click
+adjust.</p>
+<h3 id="set-time-1"><a href="#set-time-1">🔗</a>SET TIME</h3>
+<p>Set the time fields to the desired time.  Select the images to change.  Click
+set.</p>
+<h3 id="synchronize-time-1"><a href="#synchronize-time-1">🔗</a>SYNCHRONIZE TIME</h3>
+<p>Select 2 images, one from each camera, of the same moment in time.  Click
 the Calculate button to calculate the time difference.  The difference is
 displayed in the difference entry.  You can manually adjust it by changing
-the value if necessary.
-
-Select the images that need their time adjusted.  Determine which way to adjust
-adjust the time (add or subtract) and select the appropriate choice.
-
-If the image times get messed up and you just want to start over, select reset time
-from the mode and reset the image times.
-</code></pre>
-<p>RESET TIME</p>
-<pre><code>Select the images and click reset.
-</code></pre>
+the value if necessary.</p>
+<p>Select the images that need their time adjusted.  Determine which way to adjust
+adjust the time (add or subtract) and select the appropriate choice.</p>
+<p>If the image times get messed up and you just want to start over, select reset time
+from the mode and reset the image times.</p>
+<h3 id="reset-time-1"><a href="#reset-time-1">🔗</a>RESET TIME</h3>
+<p>Select the images and click reset.</p>
 <h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
 <ul>
 <li>exiv2</li>

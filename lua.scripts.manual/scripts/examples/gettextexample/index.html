@@ -1311,7 +1311,7 @@
       <i class="fa fa-plus-square toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/" class="">
           Lua API Manual
       </a>
 
@@ -1373,20 +1373,19 @@ extract the string to the .po file.
 So, this is why we create a local variagle gettext = dt.gettext, so
 xgettext recognises gettext.gettext as a function but not dt.gettext.gettext</p>
 <p>To create a .mo file run:
-msgfmt -v gettextExample.po -o gettextExample.mo</p>
+<code>msgfmt -v gettextExample.po -o gettextExample.mo</code></p>
 <h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
 <ul>
-<li>require this script from your main lua file (Add &lsquo;require &ldquo;gettextExample&rdquo;&rsquo; to luarc.)</li>
-<li>copy the script to: .config/darktable/lua/</li>
+<li>start this script from script manager</li>
 <li>copy the gettextExample.mo to .config/darktable/lua/de_DE/LC_MESSAGES</li>
 </ul>
 <p>You need to start darktable with the Lua debug option: darktable -d lua
 $LANG must set to: de_DE</p>
 <p>The script run on darktable startup and should output this three lines:</p>
-<p>LUA ERROR Hello World!
+<pre><code>LUA ERROR Hello World!
 LUA ERROR Bild
-LUA ERROR Hallo Welt!</p>
-<h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
+LUA ERROR Hallo Welt!
+</code></pre><h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
 <h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>
 <h2 id="author"><a href="#author">🔗</a>Author</h2>
 <p>Tobias Jakobs</p>
