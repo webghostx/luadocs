@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable on darktable lua documentation</title>
+    <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/</link>
+    <description>Recent content in darktable on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>overview</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/overview/</guid>
+      <description>The darktable library is the main entry point for all access to the darktable internals. To access the darktable specific functions you must load the darktable environment:
+darktable = require &amp;quot;darktable&amp;quot;
+All functions and data are accessed through the darktable module.</description>
+    </item>
+    
+    <item>
+      <title>darktable.print</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print/</guid>
+      <description>function\( message : string \) Will print a string to the darktable control log (the long overlaid window that appears over the main panel).
+ message - string - The string to display which should be a single line.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.print_log</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_log/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_log/</guid>
+      <description>function( message : string ) This function will print its parameter if the Lua logdomain is activated. Start darktable with the &amp;quot;-d lua&amp;quot; command line option to enable the Lua logdomain.
+ message - string - The string to display.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.print_error</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_error/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_error/</guid>
+      <description>function( message : string ) This function is similar todarktable.print_log but adds an ERROR prefix for clarity.
+ message - string - The string to display.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.register_event</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_event/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_event/</guid>
+      <description>function( event_type : string, callback : function, ... : variable ) This function registers a callback to be called when a given event happens. Events are documented in the event section.
+ event_type - string - The name of the event to register to. callback - function - The function to call on event. The signature of the function depends on the type of event. &amp;hellip; - variable - Some events need extra parameters at registration time; these must be specified here.</description>
+    </item>
+    
+    <item>
+      <title>darktable.register_storage</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_storage/</guid>
+      <description>function( plugin_name : string, name : string, [store : function], [finalize : function], [supported : function], [initialize : function], [widget : types.lua_widget] ) This function will add a new storage implemented in Lua. A storage is a module that is responsible for handling images once they have been generated during export. Examples of core storages include filesystem, e-mail, facebook&amp;hellip;
+ plugin_name - string - A unique name for the plugin. name - string - A human readable name for the plugin.</description>
+    </item>
+    
+    <item>
+      <title>darktable.register_lib</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_lib/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_lib/</guid>
+      <description>function( plugin_name : string, name : string, expandable : boolean, resettable : boolean, containers : table of types.dt_lua_view_t =&amp;gt; [ types.dt_ui_container_t, int ], widget : types.lua_widget, view_enter : function, view_leave : function ) Register a new lib object. A lib is a graphical element of darktable&amp;rsquo;s user interface
+ plugin_name - string - A unique name for your library name - string - A user-visible name for your library expandable - boolean - whether this lib should be expandable or not resettable - boolean - whether this lib has a reset button or not containers - table of types.</description>
+    </item>
+    
+    <item>
+      <title>darktable.films</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.films/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.films/</guid>
+      <description>A table containing all the film objects in the database.
+🔗darktable.films.# types.dt_lua_film_t
+Each film has a numeric entry in the database. See types.dt_lua_film_t.
+🔗darktable.films.new function( directory : string ) : types.dt_lua_film_t Creates a new empty film
+see darktable.database.import to import a directory with all its images and to add images to a film
+ directory - string - The directory that the new film will represent. The directory must exist return - types.</description>
+    </item>
+    
+    <item>
+      <title>darktable.new_format</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_format/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_format/</guid>
+      <description>function( type : string ) : types.dt_imageio_module_format_t Creates a new format object to export images
+  type - string - The type of format object to create, one of :
+ copy exr j2k jpeg pdf pfm png ppm tiff webp    return - types.dt_imageio_module_format_t - The newly created object. Exact type depends on the type passed
+  </description>
+    </item>
+    
+    <item>
+      <title>darktable.new_storage</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_storage/</guid>
+      <description>function( type : string ) : types.dt_imageio_module_storage_t Creates a new storage object to export images.
+  type - string - The type of storage object to create, one of:
+ disk email gallery latex piwigo (Other, lua-defined, storage types may appear.)    return - [types.dt_imageio_module_storage_t(../../types/dt_imageio_module_storage_t)] - The newly created object. Exact type depends on the type passed
+  </description>
+    </item>
+    
+    <item>
+      <title>darktable.new_widget</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_widget/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_widget/</guid>
+      <description>function( type : string, ... : variable ) : types.lua_widget Creates a new widget object to display in the UI.
+  type - string - The type of storage object to create, one of:
+ box button check_button combobox container entry file_chooser_button label section_label separator slider stack text_view    &amp;hellip; - variable - Extra parameters, exact value are documented with each type
+  return - types.lua_widget - The newly created object.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gui/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gui/</guid>
+      <description>This subtable contains function and data to manipulate the darktable user interface with Lua. Most of these function won&amp;rsquo;t do anything if the GUI is not enabled (i.e you are using the command line version darktable-cli instead of darktable).
+🔗darktable.gui.action_images table
+A table of types.dt_lua_image_t on which the user expects UI actions to happen. It is based on both the hovered image and the selection and is consistent with the way darktable works.</description>
+    </item>
+    
+    <item>
+      <title>darktable.guides</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.guides/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.guides/</guid>
+      <description>table
+Guide lines to overlay over an image in crop and rotate. All guides are clipped to the drawing area.
+🔗darktable.guides.register_guide function( name : string, draw_callback : function, [gui_callback : function] ) Register a new guide.
+ name - string - The name of the guide to show in the GUI. draw_callback - function - The function to call to draw the guide lines. [gui_callback] - function - A function returning a widget to show when the guide is selected.</description>
+    </item>
+    
+    <item>
+      <title>darktable.tags</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.tags/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.tags/</guid>
+      <description>Allows access to all existing tags.
+🔗darktable.tags.# types.dt_lua_tag_t
+Each existing tag has a numeric entry in the tags table - use ipairs to iterate over them.
+🔗darktable.tags.create function( name : string ) Creates a new tag and return it. If the tag exists return the existing tag.
+ name - string - The name of the new tag.  🔗darktable.tags.find function( name : string ) : types.dt_lua_tag_t Returns the tag object or nil if the tag doesn&amp;rsquo;t exist.</description>
+    </item>
+    
+    <item>
+      <title>darktable.configuration</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.configuration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.configuration/</guid>
+      <description>table
+This table includes values that describe details of the configuration of darktable.
+🔗darktable.configuration.version string
+The version number of darktable.
+🔗darktable.configuration.has_gui boolean
+True if darktable has a GUI (launched through the main darktable command, not darktable-cli).
+🔗darktable.configuration.verbose boolean
+True if the Lua logdomain is enabled.
+🔗darktable.configuration.tmp_dir string
+The name of the directory where darktable will store temporary files.
+🔗darktable.configuration.config_dir string
+The name of the directory where darktable will find its global configuration objects (modules).</description>
+    </item>
+    
+    <item>
+      <title>darktable.preferences</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.preferences/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.preferences/</guid>
+      <description>table
+Lua allows you to manipulate preferences. Lua has its own namespace for preferences and you can&amp;rsquo;t access nor write normal darktable preferences. Preference handling functions take a script parameter. This is a string used to avoid name collision in preferences (i.e namespace). Set it to something unique, usually the name of the script handling the preference. Preference handling functions can&amp;rsquo;t guess the type of a parameter. You must pass the type of the preference you are handling.</description>
+    </item>
+    
+    <item>
+      <title>darktable.styles</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.styles/</guid>
+      <description>This pseudo table allows you to access and manipulate styles.
+🔗darktable.styles.# types.dt_style_t
+Each existing style has a numeric index; you can iterate them using ipairs.
+🔗darktable.styles.create function( image : types.dt_lua_image_t, name : string, description : string ) : types.dt_style_t Create a new style based on an image.
+ image - types.dt_lua_image_t - The image to create the style from. name - string - The name to give to the new style.</description>
+    </item>
+    
+    <item>
+      <title>darktable.collection</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.collection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.collection/</guid>
+      <description>Allows to access the currently worked on images, i.e the ones selected by the collection lib. Filtering (rating etc) does not change that collection.
+🔗darktable.collection.# types.dt_lua_image_t
+Each image in the collection appears with a numerical index; you can iterate them using ipairs.</description>
+    </item>
+    
+    <item>
+      <title>darktable.database</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.database/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.database/</guid>
+      <description>Allows access to the database of images. Note that duplicate images (images with the same RAW but different XMP) will appear multiple times with different duplicate indexes. Also note that all images are here. This table is not influenced by any GUI filtering (collections, stars etc&amp;hellip;).
+🔗darktable.database.# types.dt_lua_image_t
+Each image in the database appears with a numerical index; you can iterate over them using ipairs.
+🔗darktable.database.duplicate function( image : types.dt_lua_image_t ) : types.</description>
+    </item>
+    
+    <item>
+      <title>darktable.control</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.control/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.control/</guid>
+      <description>This table contain function to manipulate the control flow of lua programs. It provides ways to do background jobs and other related functions
+🔗darktable.control.ending boolean
+TRUE when darktable is terminating Use this variable to detect when you should finish long running jobs
+🔗darktable.control.dispatch function( function : function, ... : anything ) Runs a function in the background. This function will be run at a later point, after luarc has finished running.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gettext</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gettext/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gettext/</guid>
+      <description>table
+This table contains functions related to translating lua scripts
+🔗darktable.gettext.gettext function( msgid : string ) : string Translate a string using the darktable textdomain
+ msgid - string - The string to translate return - string - The translated string  🔗darktable.gettext.dgettext function( domainname : string, msgid : string ) : string Translate a string using the specified textdomain
+ domainname - string - The domain to use for that translation msgid - string - The string to translate return - string - The translated string  🔗darktable.</description>
+    </item>
+    
+    <item>
+      <title>darktable.debug</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.debug/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.debug/</guid>
+      <description>table
+This section must be activated separately by calling require darktable.debug
+🔗darktable.debug.dump function( object : anything, [name : string], [known : table] ) : string This will return a string describing everything Lua knows about an object, used to know what an object is. This function is recursion-safe and can be used to dump _G if needed.
+ object - anything - The object to dump. [name] - string - A name to use for the object.</description>
+    </item>
+    
+  </channel>
+</rss>

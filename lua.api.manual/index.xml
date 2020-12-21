@@ -6,5 +6,18 @@
     <description>Recent content in Lua API Manual on darktable lua documentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api.manual/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>attributes</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/attributes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/attributes/</guid>
+      <description>This section documents various attributes used throughout the documentation.
+🔗write This object is a variable that can be written to.
+🔗has_tostring This object has a specific reimplementation of the &amp;ldquo;tostring&amp;rdquo; method that allows pretty-printing it.
+🔗implicit_yield This call will release the Lua lock while executing, thus allowing other Lua callbacks to run.
+🔗parent This object inherits some methods from another object. You can call the methods from the parent on the child object</description>
+    </item>
+    
   </channel>
 </rss>
