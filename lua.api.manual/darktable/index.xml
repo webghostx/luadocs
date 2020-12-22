@@ -23,7 +23,7 @@ All functions and data are accessed through the darktable module.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print/</guid>
-      <description>function\( message : string \) Will print a string to the darktable control log (the long overlaid window that appears over the main panel).
+      <description>function( message : string ) Will print a string to the darktable control log (the long overlaid window that appears over the main panel).
  message - string - The string to display which should be a single line.  </description>
     </item>
     
@@ -63,7 +63,7 @@ All functions and data are accessed through the darktable module.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_storage/</guid>
-      <description>function( plugin_name : string, name : string, [store : function], [finalize : function], [supported : function], [initialize : function], [widget : types.lua_widget] ) This function will add a new storage implemented in Lua. A storage is a module that is responsible for handling images once they have been generated during export. Examples of core storages include filesystem, e-mail, facebook&amp;hellip;
+      <description>function( plugin_name : string, name : string, [store : function], [finalize : function], [supported : function], [initialize : function], [widget : types.lua_widget] ) This function will add a new storage implemented in Lua. A storage is a module that is responsible for handling images once they have been generated during export. Examples of core storages include filesystem, e-mail, pwigo&amp;hellip;
  plugin_name - string - A unique name for the plugin. name - string - A human readable name for the plugin.</description>
     </item>
     

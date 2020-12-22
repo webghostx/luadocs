@@ -2411,7 +2411,7 @@ ipairs.</p>
 <ul>
 <li><strong>location</strong> - <em>string</em> - The filename or directory to import images from. NOTE: If the images are set to be
 imported recursively in preferences only the toplevel film is returned (the one whose
-path was given as a parameter). NOTE2: If the parameter is a directory the call is nonblocking; the film object will not have the newly imported images yet. Use a postimport-film filtering on that film to react when images are actually imported.</li>
+path was given as a parameter). NOTE 2: If the parameter is a directory the call is nonblocking; the film object will not have the newly imported images yet. Use a <a href="..//../events/post-imort-film">post-import-film</a> filtering on that film to react when images are actually imported.</li>
 <li><strong>return</strong> - <em><a href="../../types/dt_lua_image_t">types.dt_lua_image_t</a></em> - The created image if an image is imported or the toplevel film object if a film was
 imported.</li>
 </ul>
