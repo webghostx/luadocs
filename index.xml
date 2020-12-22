@@ -2548,7 +2548,7 @@ Attributes:
  write  🔗lua_widget.tooltip string or nil
 Tooltip to display for the widget
 Attributes:
- write  🔗lua_widget.reset_callback function( widget : types.lua_widget ) A function to call when the widget needs to reset itself Note that some widgets have a default implementation that can be overridden, (containers in particular will recursively reset their children).</description>
+ write  🔗lua_widget.reset_callback function( widget : types.lua_widget ) A function to call when the widget needs to reset itself. Note that some widgets have a default implementation that can be overridden, (containers in particular will recursively reset their children).</description>
     </item>
     
     <item>
@@ -2696,12 +2696,12 @@ Attributes:
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_combobox/</guid>
       <description>dt_type
-A widget with multiple text entries in a menu This widget can be set as editable at construction time. If it is editable the user can type a value and is not constrained by the values in the menu
+A widget with multiple text entries in a menu. This widget can be set as editable at construction time. If it is editable the user can type a value and is not constrained by the values in the menu.
 Attributes:
  has_tostring parent : types.lua_widget  🔗lua_combobox.__call see types.lua_widget.As a function
 🔗lua_combobox.extra registration parameters This widget has no extra registration parameters
 🔗lua_combobox.value string
-The text content of the selected entry, can be nil You can set it to a number to select the corresponding entry from the menu If the combo box is editable, you can set it to any string You can set it to nil to deselect all entries</description>
+The text content of the selected entry, can be nil.</description>
     </item>
     
     <item>
@@ -2748,15 +2748,15 @@ The currently selected child, can be nil if the container has no child, can be s
       <description>dt_type
 A slider that can be set by the user
 Attributes:
- has_tostring parent : types.lua_widget  2.63.1. types.lua_slider.__call see types.lua_widget.As a function
-2.63.2. types.lua_slider.extra registration parameters This widget has no extra registration parameters
-2.63.3. types.lua_slider.soft_min
-number
+ has_tostring parent : types.lua_widget  🔗lua_slider.__call see types.lua_widget.As a function
+🔗lua_slider.extra registration parameters This widget has no extra registration parameters
+🔗lua_slider.soft_min number
 The soft minimum value for the slider, the slider can&amp;rsquo;t go beyond this point
 Attributes:
- write  2.63.4. types.lua_slider.soft_max
-number
-The soft maximum value for the slider, the slider can&amp;rsquo;t go beyond this point</description>
+ write  🔗lua_slider.soft_max number
+The soft maximum value for the slider, the slider can&amp;rsquo;t go beyond this point
+Attributes:
+ write  🔗lua_slider.</description>
     </item>
     
     <item>

@@ -2574,7 +2574,7 @@ from 0.</p>
 <h1 id="dt_lua_image_tis_raw"><a href="#dt_lua_image_tis_raw">🔗</a>dt_lua_image_t.is_raw</h1>
 <p><code>boolean</code></p>
 <p>True if the image is a RAW file.
-WARNING: This is a flag that gets set the first time the image is opened, either by an edit
+<strong>WARNING:</strong> This is a flag that gets set the first time the image is opened, either by an edit
 or thumbnail generation. If images are imported using darktable.database.import(), then
 dt_lua_image_t.is_raw is not guaranteed to be correct.</p>
 <h1 id="dt_lua_image_tis_ldr"><a href="#dt_lua_image_tis_ldr">🔗</a>dt_lua_image_t.is_ldr</h1>
@@ -2673,8 +2673,8 @@ iterate through that table).</p>
 <pre><code>self:function(
 )
 </code></pre><p>drops the cached version of this image.
-This function should be called if an image is modified out of darktable to force DT to regenerate the thumbnail
-darktable will regenerate the thumbnail by itself when it is needed</p>
+This function should be called if an image is modified out of darktable to force darktable to regenerate the thumbnail.
+darktable will regenerate the thumbnail by itself when it is needed.</p>
 <ul>
 <li><strong>self</strong> - <em><a href="/luadocs/lua.api.manual/types/dt_lua_image_t/">types.dt_lua_image_t</a></em> - The image whose cache must be dropped.</li>
 </ul>
