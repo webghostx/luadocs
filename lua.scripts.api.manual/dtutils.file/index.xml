@@ -32,7 +32,8 @@
       <description>🔗NAME check_if_bin_exists
 🔗SYNOPSIS check if an executable exists
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_bin_exists(bin) bin - string - the binary to check for
-🔗DESCRIPTION check_if_bin_exists checks to see if the specified binary exists. check_if_bin_exists first checks to see if a preference for the binary has been registered and uses that if found. The presence of the file is verified, then quoted and returned. If no preference is specified and the operating system is linux then the which command is used to check for a binary in the path.</description>
+🔗DESCRIPTION check_if_bin_exists checks to see if the specified binary exists. check_if_bin_exists looks for an executable in the following order:
+  If an executable preference is registered, then it&amp;rsquo;s checked to make sure it&amp;rsquo;s a file, exists, and is executable. If it passes all these tests it is returned to the caller.</description>
     </item>
     
     <item>
@@ -255,6 +256,19 @@ path - string - the path to the binary
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.split_filepath(filepath) filepath - string - path and filename
 🔗DESCRIPTION split_filepath splits a filepath into the path, filename, basename and filetype and puts that in a table
 🔗RETURN VALUE result - table - a table containing the path, filename, basename, and filetype</description>
+    </item>
+    
+    <item>
+      <title>test_file</title>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/</guid>
+      <description>🔗NAME test_file
+🔗SYNOPSIS test a file to see what it is
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.test_file(path, test) path - string - path and filename test - char - one of d, e, f, x where
+ d - directory e - exists f - file x - executable  🔗DESCRIPTION test_file checks a specified path to see if it meets the specified test
+🔗RETURN VALUE result - boolean - true if the path satisfies the test, false if not</description>
     </item>
     
   </channel>

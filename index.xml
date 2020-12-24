@@ -224,7 +224,8 @@ All functions and data are accessed through the darktable module.</description>
       <description>🔗NAME check_if_bin_exists
 🔗SYNOPSIS check if an executable exists
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.check_if_bin_exists(bin) bin - string - the binary to check for
-🔗DESCRIPTION check_if_bin_exists checks to see if the specified binary exists. check_if_bin_exists first checks to see if a preference for the binary has been registered and uses that if found. The presence of the file is verified, then quoted and returned. If no preference is specified and the operating system is linux then the which command is used to check for a binary in the path.</description>
+🔗DESCRIPTION check_if_bin_exists checks to see if the specified binary exists. check_if_bin_exists looks for an executable in the following order:
+  If an executable preference is registered, then it&amp;rsquo;s checked to make sure it&amp;rsquo;s a file, exists, and is executable. If it passes all these tests it is returned to the caller.</description>
     </item>
     
     <item>
@@ -846,9 +847,8 @@ This event is triggered when an film import is finished (all post-import-image c
       
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/</guid>
       <description>🔗Name script_manager.lua - a tool for managing the darktable lua scripts
-🔗Description script_manager is designed to run as a standalone script so that it may be used as a drop in luarc file in the user&amp;rsquo;s $HOME/.config/darktable ($HOME/AppData/Local/darktable on windows) directory. It may also be required from a luarc file.
-On startup script_manager checks to see if there is an existing scripts directory.
-If there is an existing lua scripts directory then it is read to see what scripts are present.</description>
+🔗Description script_manager is designed to be called from the users luarc file and used to manage the lua scripts.
+On startup script_manager scans the lua scripts directory to see what scripts are present. Scripts are sorted by &amp;lsquo;category&amp;rsquo; based on what sub-directory they are in. With no additional script repositories iinstalled, the categories are contrib, examples, official and tools. When a category is selected the buttons show the script name and whether the script is started or stopped.</description>
     </item>
     
     <item>
@@ -1918,6 +1918,19 @@ Attributes:
 🔗Description darktable KML export script
 🔗Usage  start this script from script manager when choosing file format, pick JPEG or PNG as Google Earth doesn&amp;rsquo;t support other formats  🔗Additional Software Required  zip (at the moment Linux only and only if you create KMZ files) magick (ImageMagick) xdg-user-dir (Linux)  🔗Limitations This script is only tested with Linux
 🔗Author Tobias Jakobs</description>
+    </item>
+    
+    <item>
+      <title>test_file</title>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/</guid>
+      <description>🔗NAME test_file
+🔗SYNOPSIS test a file to see what it is
+🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local result = df.test_file(path, test) path - string - path and filename test - char - one of d, e, f, x where
+ d - directory e - exists f - file x - executable  🔗DESCRIPTION test_file checks a specified path to see if it meets the specified test
+🔗RETURN VALUE result - boolean - true if the path satisfies the test, false if not</description>
     </item>
     
     <item>

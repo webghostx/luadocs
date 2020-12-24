@@ -56,9 +56,8 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
       
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/script_manager/</guid>
       <description>🔗Name script_manager.lua - a tool for managing the darktable lua scripts
-🔗Description script_manager is designed to run as a standalone script so that it may be used as a drop in luarc file in the user&amp;rsquo;s $HOME/.config/darktable ($HOME/AppData/Local/darktable on windows) directory. It may also be required from a luarc file.
-On startup script_manager checks to see if there is an existing scripts directory.
-If there is an existing lua scripts directory then it is read to see what scripts are present.</description>
+🔗Description script_manager is designed to be called from the users luarc file and used to manage the lua scripts.
+On startup script_manager scans the lua scripts directory to see what scripts are present. Scripts are sorted by &amp;lsquo;category&amp;rsquo; based on what sub-directory they are in. With no additional script repositories iinstalled, the categories are contrib, examples, official and tools. When a category is selected the buttons show the script name and whether the script is started or stopped.</description>
     </item>
     
   </channel>

@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>darktable lua documentation - external_command</title>
+<title>darktable lua documentation - test_file</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -1114,7 +1114,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/" class=" active">
           test_file
       </a>
 
@@ -1287,7 +1287,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/" class=" active">
+      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/" class="">
           external_command
       </a>
 
@@ -2373,19 +2373,19 @@
 	
 
 
-<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.api.manual/'>Lua Scripts Libraries API Manual</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/'>dtutils.system</a> / external_command
+<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.api.manual/'>Lua Scripts Libraries API Manual</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/'>dtutils.file</a> / test_file
     </span>
 </div>
     
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/" class="next">&lt; details</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/" class="next">&lt; split_filepath</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/" class="prev">launch_default_app &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/" class="prev">dtutils.log &gt;</a>
 	
     </div>
 </div>
@@ -2394,21 +2394,28 @@
 <article role="main">
 
     <h1 class="title">
-        external_command
+        test_file
     </h1>
 
     <h2 id="name"><a href="#name">🔗</a>NAME</h2>
-<p>external_command</p>
+<p>test_file</p>
 <h2 id="synopsis"><a href="#synopsis">🔗</a>SYNOPSIS</h2>
-<p>pass a command to the operating system for execution and return the result</p>
+<p>test a file to see what it is</p>
 <h2 id="usage"><a href="#usage">🔗</a>USAGE</h2>
-<pre><code>local dsys = require &quot;lib/dtutils.system&quot;
-local result = dsys.external_command(command)
-</code></pre><p><strong>command</strong> - <em>string</em> - a string containing the command and arguments to be passed to the operating system for execution.</p>
+<pre><code>local df = require &quot;lib/dtutils.file&quot;
+local result = df.test_file(path, test)
+</code></pre><p><strong>path</strong> - <em>string</em> - path and filename
+<strong>test</strong> - <em>char</em> - one of d, e, f, x where</p>
+<ul>
+<li>d - directory</li>
+<li>e - exists</li>
+<li>f - file</li>
+<li>x - executable</li>
+</ul>
 <h2 id="description"><a href="#description">🔗</a>DESCRIPTION</h2>
-<p><strong>external_command</strong> passes a command to the operating system for execution and returns the results.</p>
+<p><strong>test_file</strong> checks a specified path to see if it meets the specified test</p>
 <h2 id="return-value"><a href="#return-value">🔗</a>RETURN VALUE</h2>
-<p><strong>result</strong> - <em>number</em> = the return value signalling success or failure.</p>
+<p><strong>result</strong> - <em>boolean</em> - true if the path satisfies the test, false if not</p>
 
 
     
@@ -2417,12 +2424,12 @@ local result = dsys.external_command(command)
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/details/" class="next">&lt; details</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/split_filepath/" class="next">&lt; split_filepath</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/launch_default_app/" class="prev">launch_default_app &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/" class="prev">dtutils.log &gt;</a>
 	
     </div>
 </div>

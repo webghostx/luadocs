@@ -675,6 +675,10 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.debug/</loc>
   </url>
   

@@ -1109,6 +1109,16 @@
       </a>
 
    </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/test_file/" class="">
+          test_file
+      </a>
+
+   </li>
    </ul>
    </li>
    
@@ -2391,24 +2401,74 @@
     <h2 id="name"><a href="#name">🔗</a>Name</h2>
 <p>script_manager.lua - a tool for managing the darktable lua scripts</p>
 <h2 id="description"><a href="#description">🔗</a>Description</h2>
-<p>script_manager is designed to run as a standalone script so that it
-may be used as a drop in luarc file in the user&rsquo;s $HOME/.config/darktable
-($HOME/AppData/Local/darktable on windows)  directory.  It may also be
-required from a luarc file.</p>
-<p>On startup script_manager checks to see if there is an  existing scripts directory.<br>
-If there is an existing lua scripts directory then it is read to see what scripts are present.<br>
-Scripts are sorted by &ldquo;category&rdquo; based on what subdirectory they are found in, thus with a lua
-scripts directory that matched the current repository the categories would be contrib, examples,
-offical, and tools.  Each script has an Enable/Disable button to enable or disable the script.</p>
-<p>A link is created to the user&rsquo;s Downloads directory on linux, unix and MacOS.  Windows users must create the
-link manually using mklink.exe.  Additional &ldquo;un-official&rdquo; scripts may be downloaded
-from other sources and placed in the users Downloads directory.  These scripts all fall in a downloads category.<br>
-They also each have an Enable/Disable button.</p>
+<p>script_manager is designed to be called from the users luarc file and used to manage the lua scripts.</p>
+<p>On startup script_manager scans the lua scripts directory to see what scripts are present.
+Scripts are sorted by &lsquo;category&rsquo; based on what sub-directory they are in.  With no
+additional script repositories iinstalled, the categories are contrib, examples, official
+and tools.  When a category is selected the buttons show the script name and whether the
+script is started or stopped.  The button is a toggle, so if the script is stopped click
+the button to start it and vice versa.</p>
+<h2 id="features"><a href="#features">🔗</a>Features</h2>
+<ul>
+<li>
+<p>the number of script buttons shown can be changed to any number between 5 and 20.  The default is 10 buttons.  This can be changed in the configuration action.</p>
+</li>
+<li>
+<p>additional repositories of scripts may be installed from the install/update action.</p>
+</li>
+<li>
+<p>installed scripts can be updated from the install/update action.  This includes extra repositories that have been installed.</p>
+</li>
+<li>
+<p>the lua scripts can be disabled if desired from the install/update action.</p>
+</li>
+<li>
+<p>script_manager is automatically installed and enabled when the lua scripts are installed by the darktable scripts_installer.</p>
+</li>
+</ul>
 <h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
+<ul>
+<li>
+<p>start/stop scripts -</p>
+<ul>
+<li>The top part of the window has the <strong>category selector</strong>.  The category corresponds to the directory that the scripts are in. Currently the categories are <em>contrib</em> for community contributed scripts, <em>examples</em> for example scripts, <em>official</em> for developer contributed scripts,
+and <em>tools</em> containing tools for managing the lua scripts.</li>
+<li>The lower part of the window contains the paged interface for the scripts contained in the selected category.  There are arrow buttons for navigating the pages and an indicator showing what the current page is and how many pages of scripts there are for the current category.    The number of buttons defaults to 10, but is configurable anywhere between 5 and 20 depending on how much screen real estate you want to use.  The scripts are sorted alphabetically.  The button shows the name of the script and it&rsquo;s current status, started or stopped.  Clicking the script button toggles the script from started to stopped and back again.</li>
+</ul>
+</li>
+<li>
+<p>configure - this window allows changing the number of buttons used to display scripts.  Move the slider to select the number of buttons, click the <em>change number of buttons</em>  button and the number of buttons will change and the action will change back to the start/stop scripts window.</p>
+</li>
+<li>
+<p>install/update scripts - This window allows installing additional script repositories and updating installed repositories.</p>
+<ul>
+<li>
+<p>update - select the scripts to update from the <em>scripts to update</em> dropdown.  Click the <em>update scripts</em> button to do the update.</p>
+</li>
+<li>
+<p>install - additional script repositories can be added to your lua scripts.  To add another repository fill in the <em>URL to download additional scripts from</em> and then fill in the <em>new category to place scripts in</em>. Click the <em>install additional scripts</em> button and the category (directory) is created and a git clone is performed to retrieve the git repository.  EXAMPLE: fill in <em>URL to download additional scripts from</em> with <a href="https://github.com/wpferguson/extra-dt-lua-scripts.git">https://github.com/wpferguson/extra-dt-lua-scripts.git</a> and the <em>new category to place scripts in</em> with wpferguson.  Click the button to install the scripts.  The scripts are retrieved and added to the user interface and the window changes to the newly installed script category.</p>
+</li>
+<li>
+<p>disable scripts - the lua scripts are installed by the darktable scripts installer.  If you install them and later decide you no longer want them cluttering up your user interface, this option can disable them and stop them from starting.  Once they are disabled, the way to enable them again is to rename a file using the terminal and command line.  To disable the scritps first click the checkbox to enable the <em>Disable Scripts</em> button.  This is to prevent accidentally disabling the lua scripts.  Once the <em>Disable Scripts</em> button is active, click it to disable the scripts.  When the button is clicked, the luarc file is renamed to luarc.disabled which results in the scripts not starting the next time darktable starts.</p>
+</li>
+</ul>
+</li>
+</ul>
 <h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
+<p>git - wwww.git.org - git is used to install and update the scripts.  script_manager will still run if git is not installed or accessible, but installing and updating scripts will not be possible.</p>
 <h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>
+<ul>
+<li>
+<p>There isn&rsquo;t currently a way to stop an executing script and remove it from the interface, so when a script is stopped the script preference is set to not start the next time darktable starts.</p>
+</li>
+<li>
+<p>If the scripts are disabled by choice the only way to enable them is by renaming the file luarc.disabled to luarc.  Then file is located in the user&rsquo;s darktable configuration directory, $HOME/.config/darktable on linux and macos and %LOCALAPPDATA%\darktable on windows.</p>
+</li>
+</ul>
 <h2 id="author"><a href="#author">🔗</a>Author</h2>
+<p>Bill Ferguson &lt;wpferguson@gmail.com&gt;</p>
 <h2 id="change-log"><a href="#change-log">🔗</a>Change Log</h2>
+<p>20201225 - Rewrite for darktable 3.4 - Merry Christmas</p>
 
 
     
