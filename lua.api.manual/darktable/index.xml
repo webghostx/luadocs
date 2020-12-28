@@ -194,6 +194,17 @@ Lua allows you to manipulate preferences. Lua has its own namespace for preferen
     </item>
     
     <item>
+      <title>darktable.password</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/password/</guid>
+      <description>🔗Lua API 6.2.0 Store and retrieve credentials using the darktable password storage backend.
+🔗darktable.password.save function( application : string, username : string, password : string ) :boolean Save a username/password pair for use accessing an application.
+ application - string - Name of application or website. username - string - The username used to access the application or website. password - string - The credential used to authenticate the username. return - boolean - True if the credentials are saved, false if they are not.</description>
+    </item>
+    
+    <item>
       <title>darktable.styles</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.styles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

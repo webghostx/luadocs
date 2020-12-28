@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>darktable lua documentation - lua_check_button</title>
+<title>darktable lua documentation - darktable.password</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -1509,7 +1509,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/password/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/password/" class=" active">
           darktable.password
       </a>
 
@@ -2130,7 +2130,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_check_button/" class=" active">
+      <a href="https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_check_button/" class="">
           lua_check_button
       </a>
 
@@ -2393,19 +2393,19 @@
 	
 
 
-<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.api.manual/'>Lua API Manual</a> / <a href='https://darktable-org.github.io/luadocs/lua.api.manual/types/'>types</a> / lua_check_button
+<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.api.manual/'>Lua API Manual</a> / <a href='https://darktable-org.github.io/luadocs/lua.api.manual/darktable/'>darktable</a> / darktable.password
     </span>
 </div>
     
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_container/" class="next">&lt; lua_container</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.preferences/" class="next">&lt; darktable.preferences</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_label/" class="prev">lua_label &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.styles/" class="prev">darktable.styles &gt;</a>
 	
     </div>
 </div>
@@ -2414,45 +2414,34 @@
 <article role="main">
 
     <h1 class="title">
-        lua_check_button
+        darktable.password
     </h1>
 
-    <p><code>dt_type</code></p>
-<p>A checkable button with a label next to it
-Attributes:</p>
-<ul>
-<li><a href="/luadocs/lua.api.manual/attributes/#has_tostring">has_tostring</a></li>
-<li><a href="/luadocs/lua.api.manual/attributes/#parent">parent</a> : <a href="/luadocs/lua.api.manual/types/lua_widget/">types.lua_widget</a></li>
-</ul>
-<h1 id="lua_check_button__call"><a href="#lua_check_button__call">🔗</a>lua_check_button.__call</h1>
-<p>see <a href="/luadocs/lua.api.manual/types/lua_widget/#lua_widgetas-a-function">types.lua_widget.As a function</a></p>
-<h1 id="lua_check_buttonextra-registration-parameters"><a href="#lua_check_buttonextra-registration-parameters">🔗</a>lua_check_button.extra registration parameters</h1>
-<p>This widget has no extra registration parameters</p>
-<h1 id="lua_check_buttonlabel"><a href="#lua_check_buttonlabel">🔗</a>lua_check_button.label</h1>
-<p><code>string</code></p>
-<p>The label displayed next to the button</p>
-<p>Attributes:</p>
-<ul>
-<li><a href="/luadocs/lua.api.manual/attributes/#write">write</a></li>
-</ul>
-<h1 id="lua_check_buttonvalue"><a href="#lua_check_buttonvalue">🔗</a>lua_check_button.value</h1>
-<p><code>boolean</code></p>
-<p>If the widget is checked or not</p>
-<p>Attributes:</p>
-<ul>
-<li><a href="/luadocs/lua.api.manual/attributes/#write">write</a></li>
-</ul>
-<h1 id="lua_check_buttonclicked_callback"><a href="#lua_check_buttonclicked_callback">🔗</a>lua_check_button.clicked_callback</h1>
+    <h2 id="lua-api-620"><a href="#lua-api-620">🔗</a>Lua API 6.2.0</h2>
+<p>Store and retrieve credentials using the darktable password storage backend.</p>
+<h1 id="darktablepasswordsave"><a href="#darktablepasswordsave">🔗</a>darktable.password.save</h1>
 <pre><code>function(
-  widget : types.lua_widget
-)
-</code></pre><p>A function to call on button click</p>
+  application : string,
+  username : string,
+  password : string
+) :boolean
+</code></pre><p>Save a username/password pair for use accessing an application.</p>
 <ul>
-<li><strong>widget</strong> - <em><a href="/luadocs/lua.api.manual/types/lua_widget/">types.lua_widget</a></em> - The widget that triggered the callback</li>
+<li><strong>application</strong> - <em>string</em> - Name of application or website.</li>
+<li><strong>username</strong> - <em>string</em> - The username used to access the application or website.</li>
+<li><strong>password</strong> - <em>string</em> - The credential used to authenticate the username.</li>
+<li><strong>return</strong> - <em>boolean</em> - True if the credentials are saved, false if they are not.</li>
 </ul>
-<p>Attributes:</p>
+<h1 id="darktablepasswordget"><a href="#darktablepasswordget">🔗</a>darktable.password.get</h1>
+<pre><code>function(
+  application : string,
+  username : string
+) :string
+</code></pre><p>Retrieves the password associated with the username for the application.</p>
 <ul>
-<li><a href="/luadocs/lua.api.manual/attributes/#write">write</a></li>
+<li><strong>application</strong> - <em>string</em> - Name of application or website.</li>
+<li><strong>username</strong> - <em>string</em> - The username used to access the application or website.</li>
+<li><strong>return</strong> - <em>string</em> - The credentials used to authenticate the user.  Nil is returned if there is an error or the crendentials don&rsquo;t exist.</li>
 </ul>
 
 
@@ -2462,12 +2451,12 @@ Attributes:</p>
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_container/" class="next">&lt; lua_container</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.preferences/" class="next">&lt; darktable.preferences</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_label/" class="prev">lua_label &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.styles/" class="prev">darktable.styles &gt;</a>
 	
     </div>
 </div>

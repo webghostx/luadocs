@@ -47,6 +47,10 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/version/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/</loc>
   </url>
   
@@ -596,6 +600,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/mkdir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/password/</loc>
   </url>
   
   <url>

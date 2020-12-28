@@ -7,6 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api.manual/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Lua API Version</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/version/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/version/</guid>
+      <description>🔗Current API The Lua API version currently used in darktable 3.4 is 6.1.0.
+🔗Development API The current Lua API is currently at version 6.2.0 in the development branch of darktable (currently 3.5). All changes for version 6.2.0 will be identified as such until version 6.2.0 is included in a darktable release.</description>
+    </item>
+    
+    <item>
       <title>attributes</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/attributes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
