@@ -776,13 +776,17 @@ Values:
 Common parent type for all lua-handled widgets
 Attributes:
  has_tostring  🔗lua_widget.extra registration parameters This widget has no extra registration parameters
-🔗lua_widget.sensitive boolean
+🔗lua_widget.name Lua API 6.2.0
+string or nil
+Name assigned to the widget for CSS styling purposes.
+Attributes:
+ write  🔗lua_widget.sensitive boolean
 Set if the widget is enabled/disabled
 Attributes:
  write  🔗lua_widget.tooltip string or nil
 Tooltip to display for the widget
 Attributes:
- write  🔗lua_widget.reset_callback function( widget : types.lua_widget ) A function to call when the widget needs to reset itself. Note that some widgets have a default implementation that can be overridden, (containers in particular will recursively reset their children).</description>
+ write  🔗lua_widget.reset_callback function( widget : types.</description>
     </item>
     
     <item>
