@@ -190,7 +190,7 @@ The name of the directory where darktable will find its global configuration obj
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.preferences/</guid>
       <description>table
-Lua allows you to manipulate preferences. Lua has its own namespace for preferences and you can&amp;rsquo;t access nor write normal darktable preferences. Preference handling functions take a script parameter. This is a string used to avoid name collision in preferences (i.e namespace). Set it to something unique, usually the name of the script handling the preference. Preference handling functions can&amp;rsquo;t guess the type of a parameter. You must pass the type of the preference you are handling.</description>
+Lua allows you to manipulate preferences. Lua has its own namespace for preferences and you can&amp;rsquo;t write normal darktable preferences. Preference handling functions take a script parameter. This is a string used to avoid name collision in preferences (i.e namespace). Set it to something unique, usually the name of the script handling the preference. Preference handling functions can&amp;rsquo;t guess the type of a parameter. You must pass the type of the preference you are handling.</description>
     </item>
     
     <item>

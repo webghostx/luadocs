@@ -2419,7 +2419,7 @@
 
     <p><code>table</code></p>
 <p>Lua allows you to manipulate preferences. Lua has its own namespace for preferences and
-you can&rsquo;t access nor write normal darktable preferences.
+you can&rsquo;t write normal darktable preferences.
 Preference handling functions take a <em>script</em> parameter. This is a string used to avoid
 name collision in preferences (i.e namespace). Set it to something unique, usually the
 name of the script handling the preference.
@@ -2476,7 +2476,7 @@ For the enum type of pref, this is mandatory</li>
 ) : depends on type
 </code></pre><p>Reads a value from a Lua preference.</p>
 <ul>
-<li><strong>script</strong> - <em>string</em> - Invisible prefix to guarantee unicity of preferences.</li>
+<li><strong>script</strong> - <em>string</em> - Invisible prefix to guarantee unicity of preferences. <strong>Lua API 6.2.0</strong> Specifying &ldquo;darktable&rdquo; as the script name allows access to the darktable core preferences.</li>
 <li><strong>name</strong> - <em>string</em> - The name of the preference displayed in the preference screen.</li>
 <li><strong>type</strong> - <em><a href="../../types/lua_pref_type">types.lua_pref_type</a></em> - The type of the preference.</li>
 <li><strong>return</strong> - <em>depends on type</em> - The value of the preference.</li>
@@ -2494,6 +2494,28 @@ For the enum type of pref, this is mandatory</li>
 <li><strong>name</strong> - <em>string</em> - The name of the preference displayed in the preference screen.</li>
 <li><strong>type</strong> - <em><a href="../../types/lua_pref_type">types.lua_pref_type</a></em> - The type of the preference.</li>
 <li><strong>value</strong> - <em>depends on type</em> - The value to set the preference to.</li>
+</ul>
+<p><strong>Lua API 6.2.0</strong></p>
+<h1 id="darktablepreferencesdestroy"><a href="#darktablepreferencesdestroy">🔗</a>darktable.preferences.destroy</h1>
+<pre><code>function(
+  script : string,
+  name : string,
+) : return boolean
+</code></pre><p>Destroys a lua preference key and value.</p>
+<ul>
+<li><strong>script</strong> - <em>string</em> - Invisible prefix to guarantee unicity of preferences.</li>
+<li><strong>name</strong> - <em>string</em> - The name of the preference displayed in the preference screen.</li>
+<li><strong>return</strong> - <em>boolean</em> - True for success, false otherwise.</li>
+</ul>
+<p><strong>Lua API 6.2.0</strong></p>
+<h1 id="darktablepreferencesget_keys"><a href="#darktablepreferencesget_keys">🔗</a>darktable.preferences.get_keys</h1>
+<pre><code>function(
+  script : string,
+  name : string,
+) : return table of strings
+</code></pre><p>Get all of the darktable core and lua preference keys and return them in a sorted table.</p>
+<ul>
+<li><strong>return</strong> - <em>table of string</em> - Sorted darktable core preference and lua preference keys.</li>
 </ul>
 
 
