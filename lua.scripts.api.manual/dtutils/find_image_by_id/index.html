@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>darktable lua documentation - image_time</title>
+<title>darktable lua documentation - find_image_by_id</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -305,7 +305,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/" class=" active">
+      <a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_time/" class="">
           image_time
       </a>
 
@@ -812,7 +812,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/find_image_by_id/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/find_image_by_id/" class=" active">
           find_image_by_id
       </a>
 
@@ -2403,20 +2403,19 @@
 	
 
 
-
-<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.manual/'>Lua Scripts Manual</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/'>scripts</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/'>contrib</a> / image_time
+<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.api.manual/'>Lua Scripts Libraries API Manual</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/'>dtutils</a> / find_image_by_id
     </span>
 </div>
     
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/" class="next">&lt; image_stack</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/" class="next">&lt; check_os</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/" class="prev">kml_export &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/join/" class="prev">join &gt;</a>
 	
     </div>
 </div>
@@ -2425,70 +2424,21 @@
 <article role="main">
 
     <h1 class="title">
-        image_time
+        find_image_by_id
     </h1>
 
-    <h2 id="name"><a href="#name">🔗</a>Name</h2>
-<p>image_time.lua - synchronize image time for images shot with different cameras</p>
-<h2 id="description"><a href="#description">🔗</a>Description</h2>
-<p>image_time non destructively adjusts image times by modifying the
-database image exif_datetime_taken field.  There are 4 modes: adjust time,
-set time, synchronize time, and reset time.</p>
-<h3 id="adjust-time"><a href="#adjust-time">🔗</a>ADJUST TIME</h3>
-<p>adjust time mode lets you chose an offset in terms of years, months,
-days, hours, minutes, and seconds.  The adjustment can be added or
-subtracted.</p>
-<p>WARNING:  When adding and subtracting months the result will usually
-be what is expected unless the time being adjusted is at the end of
-the month.  This is because a month is a variable amount of time that
-can be 28, 29, 30 or 31 days depending on the month.  Example: It&rsquo;s
-March 31st and I subtract a month which not sets the time to February
-31st.  When that gets set to a valid time, then the date changes to
-March 3rd.</p>
-<h3 id="set-time"><a href="#set-time">🔗</a>SET TIME</h3>
-<p>set time mode allows you to pick a date and time and set the image
-time accordingly.  Fields may be left out.  This is useful when
-importing scanned images that don&rsquo;t have an embedded date.</p>
-<h3 id="synchronize-time"><a href="#synchronize-time">🔗</a>SYNCHRONIZE TIME</h3>
-<p>I recently purchased a 7DmkII to replace my aging 7D.  My 7D was still
-serviceable, so I bought a remote control and figured I&rsquo;d try shooting
-events from 2 different perspectives.  I didn&rsquo;t think to synchonize the
-time between the 2 cameras, so when I loaded the images and sorted by
-time it was a disaster.  I hacked a script together with hard coded values
-to adjust the exif_datetime_taken value in the database for the 7D images
-so that everything sorted properly.  I&rsquo;ve tried shooting with 2 cameras
-several times since that first attempt.  I&rsquo;ve gotten better at getting the
-camera times close, but still haven&rsquo;t managed to get them to sync.  So I
-decided to think the problem through and write a proper script to take
-care of the problem.</p>
-<h3 id="reset-time"><a href="#reset-time">🔗</a>RESET TIME</h3>
-<p>Select the images and click reset.</p>
-<h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
-<h3 id="adjust-time-1"><a href="#adjust-time-1">🔗</a>ADJUST TIME</h3>
-<p>Change the year, month, day, hour, minute, second dropdowns to the amount
-of change desired.  Select add or subtract.  Select the images.  Click
-adjust.</p>
-<h3 id="set-time-1"><a href="#set-time-1">🔗</a>SET TIME</h3>
-<p>Set the time fields to the desired time.  Select the images to change.  Click
-set.</p>
-<h3 id="synchronize-time-1"><a href="#synchronize-time-1">🔗</a>SYNCHRONIZE TIME</h3>
-<p>Select 2 images, one from each camera, of the same moment in time.  Click
-the Calculate button to calculate the time difference.  The difference is
-displayed in the difference entry.  You can manually adjust it by changing
-the value if necessary.</p>
-<p>Select the images that need their time adjusted.  Determine which way to adjust
-adjust the time (add or subtract) and select the appropriate choice.</p>
-<p>If the image times get messed up and you just want to start over, select reset time
-from the mode and reset the image times.</p>
-<h3 id="reset-time-1"><a href="#reset-time-1">🔗</a>RESET TIME</h3>
-<p>Select the images and click reset.</p>
-<h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
-<ul>
-<li>exiv2</li>
-</ul>
-<h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>
-<h2 id="author"><a href="#author">🔗</a>Author</h2>
-<p>Bill Ferguson - <a href="mailto:wpferguson@gmail.com">wpferguson@gmail.com</a></p>
+    <h2 id="name"><a href="#name">🔗</a>NAME</h2>
+<p>find_image_by_id</p>
+<h2 id="synopsis"><a href="#synopsis">🔗</a>SYNOPSIS</h2>
+<p>look up an image by ID in the database</p>
+<h2 id="usage"><a href="#usage">🔗</a>USAGE</h2>
+<pre><code>local du = require &quot;lib/dtutils&quot;
+local img = du.find_image_by_id(imgid)
+</code></pre><p><strong>imgid</strong> - int - the image ID to retrieve</p>
+<h2 id="description"><a href="#description">🔗</a>DESCRIPTION</h2>
+<p><strong>find_image_by_id</strong> looks up an image by ID in the database.</p>
+<h2 id="return-value"><a href="#return-value">🔗</a>RETURN VALUE</h2>
+<p><strong>img</strong> - <em><a href="/luadocs/lua.api.manual/types/dt_lua_image_t/">dt_lua_image_t</a></em> - image with the given ID if found, nil if not</p>
 
 
     
@@ -2497,12 +2447,12 @@ from the mode and reset the image times.</p>
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/image_stack/" class="next">&lt; image_stack</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/check_os/" class="next">&lt; check_os</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/kml_export/" class="prev">kml_export &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/join/" class="prev">join &gt;</a>
 	
     </div>
 </div>

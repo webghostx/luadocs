@@ -542,6 +542,19 @@ This event is triggered whenever a new image is imported into the database. This
     </item>
     
     <item>
+      <title>find_image_by_id</title>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/find_image_by_id/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils/find_image_by_id/</guid>
+      <description>🔗NAME find_image_by_id
+🔗SYNOPSIS look up an image by ID in the database
+🔗USAGE local du = require &amp;quot;lib/dtutils&amp;quot; local img = du.find_image_by_id(imgid) imgid - int - the image ID to retrieve
+🔗DESCRIPTION find_image_by_id looks up an image by ID in the database.
+🔗RETURN VALUE img - dt_lua_image_t - image with the given ID if found, nil if not</description>
+    </item>
+    
+    <item>
       <title>chop_filetype</title>
       <link>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/chop_filetype/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
