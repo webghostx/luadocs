@@ -2455,6 +2455,16 @@ path was given as a parameter). NOTE 2: If the parameter is a directory the call
 <li><strong>return</strong> - <em><a href="../../types/dt_lua_image_t">types.dt_lua_image_t</a></em> - The created image if an image is imported or the toplevel film object if a film was
 imported.</li>
 </ul>
+<h1 id="darktabledatabaseget_image"><a href="#darktabledatabaseget_image">🔗</a>darktable.database.get_image</h1>
+<p><strong>Lua API 6.2.0</strong></p>
+<pre><code>function(
+  image_id : int,
+) : types.dt_lua_image_t
+</code></pre><p>Get an image, specified by image_id, from the database.</p>
+<ul>
+<li><strong>image_id</strong> - <em>int</em> - The id number of the image to get</li>
+<li><strong>return</strong> - <em><a href="../../types/dt_lua_image_t">types.dt_lua_image_t</a></em> - The image object if found, otherwise nil</li>
+</ul>
 <h1 id="darktabledatabasemove_image"><a href="#darktabledatabasemove_image">🔗</a>darktable.database.move_image</h1>
 <pre><code>function(
   image : types.dt_lua_image_t,
