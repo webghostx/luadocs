@@ -16,60 +16,14 @@
     </item>
     
     <item>
-      <title>intermediate-export-image</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/intermediate-export-image/</link>
+      <title>exit</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/exit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/intermediate-export-image/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/exit/</guid>
       <description>event
-This event is called each time an image is exported, once for each image after the image has been processed to an image format but before the storage has moved the image to its final destination. The call is blocking.
-🔗intermediate-export-image.callback function( event : string, image : types.dt_lua_image_t, filename : string, format : types.dt_imageio_module_format_t, storage : types.dt_imageio_module_storage_t )  event - string - The name of the event that triggered the callback.</description>
-    </item>
-    
-    <item>
-      <title>post-import-image</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-image/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-image/</guid>
-      <description>event
-This event is triggered whenever a new image is imported into the database. This event can be registered multiple times, all callbacks will be called. The call is blocking.
-🔗post-import-image.callback function( event : string, image : types.dt_lua_image_t )  event - string - The name of the event that triggered the callback. image - types.dt_lua_image_t - The image object that has been imported.  🔗post-import-image.extra registration parameters This event has no extra registration parameters.</description>
-    </item>
-    
-    <item>
-      <title>shortcut</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/shortcut/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/shortcut/</guid>
-      <description>event
-This event registers a new keyboard shortcut. The shortcut isn&amp;rsquo;t bound to any key until the users does so in the preference panel. The event is triggered whenever the shortcut is triggered. This event can only be registered once per value of shortcut.
-🔗shortcut.callback function( event : string, shortcut : string )  event - string - The name of the event that triggered the callback. shortcut - string - The tooltip string that was given at registration time.</description>
-    </item>
-    
-    <item>
-      <title>post-import-film</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-film/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-film/</guid>
-      <description>event
-This event is triggered when an film import is finished (all post-import-image callbacks have already been triggered). This event can be registered multiple times.
-🔗post-import-film.callback function( event : string, film : types.dt_lua_film_t )  event - string - The name of the event that triggered the callback. film - types.dt_lua_film_t - The new film that has been added. If multiple films were added recursively only the top level film is reported.</description>
-    </item>
-    
-    <item>
-      <title>view_changed</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/view-changed/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/view-changed/</guid>
-      <description>event
-This event is triggered after the user changed the active view
-#view-changed.callback
-function( event : string, old_view : types.dt_lua_view_t, new_view : types.dt_lua_view_t )  event - string - The name of the event that triggered the callback. old_view - types.dt_lua_view_t - The view that we just left new_view - types.dt_lua_view_t - The view we are now in  #view-changed.extra registration parameters
-This event has no extra registration parameters.</description>
+This event is triggered when darktable exits, it allows lua scripts to do cleanup jobs
+🔗events.exit.callback function( ) 🔗events.exit.extra registration parameters This event has no extra registration parameters.</description>
     </item>
     
     <item>
@@ -95,6 +49,17 @@ This event is triggered after the user toggled the overlay button.
     </item>
     
     <item>
+      <title>intermediate-export-image</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/intermediate-export-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/intermediate-export-image/</guid>
+      <description>event
+This event is called each time an image is exported, once for each image after the image has been processed to an image format but before the storage has moved the image to its final destination. The call is blocking.
+🔗intermediate-export-image.callback function( event : string, image : types.dt_lua_image_t, filename : string, format : types.dt_imageio_module_format_t, storage : types.dt_imageio_module_storage_t )  event - string - The name of the event that triggered the callback.</description>
+    </item>
+    
+    <item>
       <title>mouse-over-image-changed</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/mouse-over-image-changed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -106,14 +71,38 @@ This event is triggered whenever the image under the mouse changes
     </item>
     
     <item>
-      <title>exit</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/exit/</link>
+      <title>view_changed</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/view-changed/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/exit/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/view-changed/</guid>
       <description>event
-This event is triggered when darktable exits, it allows lua scripts to do cleanup jobs
-🔗events.exit.callback function( ) 🔗events.exit.extra registration parameters This event has no extra registration parameters.</description>
+This event is triggered after the user changed the active view
+#view-changed.callback
+function( event : string, old_view : types.dt_lua_view_t, new_view : types.dt_lua_view_t )  event - string - The name of the event that triggered the callback. old_view - types.dt_lua_view_t - The view that we just left new_view - types.dt_lua_view_t - The view we are now in  #view-changed.extra registration parameters
+This event has no extra registration parameters.</description>
+    </item>
+    
+    <item>
+      <title>post-import-film</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-film/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-film/</guid>
+      <description>event
+This event is triggered when an film import is finished (all post-import-image callbacks have already been triggered). This event can be registered multiple times.
+🔗post-import-film.callback function( event : string, film : types.dt_lua_film_t )  event - string - The name of the event that triggered the callback. film - types.dt_lua_film_t - The new film that has been added. If multiple films were added recursively only the top level film is reported.</description>
+    </item>
+    
+    <item>
+      <title>post-import-image</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-image/</guid>
+      <description>event
+This event is triggered whenever a new image is imported into the database. This event can be registered multiple times, all callbacks will be called. The call is blocking.
+🔗post-import-image.callback function( event : string, image : types.dt_lua_image_t )  event - string - The name of the event that triggered the callback. image - types.dt_lua_image_t - The image object that has been imported.  🔗post-import-image.extra registration parameters This event has no extra registration parameters.</description>
     </item>
     
     <item>
@@ -125,6 +114,29 @@ This event is triggered when darktable exits, it allows lua scripts to do cleanu
       <description>event
 This event is trigger before any import action
 🔗pre-import.callback function( event : string, images : table of string )  event - string - The name of the event that triggered the callback. images - table of string - The files that will be imported. Modifying this table will change the list of files that will be imported.  🔗pre-import.extra registration parameters This event has no extra registration parameters.</description>
+    </item>
+    
+    <item>
+      <title>selection-changed</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/selection-changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/selection-changed/</guid>
+      <description>API 6.2.1
+event
+This event is triggered whenever the selection of images changes
+🔗selection-changed.callback function( event : string )  event - string - The name of the event that triggered the callback.  🔗selection-changed.extra registration parameters This event has no extra registration parameters.</description>
+    </item>
+    
+    <item>
+      <title>shortcut</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/shortcut/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/shortcut/</guid>
+      <description>event
+This event registers a new keyboard shortcut. The shortcut isn&amp;rsquo;t bound to any key until the users does so in the preference panel. The event is triggered whenever the shortcut is triggered. This event can only be registered once per value of shortcut.
+🔗shortcut.callback function( event : string, shortcut : string )  event - string - The name of the event that triggered the callback. shortcut - string - The tooltip string that was given at registration time.</description>
     </item>
     
   </channel>

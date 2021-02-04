@@ -107,7 +107,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.collection/</loc>
   </url>
   
   <url>
@@ -123,6 +123,10 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/exit/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.system/external_command/</loc>
   </url>
   
@@ -132,10 +136,6 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/installation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/intermediate-export-image/</loc>
   </url>
   
   <url>
@@ -159,7 +159,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_log/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.configuration/</loc>
   </url>
   
   <url>
@@ -191,6 +191,10 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/global_toolbox-grouping_toggle/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/</loc>
   </url>
   
@@ -204,10 +208,6 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/new_tracepoint/</loc>
-  </url>
-  
-  <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-image/</loc>
   </url>
   
   <url>
@@ -231,7 +231,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_error/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.control/</loc>
   </url>
   
   <url>
@@ -252,6 +252,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/tools/get_libdoc/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/global_toolbox-overlay_toggle/</loc>
   </url>
   
   <url>
@@ -279,10 +283,6 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/shortcut/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.debug/terse_dump/</loc>
   </url>
   
@@ -303,11 +303,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_event/</loc>
-  </url>
-  
-  <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_storage/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.database/</loc>
   </url>
   
   <url>
@@ -323,15 +319,15 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/intermediate-export-image/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/lighttable_demo/</loc>
   </url>
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/</loc>
-  </url>
-  
-  <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-film/</loc>
   </url>
   
   <url>
@@ -359,7 +355,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_lib/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.debug/</loc>
   </url>
   
   <url>
@@ -380,6 +376,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/moduleexample/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/mouse-over-image-changed/</loc>
   </url>
   
   <url>
@@ -411,15 +411,15 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/global_toolbox-grouping_toggle/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/image_path_in_ui/</loc>
   </url>
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-film/</loc>
   </url>
   
   <url>
@@ -431,7 +431,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_format/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gettext/</loc>
   </url>
   
   <url>
@@ -447,10 +447,6 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/global_toolbox-overlay_toggle/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/official/import_filter_manager/</loc>
   </url>
   
@@ -459,7 +455,11 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_storage/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/post-import-image/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gui/</loc>
   </url>
   
   <url>
@@ -479,7 +479,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/mouse-over-image-changed/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/pre-import/</loc>
   </url>
   
   <url>
@@ -487,15 +487,11 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_widget/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.guides/</loc>
   </url>
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_jpeg/</loc>
-  </url>
-  
-  <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/exit/</loc>
   </url>
   
   <url>
@@ -515,7 +511,11 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gui/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/selection-changed/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_format/</loc>
   </url>
   
   <url>
@@ -531,10 +531,6 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/pre-import/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/running_os/</loc>
   </url>
   
@@ -543,7 +539,11 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.guides/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/shortcut/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_storage/</loc>
   </url>
   
   <url>
@@ -559,7 +559,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.tags/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.new_widget/</loc>
   </url>
   
   <url>
@@ -575,7 +575,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.configuration/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.password/</loc>
   </url>
   
   <url>
@@ -607,15 +607,11 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/password/</loc>
-  </url>
-  
-  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_pages_t/</loc>
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.styles/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print/</loc>
   </url>
   
   <url>
@@ -624,6 +620,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/rmdir/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_error/</loc>
   </url>
   
   <url>
@@ -639,11 +639,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.collection/</loc>
-  </url>
-  
-  <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.database/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_log/</loc>
   </url>
   
   <url>
@@ -659,7 +655,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.control/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_event/</loc>
   </url>
   
   <url>
@@ -675,7 +671,11 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gettext/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.destroy_event/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_lib/</loc>
   </url>
   
   <url>
@@ -691,7 +691,7 @@
   </url>
   
   <url>
-    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.debug/</loc>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_storage/</loc>
   </url>
   
   <url>
@@ -703,11 +703,19 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.styles/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_gallery/</loc>
   </url>
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/openinexplorer/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.tags/</loc>
   </url>
   
   <url>
