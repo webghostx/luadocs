@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable.gui.views on darktable lua documentation</title>
+    <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/</link>
+    <description>Recent content in darktable.gui.views on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktable.gui.views overview</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/overview/</guid>
+      <description>The different views in darktable</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.views.darkroom</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/darkroom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/darkroom/</guid>
+      <description>The darkroom view
+Attributes:
+ has_tostring parent : types.dt_lua_view_t  🔗darktable.gui.views.darkroom.display_image function( [image : types.dt_lua_image_t] ) : types.dt_lua_image_t Display an image in darkroom view.
+ **[image] - types.dt_lua_image_t - The image to be displayed. If the image is not given, nothing will be changed. return - types.dt_lua_image_t - The image currently displayed.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.views.lighttable</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/lighttable/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/lighttable/</guid>
+      <description>The lighttable view
+Attributes:
+ has_tostring parent : types.dt_lua_view_t  🔗darktable.gui.views.lighttable.is_image_visible function( image : types.dt_lua_image_t ) : types.dt_lua_image_t Check if the image is visible in lighttable view. The lighttable must be in file manager or zoomable mode.
+ image - types.dt_lua_image_t - The image to be checked. return - boolean - True if the image is displayed. False if the image is partially displayed or not displayed.  🔗darktable.gui.views.lighttable.set_image_visible function( image : types.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.views.map</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/map/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/map/</guid>
+      <description>The map view
+Attributes:
+ has_tostring parent : types.dt_lua_view_t  🔗darktable.gui.views.map.latitude  number - The latitude of the center of the map  Attributes:
+ write  🔗darktable.gui.views.map.longitude  number - The longitude of the center of the map  Attributes:
+ write  🔗darktable.gui.views.map.zoom  number - The current zoom level of the map  Attributes:
+ write  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.views.print</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/print/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/print/</guid>
+      <description>The print view
+Attributes:
+ has_tostring parent : types.dt_lua_view_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.views.slideshow</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/slideshow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/slideshow/</guid>
+      <description>The slideshow view
+Attributes:
+ has_tostring parent : types.dt_lua_view_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.views.tethering</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/tethering/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/views/tethering/</guid>
+      <description>The tethering view
+Attributes:
+ has_tostring parent : types.dt_lua_view_t  </description>
+    </item>
+    
+  </channel>
+</rss>

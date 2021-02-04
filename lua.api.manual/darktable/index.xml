@@ -112,17 +112,6 @@ This table contains functions related to translating lua scripts
     </item>
     
     <item>
-      <title>darktable.gui</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gui/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.gui/</guid>
-      <description>This subtable contains function and data to manipulate the darktable user interface with Lua. Most of these function won&amp;rsquo;t do anything if the GUI is not enabled (i.e you are using the command line version darktable-cli instead of darktable).
-🔗darktable.gui.action_images table
-A table of types.dt_lua_image_t on which the user expects UI actions to happen. It is based on both the hovered image and the selection and is consistent with the way darktable works.</description>
-    </item>
-    
-    <item>
       <title>darktable.guides</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.guides/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

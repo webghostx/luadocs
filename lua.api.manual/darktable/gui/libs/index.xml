@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable.gui.libs on darktable lua documentation</title>
+    <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/</link>
+    <description>Recent content in darktable.gui.libs on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktable.gui.libs overview</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/overview/</guid>
+      <description>This table allows referencing all lib objects. lib objects are the graphical blocks within each view. To quickly figure out which lib is which, you can use the following code, which will make a given lib blink.
+local dt = require &amp;quot;darktable&amp;quot; local tested_module=&amp;quot;global_toolbox&amp;quot; dt.gui.libs[tested_module].visible=false dt.control.sleep(2000) while true do dt.gui.libs[tested_module].visible = not dt.gui.libs[tested_module].visible dt.control.sleep(2000) end </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.backgroundjobs</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/backgroundjobs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/backgroundjobs/</guid>
+      <description>The window displaying the currently running jobs
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.camera</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/camera/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/camera/</guid>
+      <description>The camera selection UI
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.collect</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/collect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/collect/</guid>
+      <description>The collection UI element that allows to filter images by collection
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.collect.filter function( [rules : array of types.dt_lib_collect_params_rule_t] ) : array oftypes.dt_lib_collect_params_rule_t Get or change the list of visible images
+Attributes:
+  implicit_yield
+  [rules] - array of types.dt_lib_collect_params_rule_t - A table of rules describing the filter. These rules will be applied after this call
+  return - array of types.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.colorlabels</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/colorlabels/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/colorlabels/</guid>
+      <description>The color buttons that allow to set labels on an image
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.colorpicker</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/colorpicker/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/colorpicker/</guid>
+      <description>The colorpicker menu
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.copy_history</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/copy_history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/copy_history/</guid>
+      <description>The UI element that manipulates history
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.darktable_label</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/darktable_label/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/darktable_label/</guid>
+      <description>The darktable logo in the upper left corner
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.export</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/export/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/export/</guid>
+      <description>The export menu
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.filmstrip</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/filmstrip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/filmstrip/</guid>
+      <description>The filmstrip at the bottom of some views
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.filter</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/filter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/filter/</guid>
+      <description>The image-filter menus at the top of the UI
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.filter.sort function( [sort : types.dt_collection_sort_t] ) : types.dt_collection_sort_t Change the collection sort field.
+ [sort] - types.dt_collection_sort_t - The new field to sort by. If empty the current sort field is unchanged return - types.dt_collection_sort_t = The current sort field.  🔗darktable.gui.libs.filter.sort_order function( [order : types.dt_collection_sort_order_t] ) : types.dt_collection_sort_order_t Change the collection sort order.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.geotagging</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/geotagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/geotagging/</guid>
+      <description>The geotagging time synchronisation UI
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.global_toolbox</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/global_toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/global_toolbox/</guid>
+      <description>The common tools to all view (settings, grouping&amp;hellip;)
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.global_toolbox.grouping boolean- The current status of the image grouping option
+Attributes:
+ write  🔗darktable.gui.libs.global_toolbox.show_overlays boolean - the current status of the image overlays option
+Attributes:
+ write  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.hinter</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/hinter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/hinter/</guid>
+      <description>The small line of text at the top of the UI showing the number of selected images
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.histogram</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/histogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/histogram/</guid>
+      <description>The histogram widget
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.history</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/history/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/history/</guid>
+      <description>The history manipulation menu
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.image</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/image/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/image/</guid>
+      <description>The UI element that manipulates the current images
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.image.register_action function( label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
+ label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.import</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/import/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/import/</guid>
+      <description>The buttons to start importing images
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.import.register_widget function( widget : types.lua_widget ) Add a widget in the option expander of the import dialog
+ widget - types.lua_widget - The widget to add to the dialog. The reset callback of the widget will be called whenever the dialog is opened.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.lighttable_mode</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/lighttable_mode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/lighttable_mode/</guid>
+      <description>The navigation and zoom level UI in lighttable
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.lighttable_mode.layout function( [layout : types.dt_lighttable_layout_t] ) : types.dt_lighttable_layout_t Change the lighttable layout.
+ [layout] - types.dt_lighttable_layout_t - The layout to switch to. If empty the current layout is unchanged return - types.dt_lighttable_layout_t - the current layout  🔗darktable.gui.libs.lighttable_mode.zoom_level function( [level : int] ) : int Change the lighttable zoom level.
+ [level] - int - The zoom level to switch to.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.live_view</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/live_view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/live_view/</guid>
+      <description>The liveview window
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.location</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/location/</guid>
+      <description>The location ui
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.map_settings</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/map_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/map_settings/</guid>
+      <description>The map setting window
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.masks</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/masks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/masks/</guid>
+      <description>The masks window
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.metadata</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/metadata/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/metadata/</guid>
+      <description>The widget allowing modification of metadata fields on the current image
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.metadata_view</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/metadata_view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/metadata_view/</guid>
+      <description>The widget displaying metadata about the current image
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.metadata_view.register_info function( name : string, callback : function ) Register a field in the image information module with a callback function to update the field
+ name - string - The name displayed for the new information callback - function - The function providing the info  callback -
+function( image : types.dt_lua_image_t ) : string  image - types.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.modulegroups</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/modulegroups/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/modulegroups/</guid>
+      <description>The icons describing the different iop groups
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.module_toolbox</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/module_toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/module_toolbox/</guid>
+      <description>The tools on the bottom line of the UI (overexposure)
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.navigation</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/navigation/</guid>
+      <description>The full image preview to allow navigation
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.print_settings</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/print_settings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/print_settings/</guid>
+      <description>The settings window in the print view
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.ratings</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/ratings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/ratings/</guid>
+      <description>The stars to set the rating of an image
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.recentcollect</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/recentcollect/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/recentcollect/</guid>
+      <description>The recent collection UI element
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.select</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/select/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/select/</guid>
+      <description>The buttons that allow to quickly change the selection
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.select.register_selection function( label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
+ label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.session</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/session/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/session/</guid>
+      <description>The session UI when tethering
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.snapshots</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/snapshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/snapshots/</guid>
+      <description>The UI element that manipulates snapshots in darkroom
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.snapshots.ratio number - The place in the screen where the line separating the snapshot is. Between 0 and 1
+Attributes:
+ write  darktable.gui.libs.snapshots.direction
+types.snapshot_direction_t - The direction of the snapshot overlay
+Attributes:
+ write  🔗darktable.gui.libs.snapshots.# types.snapshot_direction_t - The different snapshots for the image
+🔗darktable.gui.libs.snapshots.selected types.snapshot_direction_t - The currently selected snapshot
+🔗darktable.gui.libs.snapshots.take_snapshot function( ) Take a snapshot of the current image and add it to the UI The snapshot file will be generated at the next redraw of the main window</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.styles</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/styles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/styles/</guid>
+      <description>The style selection menu
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.tagging</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/tagging/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/tagging/</guid>
+      <description>The tag manipulation UI
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.viewswitcher</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/viewswitcher/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/viewswitcher/</guid>
+      <description>The labels allowing to switch view
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.libs.view_toolbox</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/view_toolbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/view_toolbox/</guid>
+      <description>The view_toolbox window
+Attributes:
+ has_tostring parent : types.dt_lua_lib_t  </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>darktable.gui on darktable lua documentation</title>
+    <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/</link>
+    <description>Recent content in darktable.gui on darktable lua documentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>darktable.gui overview</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/overview/</guid>
+      <description>This subtable contains function and data to manipulate the darktable user interface with Lua. Most of these function won&amp;rsquo;t do anything if the GUI is not enabled (i.e you are using the command line version darktable-cli instead of darktable).</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.action_images</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/action_images/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/action_images/</guid>
+      <description>table
+A table of types.dt_lua_image_t on which the user expects UI actions to happen. It is based on both the hovered image and the selection and is consistent with the way darktable works. It is recommended to use this table to implement Lua actions rather than darktable.gui.hovered or darktable.gui.selection to be consistent with darktable&amp;rsquo;s GUI.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.create_job</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/create_job/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/create_job/</guid>
+      <description>function( text : string, [percentage : boolean], [cancel_callback : function] ) : types.dt_lua_backgroundjob_t Create a new progress_bar displayed in darktable.gui.libs.backgroundjobs
+  text - string - The text to display in the job entry
+  [percentage] - boolean - Should a progress bar be displayed
+  [cancel_callback] - function - A function called when the cancel button for that job is pressed. Note: the job won&amp;rsquo;t be destroyed automatically.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.current_view</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/current_view/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/current_view/</guid>
+      <description>function( [view : types.dt_lua_view_t] ) : types.dt_lua_view_t Get or change the current view.
+ [view] - _types.dt_lua_view_t_ - The view to switch to. If empty the current view is unchanged return - _types.dt_lua_view_t_ - the current view  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.hovered</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/hovered/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/hovered/</guid>
+      <description>types.dt_lua_image_t
+The image under the cursor or nil if no image is hovered.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.panel_get_size</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_get_size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_get_size/</guid>
+      <description>function( panel : types.dt_ui_panel_t ):int Gets the size in pixels of the specified panel. This only works for the left, right, and bottom panels.
+ panel - types.dt_ui_panel_t - The panel to get the size of.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.panel_hide</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_hide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_hide/</guid>
+      <description>function( panel : types.dt_ui_panel_t ) Hides the specified panel.
+ panel - types.dt_ui_panel_t - The panel to hide.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.panel_hide_all</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_hide_all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_hide_all/</guid>
+      <description>function( ) Hide all panels.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.panel_set_size</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_set_size/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_set_size/</guid>
+      <description>function( panel : types.dt_ui_panel_t size : int ) Sets the size in pixels of the specified panel. This only works for the left, right, and bottom panels.
+ panel - types.dt_ui_panel_t - The panel to set the size of. size - int - The size to set the panel to.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.panel_show</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_show/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_show/</guid>
+      <description>function( panel : types.dt_ui_panel_t ) Shows the specified panel.
+ panel - types.dt_ui_panel_t - The panel to show.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.panel_show_all</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_show_all/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_show_all/</guid>
+      <description>function( ) Show all panels.</description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.panel_visible</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_visible/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/panel_visible/</guid>
+      <description>function( panel : types.dt_ui_panel_t ) : boolean Determines if the specified panel is visible.
+ panel - types.dt_ui_panel_t - The panel to check. return - boolean - true if the panel is visible, false if not  </description>
+    </item>
+    
+    <item>
+      <title>darktable.gui.selection</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/selection/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/selection/</guid>
+      <description>function( [selection : table of types.dt_lua_image_t] ) : table of types.dt_lua_image_t Get or change the set of selected images.
+Attributes: implicit_yield
+ [selection] - table of types.dt_lua_image_t - A table of images which will define the selected images. If this parameter is not given the selection will be untouched. If an empty table is given the selection will be emptied. return - table of types.dt_lua_image_t - A table containing the selection as it was before the function was called.</description>
+    </item>
+    
+  </channel>
+</rss>
