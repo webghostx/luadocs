@@ -178,8 +178,8 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/version/</guid>
-      <description>🔗Current API The Lua API version currently used in darktable 3.4 is 6.1.0.
-🔗Development API The Lua API is currently at version 6.2.1 in the development branch of darktable (currently 3.5). All changes for version 6.2.+ will be identified as such until version 6.2.+ is included in a darktable release.</description>
+      <description>🔗Current API The Lua API version currently used in darktable 3.4.x is 6.1.0.
+🔗Development API The Lua API is currently at version 6.2.2 in the development branch of darktable (currently 3.5). All changes for version 6.2.+ will be identified as such until version 6.2.+ is included in a darktable release.</description>
     </item>
     
     <item>
@@ -2867,10 +2867,10 @@ The name of the snapshot, as seen in the UI</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/select/</guid>
-      <description>The buttons that allow to quickly change the selection
+      <description>The buttons that allow quickly changing the selection
 Attributes:
- has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.select.register_selection function( label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
- label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.select.register_selection function( name : string label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
+ name - string - The name to use to refer to the select button API 6.2.2 label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
     </item>
     
     <item>

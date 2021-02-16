@@ -3052,7 +3052,7 @@
         darktable.gui.libs.select
     </h1>
 
-    <p>The buttons that allow to quickly change the selection</p>
+    <p>The buttons that allow quickly changing the selection</p>
 <p>Attributes:</p>
 <ul>
 <li><a href="/luadocs/lua.api.manual/attributes/#has_tostring">has_tostring</a></li>
@@ -3060,12 +3060,14 @@
 </ul>
 <h2 id="darktableguilibsselectregister_selection"><a href="#darktableguilibsselectregister_selection">🔗</a>darktable.gui.libs.select.register_selection</h2>
 <pre><code>function(
+  name : string
   label : string,
   callback : function,
   [tooltip : string]
 )
 </code></pre><p>Add a new button and call a callback when it is clicked</p>
 <ul>
+<li><strong>name</strong> - <em>string</em> - The name to use to refer to the select button <strong>API 6.2.2</strong></li>
 <li><strong>label</strong> - <em>string</em> - The label to display on the button</li>
 <li><strong>callback</strong> - <em>function</em> - The function to call when the button is pressed</li>
 <li><strong>[tooltip]</strong> - <em>string</em> - The tooltip to use on the new button</li>
@@ -3080,6 +3082,24 @@
 <li><strong>event</strong> - <em>string</em> - The name of the button that was pressed</li>
 <li><strong>images</strong> - <em>table of <a href="/luadocs/lua.api.manual/types/dt_lua_image_t/">types.dt_lua_image_t</a></em> - The images in the current collection. This is the same content asdarktable.collection</li>
 <li><strong>return</strong> - <em>table of <a href="/luadocs/lua.api.manual/types/dt_lua_image_t/">types.dt_lua_image_t</a></em> - The images to set the selection to</li>
+</ul>
+<h2 id="darktableguilibsselectdestroy_selection-api-622"><a href="#darktableguilibsselectdestroy_selection-api-622">🔗</a>darktable.gui.libs.select.destroy_selection <strong>API 6.2.2</strong></h2>
+<pre><code>function(
+  name : string
+)
+</code></pre><p>Remove a button created by darktable.gui.libs.select.register_selection.</p>
+<ul>
+<li><strong>name</strong> - <em>string</em> - The name of the selection button to destroy</li>
+</ul>
+<h2 id="darktableguilibsselectselection_set_sensitive-api-622"><a href="#darktableguilibsselectselection_set_sensitive-api-622">🔗</a>darktable.gui.libs.select.selection_set_sensitive <strong>API 6.2.2</strong></h2>
+<pre><code>function(
+  name : string
+  sensitive : boolean
+)
+</code></pre><p>Set the sensitivity of a  button created by darktable.gui.libs.select.register_selection.</p>
+<ul>
+<li><strong>name</strong> - <em>string</em> - The name of the selection button to change the sensitivty of</li>
+<li><strong>sensitive</strong> - <em>boolean</em> - True to set the button sensitive, false to set it insensitive</li>
 </ul>
 
 
