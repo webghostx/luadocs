@@ -1664,6 +1664,19 @@ This event is triggered whenever the selection of images changes
     </item>
     
     <item>
+      <title>fujifilm_dynamic_range</title>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_dynamic_range/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_dynamic_range/</guid>
+      <description>🔗Name fujifilm_dynamic_range.lua -
+🔗Description Support for adjusting darktable exposure by Fujifilm raw exposure bias. This corrects for a DR100/DR200/DR400 &amp;ldquo;dynamic range&amp;rdquo; setting.
+Based upon fujifilm_ratings by Ben Mendis
+The relevant tag is RawExposureBias (0x9650). This appears to represent the shift in EV for the chosen DR setting (whether manual or automatic). Note that even at 100DR (&amp;ldquo;standard&amp;rdquo;) there is an EV shift:
+100 DR -&amp;gt; -0.72 EV 200 DR -&amp;gt; -1.</description>
+    </item>
+    
+    <item>
       <title>darktable.gui.libs.filter</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/filter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -623,6 +623,10 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_dynamic_range/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/filter/</loc>
   </url>
   

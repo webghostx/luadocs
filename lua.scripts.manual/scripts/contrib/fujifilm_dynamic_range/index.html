@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>darktable lua documentation - dtutils.string</title>
+<title>darktable lua documentation - fujifilm_dynamic_range</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -13,7 +13,6 @@
 
 
 
-<link rel="alternate" type="application/rss&#43;xml" href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/index.xml" title="darktable lua documentation">
 
       <link rel="stylesheet" href="https://darktable-org.github.io/luadocs/css/style.min.675cc3d890fd09471555ac6ad008c01d3ccff9181784247e343b1d86fd6bff31.css">
       
@@ -226,7 +225,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_dynamic_range/" class="">
+      <a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_dynamic_range/" class=" active">
           fujifilm_dynamic_range
       </a>
 
@@ -1208,7 +1207,7 @@
       <i class="fa fa-plus-square toggle"></i>
    
 
-      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/" class=" active">
+      <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/" class="">
           dtutils.string
       </a>
 
@@ -3030,94 +3029,87 @@
 		<div class="content col-sm-12 order-sm-1 col-md-9 mx-md-auto order-md-12">
 		    
 
+
+
 <div class="crumbs">
     <span class="crumb">
 	
 
-<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.api.manual/'>Lua Scripts Libraries API Manual</a> / dtutils.string
+
+
+<a href='https://darktable-org.github.io/luadocs/'>Home</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.manual/'>Lua Scripts Manual</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/'>scripts</a> / <a href='https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/'>contrib</a> / fujifilm_dynamic_range
     </span>
 </div>
     
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/" class="next">&lt; msg</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/" class="next">&lt; face_recognition</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/" class="prev">details &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/" class="prev">fujifilm_ratings &gt;</a>
 	
     </div>
 </div>
 
 
-<section>
+<article role="main">
 
-    <h1 class="title">dtutils.string</h1>
-    <ul>
-        <li>
-            <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/">
-		<span>
-		    details
-		</span>
-		
-	    </a>
-        </li><li>
-            <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/escape_xml_characters/">
-		<span>
-		    escape_xml_characters
-		</span>
-		
-	    </a>
-        </li><li>
-            <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/is_not_sanitized/">
-		<span>
-		    is_not_sanitized
-		</span>
-		
-	    </a>
-        </li><li>
-            <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize/">
-		<span>
-		    sanitize
-		</span>
-		
-	    </a>
-        </li><li>
-            <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/sanitize_lua/">
-		<span>
-		    sanitize_lua
-		</span>
-		
-	    </a>
-        </li><li>
-            <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/strip_accents/">
-		<span>
-		    strip_accents
-		</span>
-		
-	    </a>
-        </li><li>
-            <a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/urlencode/">
-		<span>
-		    urlencode
-		</span>
-		
-	    </a>
-        </li>
-    </ul>
-</section>
+    <h1 class="title">
+        fujifilm_dynamic_range
+    </h1>
+
+    <h2 id="name"><a href="#name">🔗</a>Name</h2>
+<p>fujifilm_dynamic_range.lua -</p>
+<h2 id="description"><a href="#description">🔗</a>Description</h2>
+<p>Support for adjusting darktable exposure by Fujifilm raw exposure
+bias. This corrects for a DR100/DR200/DR400 &ldquo;dynamic range&rdquo; setting.</p>
+<p>Based upon fujifilm_ratings by Ben Mendis</p>
+<p>The relevant tag is RawExposureBias (0x9650). This appears to
+represent the shift in EV for the chosen DR setting (whether manual or
+automatic). Note that even at 100DR (&ldquo;standard&rdquo;) there is an EV shift:</p>
+<p>100 DR -&gt; -0.72 EV
+200 DR -&gt; -1.72 EV
+400 DR -&gt; -2.72 EV</p>
+<p>The ideal would be to use exiv2 to read this tag, as this is the same
+code which darktable import uses. Unfortunately, exiv2 as of v0.27.3
+can&rsquo;t read this tag. As it is encoded as a 4-byte ratio of two signed
+shorts &ndash; a novel data type &ndash; it will require some attention to fix
+this.</p>
+<p>There is an exiv2-readable DevelopmentDynamicRange tag which maps to
+RawExposureBias as above.  DevelopmentDynamicRange is only present
+when tag DynamicRangeSetting (0x1402) is Manual/Raw (0x0001). When it
+is Auto (0x0000), the equivalent data is tag AutoDynamicRange
+(0x140b). But exiv2 currently can&rsquo;t read that tag either.</p>
+<p>Hence for now this code uses exiftool to read RawExposureBias, as a
+more general solution. As exiftool is approx. 10x slower than exiv2
+(Perl vs. C++), this may slow large imports.</p>
+<p>These tags have been checked on a Fujifilm X100S and X100V. Other
+cameras may behave in other ways.</p>
+<h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
+<p>Start this script from script manager</p>
+<h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
+<p>exiftool (<a href="https://www.sno.phy.queensu.ca/~phil/exiftool/">https://www.sno.phy.queensu.ca/~phil/exiftool/</a>)</p>
+<h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>
+<h2 id="author"><a href="#author">🔗</a>Author</h2>
+<p>Dan Torop <a href="mailto:dant@pnym.net">dant@pnym.net</a></p>
+<h2 id="change-log"><a href="#change-log">🔗</a>Change Log</h2>
+
+
+    
+</article>
 
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.log/msg/" class="next">&lt; msg</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/face_recognition/" class="next">&lt; face_recognition</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.string/details/" class="prev">details &gt;</a>
+	<a href="https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/fujifilm_ratings/" class="prev">fujifilm_ratings &gt;</a>
 	
     </div>
 </div>
