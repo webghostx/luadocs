@@ -3066,9 +3066,10 @@
 <h2 id="description"><a href="#description">🔗</a>Description</h2>
 <p>This script provides helpers to edit image files with programs external to darktable. It adds:</p>
 <ul>
-<li>a new target storage &ldquo;collection&rdquo;. Image exported will be reimported to collection for further edit with external programs</li>
-<li>a new lighttable module &ldquo;external editors&rdquo;, to select a program from a list of up to</li>
-<li>9 external editors and run it on a selected image (adjust this limit by changing MAX_EDITORS)</li>
+<li>a new target storage &ldquo;collection&rdquo;. Image exported will be reimported to collection for further editing with external programs</li>
+<li>a new lighttable module &ldquo;external editors&rdquo;, to select a program from a list of up to
+9 external editors and run it on a selected image (adjust this limit by changing MAX_EDITORS)</li>
+<li>an option to display the module in darkroom view</li>
 <li>a set of lua preferences in order to configure name and path of up to 9 external editors</li>
 <li>a set of lua shortcuts in order to quick launch the external editors</li>
 </ul>
@@ -3096,10 +3097,11 @@ exported image</p>
 <p>the exported image will be imported into collection and grouped with the original image</p>
 </li>
 <li>
-<p>select an image for editing with en external program, and:</p>
+<p>in lighttable, select an image for editing with en external program
+(or in darkroom for the image being edited):</p>
 </li>
 <li>
-<p>in lighttable/external editors, select program and press &ldquo;edit&rdquo;</p>
+<p>in external editors GUI, select program and press &ldquo;edit&rdquo;</p>
 </li>
 <li>
 <p>edit the image with the external editor, overwite the file, quit the external program</p>
