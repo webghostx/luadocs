@@ -786,7 +786,7 @@ Attributes:
  write  🔗lua_widget.tooltip string or nil
 Tooltip to display for the widget
 Attributes:
- write  🔗lua_widget.reset_callback function( widget : types.</description>
+ write  🔗lua_widget.visible Lua API 7.</description>
     </item>
     
     <item>
