@@ -1314,7 +1314,7 @@ This plugin will add a widget at the bottom of the left column in lighttable mod
     </item>
     
     <item>
-      <title>name</title>
+      <title>multi_os</title>
       <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/examples/multi_os/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -2834,6 +2834,17 @@ Attributes:</description>
     </item>
     
     <item>
+      <title>select_untagged</title>
+      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</guid>
+      <description>🔗Name select_untagged.lua - select all images that aren&amp;rsquo;t tagged
+🔗Description Enable selection of untagged images (darktable|* tags are ignored)
+🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author Jannis_V</description>
+    </item>
+    
+    <item>
       <title>darktable.gui.libs.recentcollect</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/recentcollect/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -3076,17 +3087,6 @@ Values:
 The type of compression to use for the EXR image
 Values:
  off rle zips zip piz pxr24 b44 b44a  </description>
-    </item>
-    
-    <item>
-      <title>select_untagged</title>
-      <link>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/select_untagged/</guid>
-      <description>🔗Name select_untagged.lua - select all images that aren&amp;rsquo;t tagged
-🔗Description Enable selection of untagged images (darktable|* tags are ignored)
-🔗Usage 🔗Additional Software Required 🔗Limitations 🔗Author Jannis_V</description>
     </item>
     
     <item>
