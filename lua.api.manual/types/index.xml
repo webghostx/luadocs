@@ -16,96 +16,135 @@
     </item>
     
     <item>
-      <title>lua_os_type</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_os_type/</link>
+      <title>_pdf_mode_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_mode_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_os_type/</guid>
-      <description>enum The type of OS we darktable can run on
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_mode_t/</guid>
+      <description>enum
+The export mode to use for PDF document
+Values:
+ normal draft debug  </description>
+    </item>
+    
+    <item>
+      <title>_pdf_pages_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_pages_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_pages_t/</guid>
+      <description>enum
+The different page types for PDF export
 Values :
- windows macos linux unix  </description>
+ all single contact  </description>
     </item>
     
     <item>
-      <title>dt_lua_image_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_image_t/</link>
+      <title>comp_type_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/comp_type_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_image_t/</guid>
-      <description>dt_type
-Image objects represent an image in the database. This is slightly different from a file on disk since a file can have multiple developments. Note that this is the real image object; changing the value of a field will immediately change it in darktable and will be reflected on any copy of that image object you may have kept.
-Attributes:
- has_tostring  🔗dt_lua_image_t.attach_tag see darktable.tags.attach
-🔗dt_lua_image_t.detach_tag see darktable.tags.detach</description>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/comp_type_t/</guid>
+      <description>enum
+Type of compression for webp
+Values:
+ webp_lossy webp_lossless  </description>
     </item>
     
     <item>
-      <title>dt_imageio_module_format_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_t/</link>
+      <title>dt_collection_filter_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_filter_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_t/</guid>
-      <description>dt_type
-A virtual type representing all format types.
-🔗dt_imageio_module_format_t.plugin_name string
-A unique name for the plugin.
-🔗dt_imageio_module_format_t.name string
-A human readable name for the plugin.
-🔗dt_imageio_module_format_t.extension string
-The typical filename extension for that format.
-🔗dt_imageio_module_format_t.mime string
-The mime type associated with the format.
-🔗dt_imageio_module_format_t.max_width number
-The max width allowed for the format (0 = unlimited).
-Attributes:
- write  2.3.6. dt_imageio_module_format_t.max_height
-number
-The max height allowed for the format (0 = unlimited).</description>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_filter_t/</guid>
+      <description>enum
+The different elements on which a collection can be filtered
+Values:
+ DT_COLLECTION_FILTER_ALL DT_COLLECTION_FILTER_STAR_NO DT_COLLECTION_FILTER_STAR_1 DT_COLLECTION_FILTER_STAR_2 DT_COLLECTION_FILTER_STAR_3 DT_COLLECTION_FILTER_STAR_4 DT_COLLECTION_FILTER_STAR_5 DT_COLLECTION_FILTER_REJECT DT_COLLECTION_FILTER_NOT_REJECT  </description>
     </item>
     
     <item>
-      <title>dt_imageio_module_format_data_png</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_png/</link>
+      <title>dt_collection_properties_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_properties_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_png/</guid>
-      <description>dt_type
-Type object describing parameters to export to png.
-Attributes:
- parent : types.dt_imageio_module_format_t../types/dt_imageio_module_format_t  🔗dt_imageio_module_format_data_png.bpp number
-The bpp parameter to use when exporting.
-Attributes:
- write  </description>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_properties_t/</guid>
+      <description>enum
+The different elements on which a collection can be filtered
+Values:
+ DT_COLLECTION_PROP_FILMROLL DT_COLLECTION_PROP_FOLDERS DT_COLLECTION_PROP_CAMERA DT_COLLECTION_PROP_TAG DT_COLLECTION_PROP_DAY DT_COLLECTION_PROP_TIME DT_COLLECTION_PROP_IMPORT_TIMESTAMP DT_COLLECTION_PROP_CHANGE_TIMESTAMP DT_COLLECTION_PROP_EXPORT_TIMESTAMP DT_COLLECTION_PROP_PRINT_TIMESTAMP DT_COLLECTION_PROP_HISTORY DT_COLLECTION_PROP_COLORLABEL DT_COLLECTION_PROP_TITLE DT_COLLECTION_PROP_DESCRIPTION DT_COLLECTION_PROP_CREATOR DT_COLLECTION_PROP_PUBLISHER DT_COLLECTION_PROP_RIGHTS DT_COLLECTION_PROP_LENS DT_COLLECTION_PROP_FOCAL_LENGTH DT_COLLECTION_PROP_ISO DT_COLLECTION_PROP_APERTURE DT_COLLECTION_PROP_FILENAME DT_COLLECTION_PROP_GEOTAGGING  </description>
     </item>
     
     <item>
-      <title>dt_imageio_module_format_data_tiff</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_tiff/</link>
+      <title>dt_collection_rating_comperator_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_rating_comperator_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_tiff/</guid>
-      <description>dt_type
-Type object describing parameters to export to tiff.
-Attributes:
- parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_tiff.bpp number
-The bpp parameter to use when exporting.
-Attributes:
- write  </description>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_rating_comperator_t/</guid>
+      <description>enum
+The different ways in which a collection filter can be compared
+Values:
+ DT_COLLECTION_RATING_COMP_LT DT_COLLECTION_RATING_COMP_LEQ DT_COLLECTION_RATING_COMP_EQ DT_COLLECTION_RATING_COMP_GEQ DT_COLLECTION_RATING_COMP_GT DT_COLLECTION_RATING_COMP_NE DT_COLLECTION_RATING_N_COMPS  </description>
     </item>
     
     <item>
-      <title>dt_imageio_module_format_data_exr</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_exr/</link>
+      <title>dt_collection_sort_order_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_order_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_exr/</guid>
-      <description>dt_type
-Type object describing parameters to export to exr.
-Attributes:
- parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_exr.compression string
-The compression parameter to use when exporting.
-Attributes:
- write  </description>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_order_t/</guid>
+      <description>enum
+The different orders that a collection can be sorted in
+Values:
+ DT_COLLECTION_SORT_ORDER_ASCENDING DT_COLLECTION_SORT_ORDER_DESCENDING  </description>
+    </item>
+    
+    <item>
+      <title>dt_collection_sort_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_t/</guid>
+      <description>enum
+The different elements on which a collection can be sorted
+Values:
+ DT_COLLECTION_SORT_NONE DT_COLLECTION_SORT_FILENAME DT_COLLECTION_SORT_DATETIME DT_COLLECTION_SORT_RATING DT_COLLECTION_SORT_ID DT_COLLECTION_SORT_COLOR DT_COLLECTION_SORT_GROUP DT_COLLECTION_SORT_PATH DT_COLLECTION_SORT_CUSTOM_ORDER DT_COLLECTION_SORT_TITLE DT_COLLECTION_SORT_DESCRIPTION DT_COLLECTION_SORT_ASPECT_RATIO DT_COLLECTION_SORT_SHUFFLE  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_exr_compression_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_exr_compression_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_exr_compression_t/</guid>
+      <description>enum
+The type of compression to use for the EXR image
+Values:
+ off rle zips zip piz pxr24 b44 b44a  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_j2k_format_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_format_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_format_t/</guid>
+      <description>enum
+J2K format type
+Values:
+ j2k jp2  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_j2k_preset_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_preset_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_preset_t/</guid>
+      <description>enum
+J2K preset type
+Values:
+ off cinema2k_24 cinema2k_48 cinema4k_24  </description>
     </item>
     
     <item>
@@ -121,61 +160,16 @@ Attributes:
     </item>
     
     <item>
-      <title>dt_imageio_module_format_data_pfm</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_pfm/</link>
+      <title>dt_imageio_module_format_data_exr</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_exr/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_pfm/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_exr/</guid>
       <description>dt_type
-Type object describing parameters to export to pfm.
+Type object describing parameters to export to exr.
 Attributes:
- parent : types.dt_imageio_module_format_t  </description>
-    </item>
-    
-    <item>
-      <title>dt_imageio_module_format_data_jpeg</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_jpeg/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_jpeg/</guid>
-      <description>dt_type
-Type object describing parameters to export to jpeg.
-Attributes:
- parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_jpeg.quality number
-The quality to use at export time.
-Attributes:
- write  </description>
-    </item>
-    
-    <item>
-      <title>dt_imageio_module_format_data_ppm</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_ppm/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_ppm/</guid>
-      <description>dt_type
-Type object describing parameters to export to ppm.
-Attributes:
- parent : types.dt_imageio_module_format_t  </description>
-    </item>
-    
-    <item>
-      <title>dt_imageio_module_format_data_webp</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_webp/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_webp/</guid>
-      <description>dt_type
-Type object describing parameters to export to webp.
-Attributes:
- parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_webp.quality number
-The quality to use at export time.
-Attributes:
- write  🔗dt_imageio_module_format_data_webp.comp_type types.comp_type_t
-The overall quality to use; can be one of &amp;ldquo;webp_lossy&amp;rdquo; or &amp;ldquo;webp_lossless&amp;rdquo;.
-Attributes:
- write  🔗dt_imageio_module_format_data_webp.hint types.hint_t
-A hint on the overall content of the image.
+ parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_exr.compression string
+The compression parameter to use when exporting.
 Attributes:
  write  </description>
     </item>
@@ -205,6 +199,21 @@ Attributes: 62
     </item>
     
     <item>
+      <title>dt_imageio_module_format_data_jpeg</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_jpeg/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_jpeg/</guid>
+      <description>dt_type
+Type object describing parameters to export to jpeg.
+Attributes:
+ parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_jpeg.quality number
+The quality to use at export time.
+Attributes:
+ write  </description>
+    </item>
+    
+    <item>
       <title>dt_imageio_module_format_data_pdf</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_pdf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -229,64 +238,117 @@ Attributes:
     </item>
     
     <item>
-      <title>_pdf_mode_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_mode_t/</link>
+      <title>dt_imageio_module_format_data_pfm</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_pfm/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_mode_t/</guid>
-      <description>enum
-The export mode to use for PDF document
-Values:
- normal draft debug  </description>
-    </item>
-    
-    <item>
-      <title>_pdf_pages_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_pages_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_pages_t/</guid>
-      <description>enum
-The different page types for PDF export
-Values :
- all single contact  </description>
-    </item>
-    
-    <item>
-      <title>dt_pdf_stream_encoder_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_pdf_stream_encoder_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_pdf_stream_encoder_t/</guid>
-      <description>enum
-The compression mode for PDF document
-Values:
- uncompressed deflate  </description>
-    </item>
-    
-    <item>
-      <title>dt_imageio_module_storage_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_t/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_pfm/</guid>
       <description>dt_type
-A virtual type representing all storage types.
-🔗dt_imageio_module_storage_t.plugin_name string
+Type object describing parameters to export to pfm.
+Attributes:
+ parent : types.dt_imageio_module_format_t  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_module_format_data_png</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_png/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_png/</guid>
+      <description>dt_type
+Type object describing parameters to export to png.
+Attributes:
+ parent : types.dt_imageio_module_format_t../types/dt_imageio_module_format_t  🔗dt_imageio_module_format_data_png.bpp number
+The bpp parameter to use when exporting.
+Attributes:
+ write  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_module_format_data_ppm</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_ppm/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_ppm/</guid>
+      <description>dt_type
+Type object describing parameters to export to ppm.
+Attributes:
+ parent : types.dt_imageio_module_format_t  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_module_format_data_tiff</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_tiff/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_tiff/</guid>
+      <description>dt_type
+Type object describing parameters to export to tiff.
+Attributes:
+ parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_tiff.bpp number
+The bpp parameter to use when exporting.
+Attributes:
+ write  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_module_format_data_webp</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_webp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_data_webp/</guid>
+      <description>dt_type
+Type object describing parameters to export to webp.
+Attributes:
+ parent : types.dt_imageio_module_format_t  🔗dt_imageio_module_format_data_webp.quality number
+The quality to use at export time.
+Attributes:
+ write  🔗dt_imageio_module_format_data_webp.comp_type types.comp_type_t
+The overall quality to use; can be one of &amp;ldquo;webp_lossy&amp;rdquo; or &amp;ldquo;webp_lossless&amp;rdquo;.
+Attributes:
+ write  🔗dt_imageio_module_format_data_webp.hint types.hint_t
+A hint on the overall content of the image.
+Attributes:
+ write  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_module_format_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_format_t/</guid>
+      <description>dt_type
+A virtual type representing all format types.
+🔗dt_imageio_module_format_t.plugin_name string
 A unique name for the plugin.
-Attributes:
- write  🔗dt_imageio_module_storage_t.name string
+🔗dt_imageio_module_format_t.name string
 A human readable name for the plugin.
+🔗dt_imageio_module_format_t.extension string
+The typical filename extension for that format.
+🔗dt_imageio_module_format_t.mime string
+The mime type associated with the format.
+🔗dt_imageio_module_format_t.max_width number
+The max width allowed for the format (0 = unlimited).
 Attributes:
- write  🔗dt_imageio_module_storage_t.width number
-The currently selected width for the plugin.
+ write  2.3.6. dt_imageio_module_format_t.max_height
+number
+The max height allowed for the format (0 = unlimited).</description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_module_storage_data_disk</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_disk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_disk/</guid>
+      <description>dt_type
+An object containing parameters to export to disk.
 Attributes:
- write  🔗dt_imageio_module_storage_t.height number
-The currently selected height for the plugin.
+ parent : types.dt_imageio_module_storage_t  🔗dt_imageio_module_storage_data_disk.filename string
+The filename to export to.
 Attributes:
- write  🔗dt_imageio_module_storage_t.recommended_width number The recommended width for the plugin.
-Attributes:
- write  🔗dt_imageio_module_storage_t.</description>
+ write  </description>
     </item>
     
     <item>
@@ -299,6 +361,24 @@ Attributes:
 An object containing parameters to export to email.
 Attributes:
  parent : types.dt_imageio_module_storage_t  </description>
+    </item>
+    
+    <item>
+      <title>dt_imageio_module_storage_data_gallery</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_gallery/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_gallery/</guid>
+      <description>dt_type
+An object containing parameters to export to gallery.
+Attributes:
+ parent : types.dt_imageio_module_storage_t  🔗dt_imageio_module_storage_data_gallery.filename string
+The filename to export to.
+Attributes:
+ write  🔗dt_imageio_module_storage_data_gallery.title string
+The title to use for export.
+Attributes:
+ write  </description>
     </item>
     
     <item>
@@ -332,36 +412,124 @@ Attributes:
     </item>
     
     <item>
-      <title>dt_imageio_module_storage_data_gallery</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_gallery/</link>
+      <title>dt_imageio_module_storage_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_gallery/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_t/</guid>
       <description>dt_type
-An object containing parameters to export to gallery.
+A virtual type representing all storage types.
+🔗dt_imageio_module_storage_t.plugin_name string
+A unique name for the plugin.
 Attributes:
- parent : types.dt_imageio_module_storage_t  🔗dt_imageio_module_storage_data_gallery.filename string
-The filename to export to.
+ write  🔗dt_imageio_module_storage_t.name string
+A human readable name for the plugin.
 Attributes:
- write  🔗dt_imageio_module_storage_data_gallery.title string
-The title to use for export.
+ write  🔗dt_imageio_module_storage_t.width number
+The currently selected width for the plugin.
+Attributes:
+ write  🔗dt_imageio_module_storage_t.height number
+The currently selected height for the plugin.
+Attributes:
+ write  🔗dt_imageio_module_storage_t.recommended_width number The recommended width for the plugin.
+Attributes:
+ write  🔗dt_imageio_module_storage_t.</description>
+    </item>
+    
+    <item>
+      <title>dt_lib_collect_mode_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_mode_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_mode_t/</guid>
+      <description>enum
+The logical operators to apply between rulesAttributes:
+Values:
+ DT_LIB_COLLECT_MODE_AND DT_LIB_COLLECT_MODE_OR DT_LIB_COLLECT_MODE_AND_NOT  </description>
+    </item>
+    
+    <item>
+      <title>dt_lib_collect_params_rule_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_params_rule_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_params_rule_t/</guid>
+      <description>dt_type
+A single rule for filtering a collection
+🔗dt_lib_collect_params_rule_t.mode types.dt_lib_collect_mode_t
+How this rule is applied after the previous one. Unused for the first rule
+Attributes:
+ write  🔗dt_lib_collect_params_rule_t.data string
+The text segment of the rule. Exact content depends on the type of rule
+Attributes:
+ write  🔗dt_lib_collect_params_rule_t.item types.dt_collection_properties_t
+The item on which this rule filter. i.e the type of the rule
 Attributes:
  write  </description>
     </item>
     
     <item>
-      <title>dt_imageio_module_storage_data_disk</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_disk/</link>
+      <title>dt_lighttable_layout_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lighttable_layout_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_module_storage_data_disk/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lighttable_layout_t/</guid>
+      <description>enum
+The different lighttable layouts
+Values:
+ DT_LIGHTTABLE_LAYOUT_FIRST DT_LIGHTTABLE_LAYOUT_ZOOMABLE DT_LIGHTTABLE_LAYOUT_FILEMANAGER DT_LIGHTTABLE_LAYOUT_CULLING DT_LIGHTTABLE_LAYOUT_LAST  </description>
+    </item>
+    
+    <item>
+      <title>dt_lua_align_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_align_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_align_t/</guid>
+      <description>enum
+The alignment of a label
+Values:
+ fill start end center baseline  </description>
+    </item>
+    
+    <item>
+      <title>dt_lua_backgroundjob_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_backgroundjob_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_backgroundjob_t/</guid>
       <description>dt_type
-An object containing parameters to export to disk.
+A lua-managed entry in the backgroundjob lib
+🔗dt_lua_backgroundjob_t.percent number
+The value of the progress bar, between 0 and 1. will return nil if there is no progress bar, will raise an error if read or written on an invalid job
 Attributes:
- parent : types.dt_imageio_module_storage_t  🔗dt_imageio_module_storage_data_disk.filename string
-The filename to export to.
-Attributes:
- write  </description>
+ write  🔗dt_lua_backgroundjob_t.valid boolean
+True if the job is displayed, set it to false to destroy the entry An invalid job cannot be made valid again
+Attributes:</description>
+    </item>
+    
+    <item>
+      <title>dt_lua_cairo_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_cairo_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_cairo_t/</guid>
+      <description>dt_type
+A wrapper around a cairo drawing context. You probably shouldn&amp;rsquo;t use this after the callback that got it passed returned. For more details of the member functions have a look at the cairo documentation for the drawing context, transformations and paths.
+🔗dt_lua_cairo_t.save self:function( ) Save the state of the drawing context.
+ self - types.dt_lua_cairo_t - The context to modify.  🔗types.dt_lua_cairo_t.restore self:function( ) Restore a previously saved state.</description>
+    </item>
+    
+    <item>
+      <title>dt_lua_ellipsize_mode_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_ellipsize_mode_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_ellipsize_mode_t/</guid>
+      <description>enum
+The ellipsize mode of a label
+Values:
+ none start middle end  </description>
     </item>
     
     <item>
@@ -387,56 +555,16 @@ Attributes:
     </item>
     
     <item>
-      <title>dt_style_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_t/</link>
+      <title>dt_lua_image_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_image_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_t/</guid>
-      <description>dt_type A style that can be applied to an image. Attributes:
- has_tostring  🔗dt_style_t.delete see darktable.styles.delete
-🔗dt_style_t.duplicate see darktable.styles.duplicate
-🔗dt_style_t.apply see darktable.styles.apply
-🔗dt_style_t.export see darktable.styles.export
-🔗dt_style_t.name string
-The name of the style.
-🔗dt_style_t.description string
-The description of the style.
-🔗dt_style_t.# types.dt_style_item_t
-The different items that make the style.</description>
-    </item>
-    
-    <item>
-      <title>dt_style_item_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_item_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_item_t/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_image_t/</guid>
       <description>dt_type
-An element that is part of a style.
+Image objects represent an image in the database. This is slightly different from a file on disk since a file can have multiple developments. Note that this is the real image object; changing the value of a field will immediately change it in darktable and will be reflected on any copy of that image object you may have kept.
 Attributes:
- has_tostring  🔗dt_style_item_t.name string
-The name of the style item.
-🔗dt_style_item_t.num number
-The position of the style item within its style.</description>
-    </item>
-    
-    <item>
-      <title>dt_lua_tag_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_tag_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_tag_t/</guid>
-      <description>dt_type
-A tag that can be attached to an image.
-Attributes:
-has_tostring
-🔗dt_lua_tag_t.delete see darktable.tags.delete
-🔗dt_lua_tag_t.attach see darktable.tags.attach
-🔗dt_lua_tag_t.detach see darktable.tags.detach
-🔗dt_lua_tag_t.name string
-The name of the tag.
-🔗dt_lua_tag_t.# types.dt_lua_image_t
-The images that have that tag attached to them.</description>
+ has_tostring  🔗dt_lua_image_t.attach_tag see darktable.tags.attach
+🔗dt_lua_image_t.detach_tag see darktable.tags.detach</description>
     </item>
     
     <item>
@@ -460,33 +588,15 @@ Attributes:
     </item>
     
     <item>
-      <title>dt_lua_view_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_view_t/</link>
+      <title>dt_lua_orientation_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_orientation_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_view_t/</guid>
-      <description>dt_type
-A darktable view
-🔗dt_lua_view_t.id string
-A unique string identifying the view
-🔗dt_lua_view_t.name string
-The name of the view</description>
-    </item>
-    
-    <item>
-      <title>dt_lua_backgroundjob_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_backgroundjob_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_backgroundjob_t/</guid>
-      <description>dt_type
-A lua-managed entry in the backgroundjob lib
-🔗dt_lua_backgroundjob_t.percent number
-The value of the progress bar, between 0 and 1. will return nil if there is no progress bar, will raise an error if read or written on an invalid job
-Attributes:
- write  🔗dt_lua_backgroundjob_t.valid boolean
-True if the job is displayed, set it to false to destroy the entry An invalid job cannot be made valid again
-Attributes:</description>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_orientation_t/</guid>
+      <description>enum
+A possible orientation for a widget
+Values:
+ horizontal vertical  </description>
     </item>
     
     <item>
@@ -507,15 +617,82 @@ The name of the snapshot, as seen in the UI</description>
     </item>
     
     <item>
-      <title>hint_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/hint_t/</link>
+      <title>dt_lua_tag_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_tag_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/hint_t/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_tag_t/</guid>
+      <description>dt_type
+A tag that can be attached to an image.
+Attributes:
+has_tostring
+🔗dt_lua_tag_t.delete see darktable.tags.delete
+🔗dt_lua_tag_t.attach see darktable.tags.attach
+🔗dt_lua_tag_t.detach see darktable.tags.detach
+🔗dt_lua_tag_t.name string
+The name of the tag.
+🔗dt_lua_tag_t.# types.dt_lua_image_t
+The images that have that tag attached to them.</description>
+    </item>
+    
+    <item>
+      <title>dt_lua_view_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_view_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_view_t/</guid>
+      <description>dt_type
+A darktable view
+🔗dt_lua_view_t.id string
+A unique string identifying the view
+🔗dt_lua_view_t.name string
+The name of the view</description>
+    </item>
+    
+    <item>
+      <title>dt_pdf_stream_encoder_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_pdf_stream_encoder_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_pdf_stream_encoder_t/</guid>
       <description>enum
-a hint on the way to encode a webp image
+The compression mode for PDF document
 Values:
- hint_default hint_picture hint_photo hint_graphic  </description>
+ uncompressed deflate  </description>
+    </item>
+    
+    <item>
+      <title>dt_style_item_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_item_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_item_t/</guid>
+      <description>dt_type
+An element that is part of a style.
+Attributes:
+ has_tostring  🔗dt_style_item_t.name string
+The name of the style item.
+🔗dt_style_item_t.num number
+The position of the style item within its style.</description>
+    </item>
+    
+    <item>
+      <title>dt_style_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_style_t/</guid>
+      <description>dt_type A style that can be applied to an image. Attributes:
+ has_tostring  🔗dt_style_t.delete see darktable.styles.delete
+🔗dt_style_t.duplicate see darktable.styles.duplicate
+🔗dt_style_t.apply see darktable.styles.apply
+🔗dt_style_t.export see darktable.styles.export
+🔗dt_style_t.name string
+The name of the style.
+🔗dt_style_t.description string
+The description of the style.
+🔗dt_style_t.# types.dt_style_item_t
+The different items that make the style.</description>
     </item>
     
     <item>
@@ -531,218 +708,6 @@ Values:
     </item>
     
     <item>
-      <title>snapshot_direction_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/snapshot_direction_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/snapshot_direction_t/</guid>
-      <description>enum
-Which part of the main window is occupied by a snapshot
-Values:
- left right top bottom  </description>
-    </item>
-    
-    <item>
-      <title>dt_imageio_j2k_format_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_format_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_format_t/</guid>
-      <description>enum
-J2K format type
-Values:
- j2k jp2  </description>
-    </item>
-    
-    <item>
-      <title>dt_imageio_j2k_preset_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_preset_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_j2k_preset_t/</guid>
-      <description>enum
-J2K preset type
-Values:
- off cinema2k_24 cinema2k_48 cinema4k_24  </description>
-    </item>
-    
-    <item>
-      <title>comp_type_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/comp_type_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/comp_type_t/</guid>
-      <description>enum
-Type of compression for webp
-Values:
- webp_lossy webp_lossless  </description>
-    </item>
-    
-    <item>
-      <title>lua_pref_type</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_pref_type/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_pref_type/</guid>
-      <description>enum
-The type of value to save in a preference
-Values:
- enum directory file string bool integer float lua  </description>
-    </item>
-    
-    <item>
-      <title>dt_imageio_exr_compression_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_exr_compression_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_imageio_exr_compression_t/</guid>
-      <description>enum
-The type of compression to use for the EXR image
-Values:
- off rle zips zip piz pxr24 b44 b44a  </description>
-    </item>
-    
-    <item>
-      <title>dt_lib_collect_params_rule_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_params_rule_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_params_rule_t/</guid>
-      <description>dt_type
-A single rule for filtering a collection
-🔗dt_lib_collect_params_rule_t.mode types.dt_lib_collect_mode_t
-How this rule is applied after the previous one. Unused for the first rule
-Attributes:
- write  🔗dt_lib_collect_params_rule_t.data string
-The text segment of the rule. Exact content depends on the type of rule
-Attributes:
- write  🔗dt_lib_collect_params_rule_t.item types.dt_collection_properties_t
-The item on which this rule filter. i.e the type of the rule
-Attributes:
- write  </description>
-    </item>
-    
-    <item>
-      <title>dt_lib_collect_mode_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_mode_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lib_collect_mode_t/</guid>
-      <description>enum
-The logical operators to apply between rulesAttributes:
-Values:
- DT_LIB_COLLECT_MODE_AND DT_LIB_COLLECT_MODE_OR DT_LIB_COLLECT_MODE_AND_NOT  </description>
-    </item>
-    
-    <item>
-      <title>dt_collection_properties_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_properties_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_properties_t/</guid>
-      <description>enum
-The different elements on which a collection can be filtered
-Values:
- DT_COLLECTION_PROP_FILMROLL DT_COLLECTION_PROP_FOLDERS DT_COLLECTION_PROP_CAMERA DT_COLLECTION_PROP_TAG DT_COLLECTION_PROP_DAY DT_COLLECTION_PROP_TIME DT_COLLECTION_PROP_IMPORT_TIMESTAMP DT_COLLECTION_PROP_CHANGE_TIMESTAMP DT_COLLECTION_PROP_EXPORT_TIMESTAMP DT_COLLECTION_PROP_PRINT_TIMESTAMP DT_COLLECTION_PROP_HISTORY DT_COLLECTION_PROP_COLORLABEL DT_COLLECTION_PROP_TITLE DT_COLLECTION_PROP_DESCRIPTION DT_COLLECTION_PROP_CREATOR DT_COLLECTION_PROP_PUBLISHER DT_COLLECTION_PROP_RIGHTS DT_COLLECTION_PROP_LENS DT_COLLECTION_PROP_FOCAL_LENGTH DT_COLLECTION_PROP_ISO DT_COLLECTION_PROP_APERTURE DT_COLLECTION_PROP_FILENAME DT_COLLECTION_PROP_GEOTAGGING  </description>
-    </item>
-    
-    <item>
-      <title>dt_collection_sort_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_t/</guid>
-      <description>enum
-The different elements on which a collection can be sorted
-Values:
- DT_COLLECTION_SORT_NONE DT_COLLECTION_SORT_FILENAME DT_COLLECTION_SORT_DATETIME DT_COLLECTION_SORT_RATING DT_COLLECTION_SORT_ID DT_COLLECTION_SORT_COLOR DT_COLLECTION_SORT_GROUP DT_COLLECTION_SORT_PATH DT_COLLECTION_SORT_CUSTOM_ORDER DT_COLLECTION_SORT_TITLE DT_COLLECTION_SORT_DESCRIPTION DT_COLLECTION_SORT_ASPECT_RATIO DT_COLLECTION_SORT_SHUFFLE  </description>
-    </item>
-    
-    <item>
-      <title>dt_collection_sort_order_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_order_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_sort_order_t/</guid>
-      <description>enum
-The different orders that a collection can be sorted in
-Values:
- DT_COLLECTION_SORT_ORDER_ASCENDING DT_COLLECTION_SORT_ORDER_DESCENDING  </description>
-    </item>
-    
-    <item>
-      <title>dt_collection_filter_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_filter_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_filter_t/</guid>
-      <description>enum
-The different elements on which a collection can be filtered
-Values:
- DT_COLLECTION_FILTER_ALL DT_COLLECTION_FILTER_STAR_NO DT_COLLECTION_FILTER_STAR_1 DT_COLLECTION_FILTER_STAR_2 DT_COLLECTION_FILTER_STAR_3 DT_COLLECTION_FILTER_STAR_4 DT_COLLECTION_FILTER_STAR_5 DT_COLLECTION_FILTER_REJECT DT_COLLECTION_FILTER_NOT_REJECT  </description>
-    </item>
-    
-    <item>
-      <title>dt_collection_rating_comperator_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_rating_comperator_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_collection_rating_comperator_t/</guid>
-      <description>enum
-The different ways in which a collection filter can be compared
-Values:
- DT_COLLECTION_RATING_COMP_LT DT_COLLECTION_RATING_COMP_LEQ DT_COLLECTION_RATING_COMP_EQ DT_COLLECTION_RATING_COMP_GEQ DT_COLLECTION_RATING_COMP_GT DT_COLLECTION_RATING_COMP_NE DT_COLLECTION_RATING_N_COMPS  </description>
-    </item>
-    
-    <item>
-      <title>dt_lua_orientation_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_orientation_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_orientation_t/</guid>
-      <description>enum
-A possible orientation for a widget
-Values:
- horizontal vertical  </description>
-    </item>
-    
-    <item>
-      <title>dt_lua_align_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_align_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_align_t/</guid>
-      <description>enum
-The alignment of a label
-Values:
- fill start end center baseline  </description>
-    </item>
-    
-    <item>
-      <title>dt_lua_ellipsize_mode_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_ellipsize_mode_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_ellipsize_mode_t/</guid>
-      <description>enum
-The ellipsize mode of a label
-Values:
- none start middle end  </description>
-    </item>
-    
-    <item>
-      <title>dt_lua_cairo_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_cairo_t/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lua_cairo_t/</guid>
-      <description>dt_type
-A wrapper around a cairo drawing context. You probably shouldn&amp;rsquo;t use this after the callback that got it passed returned. For more details of the member functions have a look at the cairo documentation for the drawing context, transformations and paths.
-🔗dt_lua_cairo_t.save self:function( ) Save the state of the drawing context.
- self - types.dt_lua_cairo_t - The context to modify.  🔗types.dt_lua_cairo_t.restore self:function( ) Restore a previously saved state.</description>
-    </item>
-    
-    <item>
       <title>dt_ui_panel_t</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_ui_panel_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -755,98 +720,32 @@ Values:
     </item>
     
     <item>
-      <title>dt_lighttable_layout_t</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lighttable_layout_t/</link>
+      <title>hint_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/hint_t/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/dt_lighttable_layout_t/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/hint_t/</guid>
       <description>enum
-The different lighttable layouts
+a hint on the way to encode a webp image
 Values:
- DT_LIGHTTABLE_LAYOUT_FIRST DT_LIGHTTABLE_LAYOUT_ZOOMABLE DT_LIGHTTABLE_LAYOUT_FILEMANAGER DT_LIGHTTABLE_LAYOUT_CULLING DT_LIGHTTABLE_LAYOUT_LAST  </description>
+ hint_default hint_picture hint_photo hint_graphic  </description>
     </item>
     
     <item>
-      <title>lua_widget</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_widget/</link>
+      <title>lua_box</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_box/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_widget/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_box/</guid>
       <description>dt_type
-Common parent type for all lua-handled widgets
+A container for widget in a horizontal or vertical list
 Attributes:
- has_tostring  🔗lua_widget.extra registration parameters This widget has no extra registration parameters
-🔗lua_widget.name Lua API 6.2.0
-string or nil
-Name assigned to the widget for CSS styling purposes.
-Attributes:
- write  🔗lua_widget.sensitive boolean
-Set if the widget is enabled/disabled
-Attributes:
- write  🔗lua_widget.tooltip string or nil
-Tooltip to display for the widget
-Attributes:
- write  🔗lua_widget.visible Lua API 7.</description>
-    </item>
-    
-    <item>
-      <title>lua_container</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_container/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_container/</guid>
-      <description>dt_type
-A widget containing other widgets
-Attributes:
- has_tostring parent : types.lua_widget  🔗lua_container.__call see types.lua_widget.As a function
-🔗lua_container.extra registration parameters This widget has no extra registration parameters
-🔗lua_container.# types.lua_widget
-The widgets contained by the box. You can append widgets by adding them at the end of the list. You can remove widgets by setting them to nil.
+ has_tostring parent : types.lua_widget  🔗lua_box.__call see types.lua_widget.As a function
+🔗lua_box.extra registration parameters This widget has no extra registration parameters
+🔗lua_box.orientation types.dt_lua_orientation_t
+The orientation of the box.
 Attributes:
  write  </description>
-    </item>
-    
-    <item>
-      <title>lua_check_button</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_check_button/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_check_button/</guid>
-      <description>dt_type
-A checkable button with a label next to it Attributes:
- has_tostring parent : types.lua_widget  🔗lua_check_button.__call see types.lua_widget.As a function
-🔗lua_check_button.extra registration parameters This widget has no extra registration parameters
-🔗lua_check_button.label string
-The label displayed next to the button
-Attributes:
- write  🔗lua_check_button.value boolean
-If the widget is checked or not
-Attributes:
- write  🔗lua_check_button.clicked_callback function( widget : types.lua_widget ) A function to call on button click</description>
-    </item>
-    
-    <item>
-      <title>lua_label</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_label/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_label/</guid>
-      <description>dt_type
-A label containing some text
-Attributes:
- has_tostring parent : types.lua_widget  🔗lua_label.__call see types.lua_widget.As a function
-🔗lua_label.extra registration parameters This widget has no extra registration parameters
-🔗lua_label.label string
-The label displayed
-Attributes:
- write  🔗lua_label.selectable boolean
-True if the label content should be selectable
-Attributes:
- write  🔗lua_label.halign types.dt_lua_align_t
-The horizontal alignment of the label
-Attributes:
- write  🔗lua_label.ellipsize types.dt_lua_ellipsize_mode_t
-The ellipsize mode of the label</description>
     </item>
     
     <item>
@@ -871,18 +770,52 @@ Attributes:
     </item>
     
     <item>
-      <title>lua_box</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_box/</link>
+      <title>lua_check_button</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_check_button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_box/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_check_button/</guid>
       <description>dt_type
-A container for widget in a horizontal or vertical list
+A checkable button with a label next to it Attributes:
+ has_tostring parent : types.lua_widget  🔗lua_check_button.__call see types.lua_widget.As a function
+🔗lua_check_button.extra registration parameters This widget has no extra registration parameters
+🔗lua_check_button.label string
+The label displayed next to the button
 Attributes:
- has_tostring parent : types.lua_widget  🔗lua_box.__call see types.lua_widget.As a function
-🔗lua_box.extra registration parameters This widget has no extra registration parameters
-🔗lua_box.orientation types.dt_lua_orientation_t
-The orientation of the box.
+ write  🔗lua_check_button.value boolean
+If the widget is checked or not
+Attributes:
+ write  🔗lua_check_button.clicked_callback function( widget : types.lua_widget ) A function to call on button click</description>
+    </item>
+    
+    <item>
+      <title>lua_combobox</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_combobox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_combobox/</guid>
+      <description>dt_type
+A widget with multiple text entries in a menu. This widget can be set as editable at construction time. If it is editable the user can type a value and is not constrained by the values in the menu.
+Attributes:
+ has_tostring parent : types.lua_widget  🔗lua_combobox.__call see types.lua_widget.As a function
+🔗lua_combobox.extra registration parameters This widget has no extra registration parameters
+🔗lua_combobox.value string
+The text content of the selected entry, can be nil.</description>
+    </item>
+    
+    <item>
+      <title>lua_container</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_container/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_container/</guid>
+      <description>dt_type
+A widget containing other widgets
+Attributes:
+ has_tostring parent : types.lua_widget  🔗lua_container.__call see types.lua_widget.As a function
+🔗lua_container.extra registration parameters This widget has no extra registration parameters
+🔗lua_container.# types.lua_widget
+The widgets contained by the box. You can append widgets by adding them at the end of the list. You can remove widgets by setting them to nil.
 Attributes:
  write  </description>
     </item>
@@ -911,38 +844,6 @@ Attributes:
     </item>
     
     <item>
-      <title>lua_separator</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_separator/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_separator/</guid>
-      <description>dt_type
-A widget providing a separation in the UI.
-Attributes:
- has_tostring parent : types.lua_widget  🔗lua_separator.__call see types.lua_widget.As a function
-🔗lua_separator.extra registration parameters This widget has no extra registration parameters
-🔗lua_separator.orientation string
-The orientation of the separator.
-Attributes:
- write  </description>
-    </item>
-    
-    <item>
-      <title>lua_combobox</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_combobox/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_combobox/</guid>
-      <description>dt_type
-A widget with multiple text entries in a menu. This widget can be set as editable at construction time. If it is editable the user can type a value and is not constrained by the values in the menu.
-Attributes:
- has_tostring parent : types.lua_widget  🔗lua_combobox.__call see types.lua_widget.As a function
-🔗lua_combobox.extra registration parameters This widget has no extra registration parameters
-🔗lua_combobox.value string
-The text content of the selected entry, can be nil.</description>
-    </item>
-    
-    <item>
       <title>lua_file_chooser_button</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_file_chooser_button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -963,18 +864,84 @@ Attributes:
     </item>
     
     <item>
-      <title>lua_stack</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_stack/</link>
+      <title>lua_label</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_label/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_stack/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_label/</guid>
       <description>dt_type
-A container that will only show one of its child at a time
+A label containing some text
 Attributes:
- has_tostring parent : types.lua_widget  🔗lua_stack.__call see types.lua_widget.As a function
-🔗lua_stack.extra registration parameters This widget has no extra registration parameters
-🔗lua_stack.active types.lua_widget or nil
-The currently selected child, can be nil if the container has no child, can be set to one of the child widget or to an index in the child table</description>
+ has_tostring parent : types.lua_widget  🔗lua_label.__call see types.lua_widget.As a function
+🔗lua_label.extra registration parameters This widget has no extra registration parameters
+🔗lua_label.label string
+The label displayed
+Attributes:
+ write  🔗lua_label.selectable boolean
+True if the label content should be selectable
+Attributes:
+ write  🔗lua_label.halign types.dt_lua_align_t
+The horizontal alignment of the label
+Attributes:
+ write  🔗lua_label.ellipsize types.dt_lua_ellipsize_mode_t
+The ellipsize mode of the label</description>
+    </item>
+    
+    <item>
+      <title>lua_os_type</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_os_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_os_type/</guid>
+      <description>enum The type of OS we darktable can run on
+Values :
+ windows macos linux unix  </description>
+    </item>
+    
+    <item>
+      <title>lua_pref_type</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_pref_type/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_pref_type/</guid>
+      <description>enum
+The type of value to save in a preference
+Values:
+ enum directory file string bool integer float lua  </description>
+    </item>
+    
+    <item>
+      <title>lua_section_label</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_section_label/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_section_label/</guid>
+      <description>dt_type
+A section label
+Attributes:
+ has_tostring parent : types.lua_widget  🔗lua_section_label.__call see types.lua_widget.As a function
+🔗types.lua_section_label.extra registration parameters This widget has no extra registration parameters
+🔗lua_section_label.label string
+The section name
+Attributes:
+ write  </description>
+    </item>
+    
+    <item>
+      <title>lua_separator</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_separator/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_separator/</guid>
+      <description>dt_type
+A widget providing a separation in the UI.
+Attributes:
+ has_tostring parent : types.lua_widget  🔗lua_separator.__call see types.lua_widget.As a function
+🔗lua_separator.extra registration parameters This widget has no extra registration parameters
+🔗lua_separator.orientation string
+The orientation of the separator.
+Attributes:
+ write  </description>
     </item>
     
     <item>
@@ -998,6 +965,21 @@ Attributes:
     </item>
     
     <item>
+      <title>lua_stack</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_stack/</guid>
+      <description>dt_type
+A container that will only show one of its child at a time
+Attributes:
+ has_tostring parent : types.lua_widget  🔗lua_stack.__call see types.lua_widget.As a function
+🔗lua_stack.extra registration parameters This widget has no extra registration parameters
+🔗lua_stack.active types.lua_widget or nil
+The currently selected child, can be nil if the container has no child, can be set to one of the child widget or to an index in the child table</description>
+    </item>
+    
+    <item>
       <title>lua_text_view</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_text_view/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -1018,20 +1000,38 @@ Attributes:
     </item>
     
     <item>
-      <title>lua_section_label</title>
-      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_section_label/</link>
+      <title>lua_widget</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_widget/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_section_label/</guid>
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/lua_widget/</guid>
       <description>dt_type
-A section label
+Common parent type for all lua-handled widgets
 Attributes:
- has_tostring parent : types.lua_widget  🔗lua_section_label.__call see types.lua_widget.As a function
-🔗types.lua_section_label.extra registration parameters This widget has no extra registration parameters
-🔗lua_section_label.label string
-The section name
+ has_tostring  🔗lua_widget.extra registration parameters This widget has no extra registration parameters
+🔗lua_widget.name string or nil
+Name assigned to the widget for CSS styling purposes.
 Attributes:
- write  </description>
+ write  🔗lua_widget.sensitive boolean
+Set if the widget is enabled/disabled
+Attributes:
+ write  🔗lua_widget.tooltip string or nil
+Tooltip to display for the widget
+Attributes:
+ write  🔗lua_widget.visible boolean or nil
+Hide or show widget.</description>
+    </item>
+    
+    <item>
+      <title>snapshot_direction_t</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/types/snapshot_direction_t/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/types/snapshot_direction_t/</guid>
+      <description>enum
+Which part of the main window is occupied by a snapshot
+Values:
+ left right top bottom  </description>
     </item>
     
   </channel>

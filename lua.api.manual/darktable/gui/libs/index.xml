@@ -370,7 +370,7 @@ Attributes:
       <description>The buttons that allow quickly changing the selection
 Attributes:
  has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.select.register_selection function( name : string label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
- name - string - The name to use to refer to the select button API 6.2.2 label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
+ name - string - The name to use to refer to the select button label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
     </item>
     
     <item>
@@ -394,12 +394,10 @@ Attributes:
 Attributes:
  has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.snapshots.ratio number - The place in the screen where the line separating the snapshot is. Between 0 and 1
 Attributes:
- write  darktable.gui.libs.snapshots.direction
-types.snapshot_direction_t - The direction of the snapshot overlay
+ write  🔗darktable.gui.libs.snapshots.direction types.snapshot_direction_t - The direction of the snapshot overlay
 Attributes:
- write  🔗darktable.gui.libs.snapshots.# types.snapshot_direction_t - The different snapshots for the image
-🔗darktable.gui.libs.snapshots.selected types.snapshot_direction_t - The currently selected snapshot
-🔗darktable.gui.libs.snapshots.take_snapshot function( ) Take a snapshot of the current image and add it to the UI The snapshot file will be generated at the next redraw of the main window</description>
+ write  🔗darktable.gui.libs.snapshots.# types.dt_lua_snapshot_t - Each snapshot appears with a numerical index; you can iterate over them with ipairs.
+🔗darktable.gui.libs.snapshots.selected types.dt_lua_snapshot_t - The currently selected snapshot</description>
     </item>
     
     <item>

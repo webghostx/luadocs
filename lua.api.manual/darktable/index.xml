@@ -165,7 +165,7 @@ Guide lines to overlay over an image in crop and rotate. All guides are clipped 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.password/</guid>
-      <description>🔗Lua API 6.2.0 Store and retrieve credentials using the darktable password storage backend.
+      <description>Store and retrieve credentials using the darktable password storage backend.
 🔗darktable.password.save function( application : string, username : string, password : string ) :boolean Save a username/password pair for use accessing an application.
  application - string - Name of application or website. username - string - The username used to access the application or website. password - string - The credential used to authenticate the username. return - boolean - True if the credentials are saved, false if they are not.</description>
     </item>
@@ -217,7 +217,7 @@ Lua allows you to manipulate preferences. Lua has its own namespace for preferen
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_event/</guid>
       <description>function( event_name : string, event_type : string, callback : function, ... : variable ) This function registers a callback to be called when a given event happens. Events are documented in the event section.
- event_name - string - The name of the event used to manipulate the event. The combination of event_name and event_type must be unique. API 6.2.1 event_type - string - The name of the event to register to.</description>
+ event_name - string - The name of the event used to manipulate the event. The combination of event_name and event_type must be unique. event_type - string - The name of the event to register to. callback - function - The function to call on event.</description>
     </item>
     
     <item>
@@ -226,8 +226,7 @@ Lua allows you to manipulate preferences. Lua has its own namespace for preferen
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.destroy_event/</guid>
-      <description>API 6.2.1
-function( event_name : string, event_type : string, ) This function removes the callback registered by darktable.register_event. Events are documented in the event section.
+      <description>function( event_name : string, event_type : string, ) This function removes the callback registered by darktable.register_event. Events are documented in the event section.
  event_name - string - The name of the event used to manipulate the event. The combination of event_name and event_type must be unique. event_type - string - The name of the event to register to.  </description>
     </item>
     
