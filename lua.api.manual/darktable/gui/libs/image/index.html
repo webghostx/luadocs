@@ -14,7 +14,7 @@
 
 
 
-      <link rel="stylesheet" href="/luadocs/css/style.min.7ad3f07286ad04e642a71c7bd71d63e0cf54c31c83b7283738800d90546669a9.css">
+      <link rel="stylesheet" href="/luadocs/css/style.min.ba92c80559309ba478d194c801c44249279ccb7ae545500013276e3d02b75586.css">
       
 
 <script src="/luadocs/js/jquery.js"></script>
@@ -2147,8 +2147,28 @@
       <i class="no-toggle"></i>
    
 
+      <a href="/luadocs/lua.api.manual/darktable/darktable.print_hinter/" class="">
+          darktable.print_hinter
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
       <a href="/luadocs/lua.api.manual/darktable/darktable.print_log/" class="">
           darktable.print_log
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/luadocs/lua.api.manual/darktable/darktable.print_toast/" class="">
+          darktable.print_toast
       </a>
 
    </li>
@@ -2189,6 +2209,16 @@
 
       <a href="/luadocs/lua.api.manual/darktable/darktable.register_storage/" class="">
           darktable.register_storage
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/luadocs/lua.api.manual/darktable/darktable.destroy_storage/" class="">
+          darktable.destroy_storage
       </a>
 
    </li>
@@ -2909,6 +2939,26 @@
       <i class="no-toggle"></i>
    
 
+      <a href="/luadocs/lua.api.manual/events/darkroom-image-history-changed/" class="">
+          darkroom-image-history-changed
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
+      <a href="/luadocs/lua.api.manual/events/darkroom-image-loaded/" class="">
+          darkroom-image-loaded
+      </a>
+
+   </li>
+   
+   <li>
+      <i class="no-toggle"></i>
+   
+
       <a href="/luadocs/lua.api.manual/events/exit/" class="">
           exit
       </a>
@@ -3077,12 +3127,14 @@
 </ul>
 <h2 id="darktableguilibsimageregister_action"><a href="#darktableguilibsimageregister_action">🔗</a>darktable.gui.libs.image.register_action</h2>
 <pre><code>function(
+  name : string,
   label : string,
   callback : function,
   [tooltip : string]
 )
 </code></pre><p>Add a new button and call a callback when it is clicked</p>
 <ul>
+<li><strong>name</strong> - <em>string</em> - A unique name for the action that can be referenced later to destroy it</li>
 <li><strong>label</strong> - <em>string</em> - The label to display on the button</li>
 <li><strong>callback</strong> - <em>function</em> - The function to call when the button is pressed</li>
 <li><strong>[tooltip]</strong> - <em>string</em> - The tooltip to use on the new button</li>
@@ -3096,6 +3148,24 @@
 <ul>
 <li><strong>event</strong> - <em>string</em> - The name of the button that was pressed</li>
 <li><strong>images</strong> - <em>table of <a href="/luadocs/lua.api.manual/types/dt_lua_image_t/">types.dt_lua_image_t</a></em> - The images to act on when the button was clicked</li>
+</ul>
+<h2 id="darktableguilibsimagedestroy_action"><a href="#darktableguilibsimagedestroy_action">🔗</a>darktable.gui.libs.image.destroy_action</h2>
+<pre><code>function(
+  name : string
+)
+</code></pre><p>Destroy an action created with register_action</p>
+<ul>
+<li><strong>name</strong> - <em>string</em> - The name of the action to destroy</li>
+</ul>
+<h2 id="darktableguilibsimageaction_set_sensitive"><a href="#darktableguilibsimageaction_set_sensitive">🔗</a>darktable.gui.libs.image.action_set_sensitive</h2>
+<pre><code>function(
+  name : string,
+  sensitive : boolean
+)
+</code></pre><p>Set the sensitivity of a button created by darktable.gui.libs.image.register_action</p>
+<ul>
+<li><strong>name</strong> - <em>string</em> - The name of the action to destroy</li>
+<li><strong>sensitive</strong> - <em>boolean</em> - True to set the button sensitive, false to set it insensitive</li>
 </ul>
 
 

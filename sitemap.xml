@@ -91,6 +91,14 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-history-changed/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-loaded/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.api.manual/types/_pdf_pages_t/</loc>
   </url>
   
@@ -803,6 +811,10 @@
   </url>
   
   <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_hinter/</loc>
+  </url>
+  
+  <url>
     <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/import/</loc>
   </url>
   
@@ -820,6 +832,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.api.manual/dtutils.file/set_executable_path_preference/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_toast/</loc>
   </url>
   
   <url>
@@ -880,6 +896,10 @@
   
   <url>
     <loc>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/labelstotags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.destroy_storage/</loc>
   </url>
   
   <url>

@@ -16,6 +16,28 @@
     </item>
     
     <item>
+      <title>darkroom-image-history-changed</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-history-changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-history-changed/</guid>
+      <description>event
+This event is triggered from darkroom view whenever an image&amp;rsquo;s history has changed and another image is being loaded or darkroom view is being changed to another view.
+🔗darkroom-image-history-changed.callback function( event : string, image : types.dt_lua_image_t )  event - string - The name of the event that triggered the callback. image - types.dt_lua_image_t - The image loaded into darkroom view  🔗darkroom-image-history-changed.extra registration parameters This event has no extra registration parameters.</description>
+    </item>
+    
+    <item>
+      <title>darkroom-image-loaded</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-loaded/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-loaded/</guid>
+      <description>event
+This event is triggered whenever an image is loaded in darkroom view
+🔗darkroom-image-loaded.callback function( event : string, image : types.dt_lua_image_t )  event - string - The name of the event that triggered the callback. image - types.dt_lua_image_t - The image loaded into darkroom view  🔗darkroom-image-loaded.extra registration parameters This event has no extra registration parameters.</description>
+    </item>
+    
+    <item>
       <title>exit</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/exit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -198,8 +198,8 @@ Attributes:
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/image/</guid>
       <description>The UI element that manipulates the current images
 Attributes:
- has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.image.register_action function( label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
- label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.image.register_action function( name : string, label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
+ name - string - A unique name for the action that can be referenced later to destroy it label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
     </item>
     
     <item>

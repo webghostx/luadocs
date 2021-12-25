@@ -201,12 +201,32 @@ Lua allows you to manipulate preferences. Lua has its own namespace for preferen
     </item>
     
     <item>
+      <title>darktable.print_hinter</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_hinter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_hinter/</guid>
+      <description>function( message : string ) Print a hint message to the darktable GUI.
+ message - string - The string to display.  </description>
+    </item>
+    
+    <item>
       <title>darktable.print_log</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_log/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_log/</guid>
       <description>function( message : string ) This function will print its parameter if the Lua logdomain is activated. Start darktable with the &amp;quot;-d lua&amp;quot; command line option to enable the Lua logdomain.
+ message - string - The string to display.  </description>
+    </item>
+    
+    <item>
+      <title>darktable.print_toast</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_toast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_toast/</guid>
+      <description>function( message : string ) Print a toast message to the darktable GUI.
  message - string - The string to display.  </description>
     </item>
     
@@ -248,6 +268,16 @@ Lua allows you to manipulate preferences. Lua has its own namespace for preferen
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.register_storage/</guid>
       <description>function( plugin_name : string, name : string, [store : function], [finalize : function], [supported : function], [initialize : function], [widget : types.lua_widget] ) This function will add a new storage implemented in Lua. A storage is a module that is responsible for handling images once they have been generated during export. Examples of core storages include filesystem, e-mail, pwigo&amp;hellip;
  plugin_name - string - A unique name for the plugin. name - string - A human readable name for the plugin.</description>
+    </item>
+    
+    <item>
+      <title>darktable.destroy_storage</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.destroy_storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.destroy_storage/</guid>
+      <description>function( plugin_name : string ) This function will destroy a storage created by darktable.register_storage.
+ plugin_name - string - The name of the plugin to destroy.  </description>
     </item>
     
     <item>

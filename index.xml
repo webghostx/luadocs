@@ -199,7 +199,7 @@ Any changes made using executable_manager won&amp;rsquo;t be saved in the darkta
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/version/</guid>
-      <description>🔗Current API The Lua API version used in darktable 3.6.0 is 7.0.0.</description>
+      <description>🔗Current API The Lua API version used in darktable 3.8.0 is 8.0.0.</description>
     </item>
     
     <item>
@@ -238,6 +238,28 @@ All functions and data are accessed through the darktable module.</description>
       
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/overview/</guid>
       <description>darktable can be customized and extended using the Lua programming language. The lua-scripts repository contains the collected efforts of the darktable developers, maintainers, contributors and community. The following sections list the scripts contained in the repository, whether they can be run by themselves (Standalone - Yes) or depend on other scripts (Standalone - No), what operating systems they are known to work on (L - Linux, M - MacOS, W - Windows), and their purpose.</description>
+    </item>
+    
+    <item>
+      <title>darkroom-image-history-changed</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-history-changed/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-history-changed/</guid>
+      <description>event
+This event is triggered from darkroom view whenever an image&amp;rsquo;s history has changed and another image is being loaded or darkroom view is being changed to another view.
+🔗darkroom-image-history-changed.callback function( event : string, image : types.dt_lua_image_t )  event - string - The name of the event that triggered the callback. image - types.dt_lua_image_t - The image loaded into darkroom view  🔗darkroom-image-history-changed.extra registration parameters This event has no extra registration parameters.</description>
+    </item>
+    
+    <item>
+      <title>darkroom-image-loaded</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-loaded/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/events/darkroom-image-loaded/</guid>
+      <description>event
+This event is triggered whenever an image is loaded in darkroom view
+🔗darkroom-image-loaded.callback function( event : string, image : types.dt_lua_image_t )  event - string - The name of the event that triggered the callback. image - types.dt_lua_image_t - The image loaded into darkroom view  🔗darkroom-image-loaded.extra registration parameters This event has no extra registration parameters.</description>
     </item>
     
     <item>
@@ -2137,8 +2159,8 @@ Select bracketed images and press the Run HDRMerge button. The resulting DNG wil
       <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/image/</guid>
       <description>The UI element that manipulates the current images
 Attributes:
- has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.image.register_action function( label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
- label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
+ has_tostring parent : types.dt_lua_lib_t  🔗darktable.gui.libs.image.register_action function( name : string, label : string, callback : function, [tooltip : string] ) Add a new button and call a callback when it is clicked
+ name - string - A unique name for the action that can be referenced later to destroy it label - string - The label to display on the button callback - function - The function to call when the button is pressed [tooltip] - string - The tooltip to use on the new button  callback -</description>
     </item>
     
     <item>
@@ -2185,6 +2207,16 @@ Attributes:
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; local sanitized_filename = df.sanitize_filename(filename) filename - string - a filepath and filename
 🔗DESCRIPTION sanitize_filename places quotes around the filename in an operating system specific manner. The result is safe to pass as an argument to the operating system.
 🔗RETURN VALUE sanitized_filename - string - quoted filename</description>
+    </item>
+    
+    <item>
+      <title>darktable.print_hinter</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_hinter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_hinter/</guid>
+      <description>function( message : string ) Print a hint message to the darktable GUI.
+ message - string - The string to display.  </description>
     </item>
     
     <item>
@@ -2245,6 +2277,16 @@ Attributes:
 🔗USAGE local df = require &amp;quot;lib/dtutils.file&amp;quot; df.set_executable_path_preference(executable, path) executable - string - the name of the executable to set the path for
 path - string - the path to the binary
 🔗DESCRIPTION set_executable_path_preference takes an executable name and path to the executable and registers the preference for later use.</description>
+    </item>
+    
+    <item>
+      <title>darktable.print_toast</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_toast/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.print_toast/</guid>
+      <description>function( message : string ) Print a toast message to the darktable GUI.
+ message - string - The string to display.  </description>
     </item>
     
     <item>
@@ -2433,6 +2475,16 @@ A mapping takes the form of a table mapping patterns to lists of tags.</descript
     </item>
     
     <item>
+      <title>darktable.destroy_storage</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.destroy_storage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/darktable.destroy_storage/</guid>
+      <description>function( plugin_name : string ) This function will destroy a storage created by darktable.register_storage.
+ plugin_name - string - The name of the plugin to destroy.  </description>
+    </item>
+    
+    <item>
       <title>darktable.gui.libs.map_settings</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/libs/map_settings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -2475,8 +2527,7 @@ The mime type associated with the format.
 🔗dt_imageio_module_format_t.max_width number
 The max width allowed for the format (0 = unlimited).
 Attributes:
- write  2.3.6. dt_imageio_module_format_t.max_height
-number
+ write  🔗dt_imageio_module_format_t.max_height number
 The max height allowed for the format (0 = unlimited).</description>
     </item>
     

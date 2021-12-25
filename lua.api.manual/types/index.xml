@@ -331,8 +331,7 @@ The mime type associated with the format.
 🔗dt_imageio_module_format_t.max_width number
 The max width allowed for the format (0 = unlimited).
 Attributes:
- write  2.3.6. dt_imageio_module_format_t.max_height
-number
+ write  🔗dt_imageio_module_format_t.max_height number
 The max height allowed for the format (0 = unlimited).</description>
     </item>
     
