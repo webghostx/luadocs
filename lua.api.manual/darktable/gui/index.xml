@@ -16,6 +16,16 @@
     </item>
     
     <item>
+      <title>darktable.gui.action</title>
+      <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/action/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/action/</guid>
+      <description>function( path : string, instance : integer, element : string, effect : string, speed : integer ) : string Will perform the specified effect on the path, instance, and element of an action, or return the status.
+ path - string - The full path of an action, i.e. &#39;lib/filter/view&#39;. instance - integer - The instance of an image processing module to execute action on&amp;quot;. element - string - The element of an action, for example &amp;lsquo;selection&amp;rsquo;, or leave empty for default&amp;quot;.</description>
+    </item>
+    
+    <item>
       <title>darktable.gui.action_images</title>
       <link>https://darktable-org.github.io/luadocs/lua.api.manual/darktable/gui/action_images/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

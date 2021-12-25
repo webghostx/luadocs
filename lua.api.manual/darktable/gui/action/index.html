@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>darktable lua documentation - darktable.gui.libs.camera</title>
+<title>darktable lua documentation - darktable.gui.action</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -1473,7 +1473,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="/luadocs/lua.api.manual/darktable/gui/action/" class="">
+      <a href="/luadocs/lua.api.manual/darktable/gui/action/" class=" active">
           darktable.gui.action
       </a>
 
@@ -1552,7 +1552,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="/luadocs/lua.api.manual/darktable/gui/libs/camera/" class=" active">
+      <a href="/luadocs/lua.api.manual/darktable/gui/libs/camera/" class="">
           darktable.gui.libs.camera
       </a>
 
@@ -3102,20 +3102,19 @@
 
 
 
-
-<a href='/luadocs/'>Home</a> / <a href='/luadocs/lua.api.manual/'>Lua API Manual</a> / <a href='/luadocs/lua.api.manual/darktable/'>darktable</a> / <a href='/luadocs/lua.api.manual/darktable/gui/'>darktable.gui</a> / <a href='/luadocs/lua.api.manual/darktable/gui/libs/'>darktable.gui.libs</a> / darktable.gui.libs.camera
+<a href='/luadocs/'>Home</a> / <a href='/luadocs/lua.api.manual/'>Lua API Manual</a> / <a href='/luadocs/lua.api.manual/darktable/'>darktable</a> / <a href='/luadocs/lua.api.manual/darktable/gui/'>darktable.gui</a> / darktable.gui.action
     </span>
 </div>
 
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/darktable/gui/libs/backgroundjobs/" class="next">&lt; darktable.gui.libs.backgroundjobs</a>
+	<a href="/luadocs/lua.api.manual/darktable/gui/overview/" class="next">&lt; darktable.gui overview</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/darktable/gui/libs/collect/" class="prev">darktable.gui.libs.collect &gt;</a>
+	<a href="/luadocs/lua.api.manual/darktable/gui/action_images/" class="prev">darktable.gui.action_images &gt;</a>
 	
     </div>
 </div>
@@ -3124,16 +3123,26 @@
 <article role="main">
 
     <h1 class="title">
-        darktable.gui.libs.camera
+        darktable.gui.action
     </h1>
 
     
 
-    <p>The camera selection UI</p>
-<p>Attributes:</p>
+    <pre><code>function(
+  path : string,
+  instance : integer,
+  element : string,
+  effect : string,
+  speed : integer
+) : string
+</code></pre><p>Will perform the specified effect on the path, instance, and element of an action, or return the status.</p>
 <ul>
-<li><a href="/luadocs/lua.api.manual/attributes/#has_tostring">has_tostring</a></li>
-<li><a href="../Attributes#parent">parent</a> : <a href="/luadocs/lua.api.manual/types/dt_lua_lib_t/">types.dt_lua_lib_t</a></li>
+<li><strong>path</strong> - <em>string</em> - The full path of an action, i.e. 'lib/filter/view'.</li>
+<li><strong>instance</strong> - integer - The instance of an image processing module to execute action on&quot;.</li>
+<li><strong>element</strong> - <em>string</em> - The element of an action, for example &lsquo;selection&rsquo;, or leave empty for default&quot;.</li>
+<li><strong>effect</strong> - <em>string</em> - The effect of an action, for example &lsquo;next&rsquo;, or leave empty for default&quot;.</li>
+<li><strong>speed</strong> - integer - 1 causes the effect to be performed, 0 or NaN returns the current status.</li>
+<li><strong>return</strong> - <em>string</em> - The current status of the action.</li>
 </ul>
 
 
@@ -3143,12 +3152,12 @@
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/darktable/gui/libs/backgroundjobs/" class="next">&lt; darktable.gui.libs.backgroundjobs</a>
+	<a href="/luadocs/lua.api.manual/darktable/gui/overview/" class="next">&lt; darktable.gui overview</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/darktable/gui/libs/collect/" class="prev">darktable.gui.libs.collect &gt;</a>
+	<a href="/luadocs/lua.api.manual/darktable/gui/action_images/" class="prev">darktable.gui.action_images &gt;</a>
 	
     </div>
 </div>
