@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>darktable lua documentation - executable_manager</title>
+<title>darktable lua documentation - deprecated</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -723,7 +723,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="/luadocs/lua.scripts.manual/scripts/tools/executable_manager/" class=" active">
+      <a href="/luadocs/lua.scripts.manual/scripts/tools/executable_manager/" class="">
           executable_manager
       </a>
 
@@ -827,7 +827,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="/luadocs/lua.scripts.api.manual/dtutils/deprecated/" class="">
+      <a href="/luadocs/lua.scripts.api.manual/dtutils/deprecated/" class=" active">
           deprecated
       </a>
 
@@ -3111,20 +3111,19 @@
 	
 
 
-
-<a href='/luadocs/'>Home</a> / <a href='/luadocs/lua.scripts.manual/'>Lua Scripts Manual</a> / <a href='/luadocs/lua.scripts.manual/scripts/'>scripts</a> / <a href='/luadocs/lua.scripts.manual/scripts/tools/'>tools</a> / executable_manager
+<a href='/luadocs/'>Home</a> / <a href='/luadocs/lua.scripts.api.manual/'>Lua Scripts Libraries API Manual</a> / <a href='/luadocs/lua.scripts.api.manual/dtutils/'>dtutils</a> / deprecated
     </span>
 </div>
 
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="/luadocs/lua.scripts.manual/scripts/tools/" class="next">&lt; tools</a>
+	<a href="/luadocs/lua.scripts.api.manual/dtutils/check_os/" class="next">&lt; check_os</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/" class="prev">gen_i18n_mo &gt;</a>
+	<a href="/luadocs/lua.scripts.api.manual/dtutils/find_image_by_id/" class="prev">find_image_by_id &gt;</a>
 	
     </div>
 </div>
@@ -3133,30 +3132,23 @@
 <article role="main">
 
     <h1 class="title">
-        executable_manager
+        deprecated
     </h1>
 
     
 
-    <h2 id="name"><a href="#name">🔗</a>Name</h2>
-<p>executable_manager.lua - a tool for managing external executables used by darktable lua scripts</p>
-<h2 id="description"><a href="#description">🔗</a>Description</h2>
-<p>executable_manager is a tool for managing the executable preferences stored in the darktablerc file.
-On startup the darktablerc file is scanned and a widget is built for each executable path.  The user
-can select the executable from a drop down list and then modify the settings as desired.</p>
-<p>Any changes made using executable_manager won&rsquo;t be saved in the darktablerc file until darktable exits, but
-the preference is updated when the change is made so scripts will pick up the changes without restarting
-darktable.</p>
-<h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
-<ul>
-<li>start this script from script manager</li>
-</ul>
-<h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
-<p>None</p>
-<h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>
-<h2 id="author"><a href="#author">🔗</a>Author</h2>
-<p>Bill Ferguson - <a href="mailto:wpferguson@gmail.com">wpferguson@gmail.com</a></p>
-<h2 id="change-log"><a href="#change-log">🔗</a>Change Log</h2>
+    <h2 id="name"><a href="#name">🔗</a>NAME</h2>
+<p>deprecated</p>
+<h2 id="synopsis"><a href="#synopsis">🔗</a>SYNOPSIS</h2>
+<p>warn that a script is deprecated</p>
+<h2 id="usage"><a href="#usage">🔗</a>USAGE</h2>
+<pre><code>local du = require &quot;lib/dtutils&quot;
+du.deprecated(script_name, deprecation_time)
+</code></pre><p><strong>script_name</strong> - <em>string</em> - the name of the script, i.e. &ldquo;contrib/clear_GPS&rdquo;<br>
+<strong>deprecation_time</strong> - <em>string</em> - when the script will be removed, i.e. &ldquo;darktable release 4.0&rdquo;</p>
+<h2 id="description"><a href="#description">🔗</a>DESCRIPTION</h2>
+<p><strong>deprecated</strong> gives users a warning that a script is outdated or no longer useful and will be
+removed at the specified time</p>
 
 
     
@@ -3165,12 +3157,12 @@ darktable.</p>
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="/luadocs/lua.scripts.manual/scripts/tools/" class="next">&lt; tools</a>
+	<a href="/luadocs/lua.scripts.api.manual/dtutils/check_os/" class="next">&lt; check_os</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="/luadocs/lua.scripts.manual/scripts/tools/gen_i18n_mo/" class="prev">gen_i18n_mo &gt;</a>
+	<a href="/luadocs/lua.scripts.api.manual/dtutils/find_image_by_id/" class="prev">find_image_by_id &gt;</a>
 	
     </div>
 </div>

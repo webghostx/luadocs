@@ -346,7 +346,8 @@ I use the following shortcuts:
       <guid>https://darktable-org.github.io/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/</guid>
       <description>🔗Name rename-tags.lua - rename tags
 🔗Description 🔗Usage  In lighttable there is a new entry: &amp;lsquo;rename tag&amp;rsquo; Enter old tag (this one gets deleted!) Enter new tag name  🔗Additional Software Required 🔗Limitations 🔗Author Sebastian Witt - se.witt@gmx.net
-Bill Ferguson - wpferguson@gmail.com</description>
+Bill Ferguson - wpferguson@gmail.com
+🔗Deprecation This functionality now exists in core darktable so this script will be removed when darktable 4.0 is released.</description>
     </item>
     
     <item>
