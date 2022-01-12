@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>darktable lua documentation - dt_ui_panel_t</title>
+<title>darktable lua documentation - rename_images</title>
 <meta name="description" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -410,7 +410,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="/luadocs/lua.scripts.manual/scripts/contrib/rename_images/" class="">
+      <a href="/luadocs/lua.scripts.manual/scripts/contrib/rename_images/" class=" active">
           rename_images
       </a>
 
@@ -2758,7 +2758,7 @@
       <i class="no-toggle"></i>
    
 
-      <a href="/luadocs/lua.api.manual/types/dt_ui_panel_t/" class=" active">
+      <a href="/luadocs/lua.api.manual/types/dt_ui_panel_t/" class="">
           dt_ui_panel_t
       </a>
 
@@ -3121,19 +3121,20 @@
 	
 
 
-<a href='/luadocs/'>Home</a> / <a href='/luadocs/lua.api.manual/'>Lua API Manual</a> / <a href='/luadocs/lua.api.manual/types/'>types</a> / dt_ui_panel_t
+
+<a href='/luadocs/'>Home</a> / <a href='/luadocs/lua.scripts.manual/'>Lua Scripts Manual</a> / <a href='/luadocs/lua.scripts.manual/scripts/'>scripts</a> / <a href='/luadocs/lua.scripts.manual/scripts/contrib/'>contrib</a> / rename_images
     </span>
 </div>
 
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/types/dt_ui_container_t/" class="next">&lt; dt_ui_container_t</a>
+	<a href="/luadocs/lua.scripts.manual/scripts/contrib/rate_group/" class="next">&lt; rate_group</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/types/hint_t/" class="prev">hint_t &gt;</a>
+	<a href="/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/" class="prev">rename_tags &gt;</a>
 	
     </div>
 </div>
@@ -3142,23 +3143,30 @@
 <article role="main">
 
     <h1 class="title">
-        dt_ui_panel_t
+        rename_images
     </h1>
 
     
 
-    <p><code>enum</code></p>
-<p>The different user interface panels</p>
-<p>Values:</p>
+    <h2 id="name"><a href="#name">🔗</a>Name</h2>
+<p>rename_images.lua - rename one or more image files</p>
+<h2 id="description"><a href="#description">🔗</a>Description</h2>
+<p>Rename an image or images according to a pattern built by
+the user.  It is possible to specify a different directory
+in the rename pattern, which will result in a move as well as
+a rename.  The database will be updated to reflect the new
+name/location of the image.</p>
+<h2 id="usage"><a href="#usage">🔗</a>Usage</h2>
 <ul>
-<li>DT_UI_PANEL_TOP</li>
-<li>DT_UI_PANEL_CENTER_TOP</li>
-<li>DT_UI_PANEL_CENTER_BOTTOM</li>
-<li>DT_UI_PANEL_LEFT</li>
-<li>DT_UI_PANEL_RIGHT</li>
-<li>DT_UI_PANEL_BOTTOM</li>
-<li>DT_UI_PANEL_SIZE</li>
+<li>require this script from your luarc file or start it from script_manager</li>
+<li>select an image or images</li>
+<li>enter a renaming pattern</li>
+<li>click the button to rename the files</li>
 </ul>
+<h2 id="additional-software-required"><a href="#additional-software-required">🔗</a>Additional Software Required</h2>
+<h2 id="limitations"><a href="#limitations">🔗</a>Limitations</h2>
+<h2 id="author"><a href="#author">🔗</a>Author</h2>
+<p>Bill Ferguson - <a href="mailto:wpferguson@gmail.com">wpferguson@gmail.com</a></p>
 
 
     
@@ -3167,12 +3175,12 @@
 <div class="prev-next row">
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/types/dt_ui_container_t/" class="next">&lt; dt_ui_container_t</a>
+	<a href="/luadocs/lua.scripts.manual/scripts/contrib/rate_group/" class="next">&lt; rate_group</a>
 	
     </div>
     <div class="col-6">
     
-	<a href="/luadocs/lua.api.manual/types/hint_t/" class="prev">hint_t &gt;</a>
+	<a href="/luadocs/lua.scripts.manual/scripts/contrib/rename-tags/" class="prev">rename_tags &gt;</a>
 	
     </div>
 </div>
