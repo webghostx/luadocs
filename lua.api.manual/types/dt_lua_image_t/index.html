@@ -3444,14 +3444,14 @@ darktable will regenerate the thumbnail by itself when it is needed.</p>
 <h1 id="dt_lua_image_tgenerate_cache"><a href="#dt_lua_image_tgenerate_cache">🔗</a>dt_lua_image_t.generate_cache</h1>
 <pre><code>self.function(
   check_dirs : boolean 
-  start_size : integer
-  end_size : integer
+  min_size : integer
+  max_size : integer
 )
 </code></pre><ul>
 <li><strong>self</strong> - <em><a href="/luadocs/lua.api.manual/types/dt_lua_image_t/">types.dt_lua_image_t</a></em> - The image whose cache is to be generated.</li>
 <li><strong>check_dirs</strong> - <em>boolean</em> - check if the mipmap cache directories exist.  Create them if necessary.</li>
-<li><strong>start_size</strong> - <em>integer</em> - mipmap size to generate first</li>
-<li><strong>end_size</strong> - <em>integer</em> - mipmap size to generate last</li>
+<li><strong>min_size</strong> - <em>integer</em> - minimum mipmap size to generate</li>
+<li><strong>max_size</strong> - <em>integer</em> - maximum mipmap size to generate</li>
 </ul>
 <p><strong>NOTES:</strong></p>
 <ul>
@@ -3473,10 +3473,7 @@ darktable will regenerate the thumbnail by itself when it is needed.</p>
 <p>To generate a single size mipmap image set start_size and end_size to the same value</p>
 </li>
 <li>
-<p>When generating multiple sizes put the largest size as the start size and the smallest as the end.</p>
-</li>
-<li>
-<p>When different start and end sizes are specified, every size mipmap from start to end is generated.</p>
+<p>When different min_size and max_size sizes are specified, every size mipmap from min_size to max_size is generated.</p>
 </li>
 <li>
 <p>When looping over a set of images and generating just one size, check for directories on the first image only.</p>
