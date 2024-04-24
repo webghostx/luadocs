@@ -16,7 +16,7 @@ print a log message
 
 ## USAGE
 ```
-local log = require "lib/log"
+local log = require "lib/dtutils.log"
 log.msg(level, ...)
 ```
 **level** - _table_ - the type of message, one of: 
